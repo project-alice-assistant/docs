@@ -1,4 +1,5 @@
 module.exports = {
+	base: '/docs/',
 	lang: 'en-US',
 	title: 'ProjectAlice',
 	description: 'A frontend library to develop zoomable user interfaces',
