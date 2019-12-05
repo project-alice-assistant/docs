@@ -2,7 +2,7 @@ module.exports = {
 	base: '/docs/',
 	lang: 'en-US',
 	title: 'ProjectAlice',
-	description: 'A frontend library to develop zoomable user interfaces',
+	description: 'A smart voice assistant that guarantees your privacy, powered by Snips',
 	head: [
 		['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `/icons/apple-touch-icon.png` }],
 		['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/icons/favicon-32x32.png` }],
