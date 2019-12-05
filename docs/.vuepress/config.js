@@ -21,10 +21,32 @@ module.exports = {
 		{
 		  text: 'Contributing',
 		  link: '/contribute/'
-		}
+		},
+		{
+			text: 'Module Development',
+			link: '/module-development/'
+		  }
 	  ],
-	  sidebar: [
-		'/contribute/'
-	  ]
+	  sidebar: {
+		'/contribute/': [
+			{
+			  title: 'Contribute',
+			  collapsable: false,
+			  children: [
+				''
+			  ]
+			}
+		  ],
+		'/module-development/': [
+			{
+			  title: 'Module Development',
+			  collapsable: false,
+			  children: [
+				'',
+				'logging'
+			  ]
+			}
+		  ],
+		}
 	}
   }
