@@ -20,7 +20,6 @@ from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 
 class HelloWorldModule(Module):
-
 	@IntentHandler('HelloWorldIntent')
 	def helloWorldIntent(self, session: DialogSession, **_kwargs):
 		""" Modules can log useful information.
@@ -123,7 +122,6 @@ def my_special_function():
   Logger().logInfo("Another usage of logging.")
 
 class HelloWorldModule(Module):
-
 	@IntentHandler('HelloWorldIntent')
 	def helloWorldIntent(self, session: DialogSession, **_kwargs):
 		""" Modules can log useful information.
