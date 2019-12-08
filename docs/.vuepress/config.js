@@ -23,8 +23,8 @@ module.exports = {
 		  link: '/contribute/'
 		},
 		{
-			text: 'Module Development',
-			link: '/module-development/'
+			text: 'Skill Development',
+			link: '/skill-development/'
 		  }
 	  ],
 	  sidebar: {
@@ -37,12 +37,13 @@ module.exports = {
 			  ]
 			}
 		  ],
-		'/module-development/': [
+		'/skill-development/': [
 			{
-			  title: 'Module Development',
+			  title: 'Skill Development',
 			  collapsable: false,
 			  children: [
 				'',
+				'your-first-skill',
 				'logging'
 			  ]
 			}
