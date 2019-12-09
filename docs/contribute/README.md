@@ -22,14 +22,28 @@ You can also open an issue if something in the **documentation** is not clear en
 Just try to explain **what happens** and **what is expected to happen** . Also, it would very useful to provide **a way to reproduce the issue** and **logs that show the issue**
 
 ### Pullrequest Guidelines
-Reference your PR to a related issue and provide a description of the changes proposed.
-
-<!-- TODO more stuff here -->
+Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
+Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
 
 
 
 ## Modules
-<!-- TODO add guide -->
+
+### New Modules
+New modules are always welcome. A guide on how to create modules for Project Alice can be found in the section [skill-development](../skill-development)
+
+### Translations
+We are currently supporting the following languages:
+- english
+- german
+- french
+However not all modules are translated into all these languages yet.
+You can add translations for one of the languages we already support, or any other language you would like to be supported in the future. The sections [talk files]() and [dialog templates]() describe the files that need to be translated.
+
+### Pullrequest Guidelines
+Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
+Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
+To validate your Module you can use the Alice Skill Kit as described in the section [alice skill kit]()
 
 
 

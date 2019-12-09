@@ -33,7 +33,8 @@ module.exports = {
 			  title: 'Contribute',
 			  collapsable: false,
 			  children: [
-				''
+				'',
+				'code-guidelines'
 			  ]
 			}
 		  ],
