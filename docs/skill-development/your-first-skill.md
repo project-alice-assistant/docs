@@ -4,7 +4,6 @@ running, then we will step through the basic anatomy of a Alice Skill.
 
 ::: warning
 This describes functions that are not fully implemented yet
-- Skills are currently still called Modules
 - the talk directory has a different structure right now, but will be changed to the one described here
 :::
 

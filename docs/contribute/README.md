@@ -19,7 +19,7 @@ You can also open an issue if something in the **documentation** is not clear en
 
 - **How to inform?**
 
-Just try to explain **what happens** and **what is expected to happen** . Also, it would very useful to provide **a way to reproduce the issue** and **logs that show the issue**
+Just try to explain **what happens** and **what is expected to happen** . Also, it would be very useful to provide **a way to reproduce the issue** and **logs that show the issue**
 
 ### Pullrequest Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
@@ -52,7 +52,7 @@ To validate your Module you can use the Alice Skill Kit as described in the sect
 ### Spread the word
 Help to promote the project with you friends, colleagues and the social media.
 
-### Become a stargazzer
+### Become a stargazer
 Maybe you don't have the habit to star projects on Github, we kindly ask you to do so. :)
 
 ### Stay in touch
