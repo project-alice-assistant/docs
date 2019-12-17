@@ -43,8 +43,8 @@ If we now navigate to our new Skill, we can see that it created the following st
 ├─ talks
 │  └─ en
 │     └─ talk.json
-├─ HelloWorldModule.install
-├─ HelloWorldModule.py
+├─ HelloWorldSkill.install
+├─ HelloWorldSkill.py
 └─ README.md
 ```
 
@@ -61,7 +61,7 @@ By default, your new Skill contains only a file for English - 'en'. If more lang
 
 The `talks` directories contains a subdirectory for each spoken language the skill supports. The subdirectories are named using the [ISO639-1 Language Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language. For example, German is 'de', and English is 'en'.
 
-There will be a subdirectory for each language you selected when creating the Module using the Skill Kit.
+There will be a subdirectory for each language you selected when creating the Skill using the Skill Kit.
 
 Each of these subdirectories can include two files. The first one is called `talk.json` and the second one `engine.py`.
 The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. Thats why we will only describe how to create the `talk.json` file here, while more informations on the topic can be found in the chapter [Talks]().
@@ -87,16 +87,16 @@ Each Skill defines one or more Intents. Intents are defined in the `dialogTempla
 We will learn about Intents in more detail shortly.
 
 
-### HelloWorldModule.py
+### HelloWorldSkill.py
 
-The `HelloWorldModule.py` file is where most of the Skill is defined using Python code. We will learn more about the contents of this file in the next section.
+The `HelloWorldSkill.py` file is where most of the Skill is defined using Python code. We will learn more about the contents of this file in the next section.
 
 Let's take a look:
 
 #### Importing libraries
 
 ```python
-from core.base.model.Module import Module
+from core.base.model.AliceSkill import AliceSkill
 from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 ```
@@ -105,13 +105,13 @@ This section of code imports the required _libraries_. Some libraries will be re
 
 #### Class definition
 
-The `class` definition extends the `Module` class:
+The `class` definition extends the `AliceSkill` class:
 
 ```python
-class HelloWorldModule(Module):
+class HelloWorldSkill(AliceSkill):
 ```
 
-The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your Skill, please join the [~modules Channel on our Discord chat]().
+The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your Skill, please join the [~skills Channel on our Discord chat]().
 
 Inside the class, methods are then defined.
 
@@ -133,7 +133,7 @@ Previously the `__init__` function was used to register intents, however our new
 In our current HelloWorldSkill this could be implemented in the following way
 
 ```python
-@intentHandler('HelloWorldIntent')
+@IntentHandler('HelloWorldIntent')
 def helloWorldIntent(self, session: DialogSession):
     self.endDialog(session.sessionId, self.randomTalk(text='helloWorld'))
 ```
