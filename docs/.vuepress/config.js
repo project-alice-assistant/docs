@@ -45,7 +45,8 @@ module.exports = {
 			  children: [
 				'',
 				'your-first-skill',
-				'logging'
+				'logging',
+				'events'
 			  ]
 			}
 		  ],
