@@ -64,7 +64,7 @@ The `talks` directories contains a subdirectory for each spoken language the ski
 There will be a subdirectory for each language you selected when creating the Skill using the Skill Kit.
 
 Each of these subdirectories can include two files. The first one is called `talk.json` and the second one `engine.py`.
-The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. Thats why we will only describe how to create the `talk.json` file here, while more informations on the topic can be found in the chapter [Talks]().
+The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. That's why we will only describe how to create the `talk.json` file here, while more information on the topic can be found in the chapter [Talks]().
 
 
 The File created by the Skill Kit does only contain some dummy answers that show the structure of the file:
@@ -141,7 +141,7 @@ def helloWorldIntent(self, session: DialogSession):
 The function receives two _parameters_:
 
 * `self` - a reference to the HelloWorldSkill object itself
-* `session` - an `DialogSession` object, that includes informations like the `slots` an intent was called with
+* `session` - an `DialogSession` object, that includes information like the `slots` an intent was called with
 
 The intent handler then calls the `self.endDialog()` method passing the session to end and the answer to say. In this case the type of the answer is `helloWorld`
 
