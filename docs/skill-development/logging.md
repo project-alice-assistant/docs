@@ -10,16 +10,16 @@ To track events and data within your skill we can use logging. If you are new to
 
 ## Basic Usage
 
-A logger is available through the `skill` base class. This means that you can use it within a skill without needing to import the `logging` package.
+A logger is available through the `AliceSkill` base class. This means that you can use it within a skill without needing to import the `logging` package.
 
 Here is a quick example of an `info` level message used in a skill. We will learn more about different levels shortly.
 
 ```python
-from core.base.model.skill import skill
+from core.base.model.AliceSkill import AliceSkill
 from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 
-class HelloWorldskill(skill):
+class HelloWorldskill(AliceSkill):
 
 
 	@IntentHandler('HelloWorldIntent')
@@ -113,7 +113,7 @@ from core.util.model.Logger import Logger
 This can then be used outside your skill's class. Extending our first example:
 
 ```python
-from core.base.model.skill import skill
+from core.base.model.AliceSkill import AliceSkill
 from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 from core.util.model.Logger import Logger
@@ -125,7 +125,7 @@ Logger().logInfo(
 def my_special_function():
 	Logger().logInfo("Another usage of logging.")
 
-class HelloWorldskill(skill):
+class HelloWorldskill(AliceSkill):
 	@IntentHandler('HelloWorldIntent')
 	def helloWorldIntent(self, session: DialogSession, **_kwargs):
 		"""
