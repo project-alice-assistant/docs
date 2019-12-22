@@ -12,7 +12,7 @@
 </p>
 
 <p align="justify">
-Project Alice is a smart voice home assistant that is completely modular and extensible. It was first built around Snips therefore runs entirely offline and never sends or shares your voice interactions with anyone, Project Alice **guarantees** your privacy in your home or wherever you’re using Project Alice.
+Project Alice is a smart voice home assistant that is completely modular and extensible. It was first built around Snips therefore runs entirely offline and never sends or shares your voice interactions with anyone, Project Alice <strong>guarantees</strong> your privacy in your home or wherever you’re using Project Alice.
 
 However, as an option, Project Alice can be configured to use some online alternatives and fall backs (for example, using Amazon or Google’s Text to Speech engines). Since the Project Alice team strongly believe that decisions about your privacy should be made by you and you alone, these options are all disabled by default.
 </p>
