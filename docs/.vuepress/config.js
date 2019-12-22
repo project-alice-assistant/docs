@@ -45,7 +45,9 @@ module.exports = {
           title: 'Set Up',
           collapsable: false,
           children: [
-            ''
+			'',
+			'requirements',
+			'preinstalled'
           ]
         }
       ],
