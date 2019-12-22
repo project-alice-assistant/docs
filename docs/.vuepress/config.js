@@ -7,9 +7,10 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `/icons/apple-touch-icon.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/icons/favicon-32x32.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: `/icons/favicon-16x16.png` }],
+    ['link', { rel: 'stylesheet', href: `/css/speechbubbles.css`}],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ProjectAlice' }],
-    ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }],
-    ],
+    ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }]
+  ],
   serviceWorker: true,
   themeConfig: {
     repo: 'project-alice-assistant/ProjectAlice',
@@ -45,9 +46,9 @@ module.exports = {
           title: 'Set Up',
           collapsable: false,
           children: [
-			'',
-			'requirements',
-			'preinstalled'
+      '',
+      'requirements',
+      'preinstalled'
           ]
         }
       ],

@@ -9,7 +9,9 @@ We provide a load of pre-made system events you can override in your skills. Lem
 
 ## Core events
 
-`Core events report what's happening under the hood, what the system is doing`
+::: tip Description
+Core events report what's happening under the hood, what the system is doing
+:::
 
 ### def onStart(self)
 Triggered when Alice is starting the skills
@@ -98,8 +100,13 @@ Triggered when a user failed authentication with his pin code
 ###  def onAudioFrame(self, message)
 Triggered when audio frame are coming in through MQTT. **Can be very consuming!**
 
+
+
+
 ## User states
-`User states events report a change of state for a user. Example: "Hey Alice? I'm going bed!" would trigger "onGoingBed" and change the user state accordingly`
+::: tip Description
+User states events report a change of state for a user. Example: "Hey Alice? I'm going bed!" would trigger "onGoingBed" and change the user state accordingly
+:::
 
 ###  def onGoingBed(self)
 Triggered when a user tells Alice he's going bed
@@ -130,33 +137,32 @@ Triggered when a user tells Alice he's putting makeup
 
 ###  def onContextSensitiveDelete(self, sessionId: str)
 Triggered when the user asks, in a context sensitive scenario, to delete or forget something. Example:
-```
-User: What's my favorite color?
-Alice: blue
-User: Forget this! <-- Context sensitive command
-Alice: ok
-```
+<div class="userSpeech female">What's my favorite color?</div>
+<div class="aliceSpeech">blue</div>
+<div class="userSpeech female">Forget this!</div>
+<div class="aliceSpeech">ok</div>
+
 
 ###  def onContextSensitiveEdit(self, sessionId: str)
 Triggered when the user asks, in a context sensitive scenario, to change something. Example:
-```
-User: What's my favorite color?
-Alice: blue
-User: Change this please <-- Context sensitive command
-Alice: Sure, so tell me, what's your new favorite color?
-```
-
+<div class="userSpeech male">What's my favorite color?</div>
+<div class="aliceSpeech">blue</div>
+<div class="userSpeech male">Change this please</div>
+<div class="aliceSpeech">Sure, so tell me, what's your new favorite color?</div>
+<div class="userSpeech male">green</div>
+<div class="aliceSpeech">ok</div>
 
 
 
 
 
 ## Timed events
-```
+::: tip Description
 When Alice starts, the following events are scheduled. Alice does calculate for them to start at the correct time so it reflects real life clock.
 Thus onFullHour doesn't mean Alice was running an hour on the first round, as if Alice start at 9:47, onFullMinute would trigger at 9:48:00,
 onFiveMinutes at 9:50:00, onFullHour and all the others at precisely 10:00:00
-```
+:::
+
 
 ###  def onFullMinute(self)
 Triggered every real time full minute.
@@ -179,7 +185,9 @@ Triggered when a device is disconnecting from Alice's network
 
 
 ## Telemetry reports
-`Alice comes with a telemetry manager skill can use to store weather data. The following events reflect these reports`
+::: tip Description
+Alice comes with a telemetry manager skill can use to store weather data. The following events reflect these reports
+:::
 
 ###  def onUVIndexAlert(self, deviceList: list)
 Triggered when a device reports a UV index out of the limit set by the user
@@ -219,6 +227,8 @@ Triggered when a device reports an atmospheric pressure level above the limit se
 
 ###  def onPressureLowAlert(self, deviceList: list)
 Triggered when a device reports an atmospheric pressure level under the limit set by the user
+
+
 
 ## Snips *(deprecated)*
 

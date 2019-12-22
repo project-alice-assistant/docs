@@ -1,0 +1,87 @@
+.aliceSpeech {
+  width: 60%;
+  margin: 10px auto auto 10%;
+  border-radius: 15px;
+  background: #E5E4E9;
+  color: #363636;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+.aliceSpeech:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #E5E4E9;
+  border-top: 15px solid #E5E4E9;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+.aliceSpeech:before {
+  content: "";
+  display: block;
+  background-image: url('../images/projectalice.png');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: -20px 0 0 -90px;
+}
+
+.userSpeech {
+  width: 60%;
+  margin: 10px 10% auto auto;
+  border-radius: 15px;
+  background: #2095FE;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+  
+.userSpeech:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #2095FE;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #2095FE;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+.userSpeech.female:before {
+  content: "";
+  display: block;
+  background-image: url('../images/femaleAvatar.svg');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: -20px -90px 0 0;
+}
+  
+.userSpeech.male:before {
+  content: "";
+  display: block;
+  background-image: url('../images/maleAvatar.svg');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: -20px -90px 0 0;
+}
