@@ -1,6 +1,6 @@
 .aliceSpeech {
-  width: 60%;
-  margin: 10px auto auto 10%;
+  width: 50%;
+  margin: 10px auto auto 18%;
   border-radius: 15px;
   background: #E5E4E9;
   color: #363636;
@@ -37,8 +37,8 @@
 }
 
 .userSpeech {
-  width: 60%;
-  margin: 10px 10% auto auto;
+  width: 50%;
+  margin: 10px 18% auto auto;
   border-radius: 15px;
   background: #2095FE;
   color: #fff;
