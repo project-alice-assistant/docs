@@ -30,7 +30,10 @@ sudo nano /boot/ProjectAlice.yaml
 
 ## The Installer method
 
-This method has been long used but still requires some fixing and fiddling. It takes much more time especially because it needs to compile python 3.7. **The installer wasn't updated for month, we are focusing on the image way to go!**
+This method has been long used but still requires some fixing and fiddling. It takes much more time especially because it needs to compile python 3.7. 
+::: warning
+The installer wasn't updated for month, we are focusing on the image way to go!
+:::
 
 - Flash your sd card with latest raspbian stretch lite. You don't need the desktop! Buster is not yet supported but shall soon
 - Setup the ssh and the wifi connection: https://www.raspberrypi.org/forums/viewtopic.php?t=191252
