@@ -15,7 +15,11 @@ jobs:
 
     - name: Download badges
       run: |
-        curl https://github.com/project-alice-assistant/ProjectAlice/workflows/Unit%20Tests/badge.svg -o images/UnitTests.svg
+        curl -L https://github.com/project-alice-assistant/ProjectAlice/workflows/Unit%20Tests/badge.svg -o images/badges/UnitTests.svg
+        curl -L https://coveralls.io/repos/github/project-alice-assistant/ProjectAlice/badge.svg?branch=HEAD -o images/badges/Coverage.svg
+        curl -L https://api.codeclimate.com/v1/badges/b54aaa4f575f66b4f485/maintainability -o images/badge/CodeClimate.svg
+        curl -L https://api.codacy.com/project/badge/Grade/55399302e9614fb18a354fb9345dff29 -o images/badge/Codacy.svg
+        curl -L https://img.shields.io/discord/579345007518154752?logo=discord -o images/badges/Discord.svg
 
     - name: Deploy badges
       uses: JamesIves/github-pages-deploy-action@releases/v3
