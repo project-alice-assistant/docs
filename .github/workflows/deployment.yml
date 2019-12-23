@@ -26,10 +26,11 @@ jobs:
         curl -L https://coveralls.io/repos/github/project-alice-assistant/ProjectAlice/badge.svg?branch=HEAD -o docs/.vuepress/dist/images/badges/Coverage.svg
         curl -L https://api.codeclimate.com/v1/badges/b54aaa4f575f66b4f485/maintainability -o docs/.vuepress/dist/images/badges/CodeClimate.svg
         curl -L https://api.codacy.com/project/badge/Grade/55399302e9614fb18a354fb9345dff29 -o docs/.vuepress/dist/images/badges/Codacy.svg
+        curl -L https://img.shields.io/discord/579345007518154752?logo=discord -o docs/.vuepress/dist/images/badges/Discord.svg
 
     - name: Deploy website
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
