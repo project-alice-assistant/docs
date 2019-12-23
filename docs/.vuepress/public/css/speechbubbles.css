@@ -27,7 +27,7 @@
 .aliceSpeech:before {
   content: "";
   display: block;
-  background-image: url('../images/projectalice.png');
+  background-image: url('../images/projectalice.svg');
   background-repeat: no-repeat;
   background-size: 50px;
   width: 50px;

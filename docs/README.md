@@ -1,5 +1,5 @@
 <h1 align="center" style="max-width: 100%;">
-  <img width="800" alt="Project Alice Logo" src="/projectalice.png">
+  <img width="800" alt="Project Alice Logo" src="/images/projectalice_banner.svg">
 </h1>
 
 <p align="center" style="line-height: 2;">
