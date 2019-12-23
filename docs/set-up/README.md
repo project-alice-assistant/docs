@@ -32,7 +32,7 @@ sudo nano /boot/ProjectAlice.yaml
 
 This method has been long used but still requires some fixing and fiddling. It takes much more time especially because it needs to compile python 3.7. 
 ::: warning
-The installer wasn't updated for month, we are focusing on the image way to go!
+The installer wasn't updated for month and will be replaced soon.
 :::
 
 - Flash your sd card with latest raspbian stretch lite. You don't need the desktop! Buster is not yet supported but shall soon
