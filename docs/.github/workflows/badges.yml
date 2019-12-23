@@ -1,0 +1,25 @@
+name: Update badges
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/5 * * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      ref: gh-pages
+
+    - name: Download badges
+      run: |
+        curl https://github.com/project-alice-assistant/ProjectAlice/workflows/Unit%20Tests/badge.svg -o images/UnitTests.svg
+
+    - name: Deploy badges
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: .
+        BASE_BRANCH: gh-pages

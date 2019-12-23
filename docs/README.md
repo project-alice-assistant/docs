@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center" style="line-height: 2;">
-  <a href="LICENSE" target="_blank"><img src="https://img.shields.io/github/license/project-alice-assistant/ProjectAlice" alt="License" /></a>
+  <a href="LICENSE" target="_blank"><img src="/images/license.svg" alt="License" /></a>
   <a href="https://discord.gg/Jfcj355" target="_blank"><img alt="Discord" src="https://img.shields.io/discord/579345007518154752?logo=discord"></a><br/>
   <a href="https://github.com/project-alice-assistant/ProjectAlice/actions" target="_blank"><img alt="unit tests" src="https://github.com/project-alice-assistant/ProjectAlice/workflows/Unit%20Tests/badge.svg"></a>
   <a href="https://coveralls.io/github/project-alice-assistant/ProjectAlice?branch=HEAD" target="_blank"><img alt="Coverage Status" src="https://coveralls.io/repos/github/project-alice-assistant/ProjectAlice/badge.svg?branch=HEAD"></a>
