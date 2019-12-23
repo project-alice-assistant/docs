@@ -1,6 +1,9 @@
 ---
 sidebarDepth: 1
+title: Events
 ---
+
+<link rel="stylesheet" href="/css/speechbubbles.css">
 
 # Events
 Project Alice is driven by events. What are events you might ask, or what do we mean with it? Ever heard of "action -> reaction"? That's exactly it! When something happens, something occurs! Events are by convention prefixed with "on", like "onStormyWeather" or "onDoorOpened".
