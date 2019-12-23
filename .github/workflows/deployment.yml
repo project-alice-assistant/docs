@@ -1,4 +1,4 @@
-name: Update badges
+name: deploy website
 on:
   push:
     branches:
