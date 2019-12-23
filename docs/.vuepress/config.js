@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/docs/',
+  base: '',
   lang: 'en-US',
   title: 'ProjectAlice',
   description: 'A smart voice assistant that guarantees your privacy',
