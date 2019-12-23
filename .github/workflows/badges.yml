@@ -10,7 +10,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-      ref: gh-pages
+      with:
+        ref: gh-pages
 
     - name: Download badges
       run: |
