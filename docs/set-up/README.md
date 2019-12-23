@@ -9,7 +9,8 @@ There are for now 2 install methods and the fastest is the image download + flas
 ## The Flashing method
 - Download our prefabricated Raspbian stretch image:
    - [Direct download](https://github.com/project-alice-assistant/ProjectAlice/releases/tag/v1.0.0-a4)
-   - MD5 checksum: `BA8C5A8605A25C931F9FE436A0B79631` filesize: `1,969,706,757`
+   - MD5 checksum for Stretch: `BA8C5A8605A25C931F9FE436A0B79631` filesize: `1,969,706,757`
+   - MD5 checksum for Stretch: `2283BD8F974628C511AC9394F97F8EAB` filesize: `1,655,875,086`
  - This image has nothing more than Python 3.7 pre installed along with Project Alice and its dependencies
  - User is "pi" and password is "umbrella"
  - If you wonder what's check the [Preinstalled Packages Section](preinstalled)
