@@ -1,3 +1,7 @@
+---
+sidebarDepth: 1
+---
+
 # Your First Skill
 Ready to create your first Skill? See how easy it is to get a new Skill up and
 running, then we will step through the basic anatomy of a Alice Skill.
@@ -49,12 +53,6 @@ If we now navigate to our new Skill, we can see that it created the following st
 ```
 
 We will look at each of these in turn.
-
-### `dialogTemplate` and `talks` directories
-
-The `dialogTemplate` and `talks` directories contains a json file for each spoken language the skill supports. The files are named using the [ISO639-1 Language Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language. For example, German is 'de', and English is 'en'.
-
-By default, your new Skill contains only a file for English - 'en'. If more languages were supported, then there would be additional language files.
 
 
 ### `talks` Directory

@@ -21,6 +21,10 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       {
+        text: 'About Alice',
+        link: '/about-alice/'
+      },
+      {
         text: 'Set Up',
         link: '/set-up/'
       },
@@ -29,27 +33,37 @@ module.exports = {
         link: '/usage/'
       },
       {
-        text: 'Contributing',
-        link: '/contribute/'
-      },
-      {
         text: 'Skill Development',
         link: '/skill-development/'
       },
       {
         text: 'Core Development',
         link: '/core-development/'
+      },
+      {
+        text: 'Contributing',
+        link: '/contribute/'
       }
     ],
     sidebar: {
+      '/about-alice/': [
+        {
+          title: 'About Alice',
+          collapsable: false,
+          children: [
+            '',
+            'glossary'
+          ]
+        }
+      ],
       '/set-up/': [
         {
           title: 'Set Up',
           collapsable: false,
           children: [
-      '',
-      'requirements',
-      'preinstalled'
+            '',
+            'requirements',
+            'preinstalled'
           ]
         }
       ],
