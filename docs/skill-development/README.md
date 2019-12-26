@@ -52,8 +52,8 @@ You'll notice some new terms as you start to develop Skills.
 * **slot** - A slot is an argument to an intent that gives a voice assistant more information about that request.
 
 Consider a weather skill. It might have e.g. an intent `GetWeather` with the following utterances (slots are marked in red):
-<div class="userSpeech male">what's the weather like in <strong style="color:#fe205b">Toronto</strong>?</div>
-<div class="userSpeech male">Tell me the weather in <strong style="color:#fe205b">Toronto</strong> please?</div>
+<div class="userSpeech male">what's the weather like in <strong class="slotWord">Toronto</strong>?</div>
+<div class="userSpeech male">Tell me the weather in <strong class="slotWord">Toronto</strong> please?</div>
 
 
 If you encounter anything else you're not familiar with, checkout the [Alice Glossary](../glossary).

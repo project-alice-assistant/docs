@@ -1,12 +1,14 @@
-<h1 align="center" style="max-width: 100%;">
+<link rel="stylesheet" href="/css/landingPage.css">
+
+<h1 align="center" class="aliceBanner">
   <img width="90%" alt="Project Alice Logo" src="/images/projectalice_banner.svg">
 </h1>
 
-<p align="center" style="line-height: 2;">
+<p align="center" class="badges">
   <a href="LICENSE" target="_blank"><img src="/images/badges/license.svg" alt="License" /></a>
   <a href="https://discord.gg/Jfcj355" target="_blank"><img alt="Discord" src="/images/badges/Discord.svg"></a>
 </p>
-<p align="center" style="line-height: 2;">
+<p align="center" class="badges">
   <a href="https://github.com/project-alice-assistant/ProjectAlice/actions" target="_blank"><img alt="unit tests" src="/images/badges/UnitTests.svg"></a>
   <a href="https://coveralls.io/github/project-alice-assistant/ProjectAlice?branch=HEAD" target="_blank"><img alt="Coverage Status" src="/images/badges/Coverage.svg"></a>
   <a href="https://codeclimate.com/github/project-alice-assistant/ProjectAlice/maintainability" target="_blank"><img alt="Maintainability" src="/images/badges/CodeClimate.svg"></a>

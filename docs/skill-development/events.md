@@ -105,7 +105,6 @@ Triggered when audio frame are coming in through MQTT. **Can be very consuming!*
 
 
 
-
 ## User states
 ::: tip Description
 User states events report a change of state for a user. Example: "Hey Alice? I'm going bed!" would trigger "onGoingBed" and change the user state accordingly
