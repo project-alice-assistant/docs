@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 2
 ---
 
 # Your First Skill
@@ -201,23 +201,14 @@ Whatever you add here will be installed using `pip install --no-cache`
 #### `conditions`
 This is where you define conditions for your skill to run. Let's say your skill is only english, german users won't be able to use it. There's quite a few conditions you can use:
 
-##### lang
-Define the languages that are supported. User running languages not listed here won't be able to use your skill
-
-##### online
-If set to true, your skill will only be usable for users not enforcing offline only for Alice
-
-##### skill
-This lists other skills needed for your to run. The skill must be installed and activated! In case the skill is missing, it will be automatically downloaded
-
-##### notSkill
-Add any skills here that are known to conflict with yours. If any of the listed skills are detected, your skill won't install
-
-##### asrArbitraryCapture
-If set to true, the user must use an ASR that is able to capture any text spoken to it and not only intent trained text.
-
-##### activeManager
-List managers here that need to be active for your skill to run. This only concerns managers that can be deactivated, such as `InterfaceManager`
+| Key                 | Description                                                                                                                                                  |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| lang                |                                              Define the languages that are supported. User running languages not listed here won't be able to use your skill |
+| online              | If set to true, your skill will only be usable for users not enforcing offline only for Alice                                                                |
+| skill               | This lists other skills needed for your to run. The skill must be installed and activated! In case the skill is missing, it will be automatically downloaded |
+| notSkill            | Add any skills here that are known to conflict with yours. If any of the listed skills are detected, your skill won't install                                |
+| asrArbitraryCapture | If set to true, the user must use an ASR that is able to capture any text spoken to it and not only intent trained text                                      |
+| activeManager       | List managers here that need to be active for your skill to run. This only concerns managers that can be deactivated, such as `InterfaceManager`             |
 
 
 ### README.md
