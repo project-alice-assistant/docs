@@ -21,7 +21,7 @@ If you haven't already, check out our [Introduction to Skill Development](./). T
 
 ## Understand the flow of your Skill
 
-It's a good idea to start by writing down how your Skill will work, including
+It's a good idea to start by writing down how your skill will work, including
 
 * What words will the User speak to activate the Skill?
 * What will Alice speak in response?
@@ -38,7 +38,7 @@ TODO: add description how it is created with skill kit
 
 ## Structure of a Skill
 
-If we now navigate to our new Skill, we can see that it created the following structure
+If we now navigate to our new skill, we can see that it created the following structure
 
 ```text
 .
@@ -55,7 +55,7 @@ If we now navigate to our new Skill, we can see that it created the following st
 We will look at each of these in turn.
 
 
-### `talks` Directory
+### `talks` directory
 
 The `talks` directories contains a subdirectory for each spoken language the skill supports. The subdirectories are named using the [ISO639-1 Language Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language. For example, German is 'de', and English is 'en'.
 
@@ -78,7 +78,7 @@ The File created by the Skill Kit does only contain some dummy answers that show
 When instructed to use a particular dialog, Alice will choose one of these sentences at random. This is closer to natural speech. That is, many similar phrases mean the same thing.
 
 
-### `dialogTemplate` Directory
+### `dialogTemplate` directory
 
 Each Skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language aswell, however there is just one json file for each language like `en.json` for english.
 
@@ -148,19 +148,19 @@ The intent handler then calls the `self.endDialog()` method passing the session 
 
 This file defines what is required to get the skill up and running. It includes parameters like the `version number`, a `description`, `supported languages` and `conditions` for your skill to be started.
 
-Let's take a look at a basic install file, the AliceCore skill:
+Let's take a look at a basic install file:
 
 ```json
 {
-	"name": "AliceCore",
-	"version": "1.0.27",
-	"author": "ProjectAlice",
+	"name": "HelloWorldSkill",
+	"version": "1.0.1",
+	"author": "MyGithubUsername",
 	"maintainers": [
 		"Psycho",
 		"Jierka",
 		"maxbachmann"
 	],
-	"desc": "AliceCore is the official skill that handles all core intents",
+	"desc": "This is my first skill for Project Alice",
 	"aliceMinVersion": "1.0.0-a4",
 	"systemRequirements": [],
 	"pipRequirements": [],
@@ -201,9 +201,9 @@ Whatever you add here will be installed using `pip install --no-cache`
 #### `conditions`
 This is where you define conditions for your skill to run. Let's say your skill is only english, german users won't be able to use it. There's quite a few conditions you can use:
 
-| Key                 | Description                                                                                                                                                  |
+|        Key          | Description                                                                                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| lang                |                                              Define the languages that are supported. User running languages not listed here won't be able to use your skill |
+| lang                | Define the languages that are supported. User running languages not listed here won't be able to use your skill                                              |
 | online              | If set to true, your skill will only be usable for users not enforcing offline only for Alice                                                                |
 | skill               | This lists other skills needed for your to run. The skill must be installed and activated! In case the skill is missing, it will be automatically downloaded |
 | notSkill            | Add any skills here that are known to conflict with yours. If any of the listed skills are detected, your skill won't install                                |
@@ -218,4 +218,4 @@ The README file contains human readable information about your Skill.
 
 ## What have we learned
 
-You have now successfully created a new Skill and have an understanding of the basic components that make up an Alice Skill. Next we will dive into each component in more detail.
+You have now successfully created a new skill and have an understanding of the basic components that make up an Alice Skill. Next we will dive into each component in more detail.
