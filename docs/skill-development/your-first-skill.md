@@ -146,7 +146,78 @@ The intent handler then calls the `self.endDialog()` method passing the session 
 
 ### HelloWorldSkill.install
 
-This file defines what is required to get the skill up and running. It includes parameters like the `version number`, a `description` and `supported languages`.
+This file defines what is required to get the skill up and running. It includes parameters like the `version number`, a `description`, `supported languages` and `conditions` for your skill to be started.
+
+Let's take a look at a basic install file, the AliceCore skill:
+
+```json
+{
+	"name": "AliceCore",
+	"version": "1.0.27",
+	"author": "ProjectAlice",
+	"maintainers": [
+		"Psycho",
+		"Jierka",
+		"maxbachmann"
+	],
+	"desc": "AliceCore is the official skill that handles all core intents",
+	"aliceMinVersion": "1.0.0-a4",
+	"systemRequirements": [],
+	"pipRequirements": [],
+	"conditions": {
+		"lang": [
+			"en",
+			"fr",
+			"de"
+		]
+	}
+}
+```
+
+#### `name`
+Defines the name of the skill. Everything should carry the same name and yes, it is case sensitive!
+
+#### `version`
+Defines the current version of your skill, in a 3 positions versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release and the third one is commonly used for hotfixes.
+
+#### `author`
+This is you! Make sure to use the same github username!
+
+#### `maintainers`
+We believe in sharing, and people helping you should also be rewarded for their input. If you improve a skill that isn't yours, add yourself into the maintainers list!
+
+#### `desc`
+A description of what your skill does
+
+#### `aliceMinVersion`
+The minimum ALICE version other users must be running for this skill to be usable. This is useful if your skill is using alpha or beta functions not yet available to everyone
+
+#### `systemRequirements`
+Whatever you add here will be installed using `apt install`
+
+#### `pipRequirements`
+Whatever you add here will be installed using `pip install --no-cache`
+
+#### `conditions`
+This is where you define conditions for your skill to run. Let's say your skill is only english, german users won't be able to use it. There's quite a few conditions you can use:
+
+##### lang
+Define the languages that are supported. User running languages not listed here won't be able to use your skill
+
+##### online
+If set to true, your skill will only be usable for users not enforcing offline only for Alice
+
+##### skill
+This lists other skills needed for your to run. The skill must be installed and activated! In case the skill is missing, it will be automatically downloaded
+
+##### notSkill
+Add any skills here that are known to conflict with yours. If any of the listed skills are detected, your skill won't install
+
+##### asrArbitraryCapture
+If set to true, the user must use an ASR that is able to capture any text spoken to it and not only intent trained text.
+
+##### activeManager
+List managers here that need to be active for your skill to run. This only concerns managers that can be deactivated, such as `InterfaceManager`
 
 
 ### README.md
