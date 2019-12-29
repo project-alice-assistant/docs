@@ -12,7 +12,7 @@ There are for now 2 install methods and the fastest is the image download + flas
    - MD5 checksum for Stretch: `BA8C5A8605A25C931F9FE436A0B79631` filesize: `1,969,706,757`
    - MD5 checksum for Buster: `2283BD8F974628C511AC9394F97F8EAB` filesize: `1,655,875,086`
  - This image has nothing more than Python 3.7 pre installed along with Project Alice and its dependencies
- - User is "pi" and password is "umbrella"
+ - The SSH User is `pi` and the password is `umbrella`
  - If you wonder what's check the [Preinstalled Packages Section](preinstalled)
 - Flash the image to your SD card
 - **do not place any wpa_supplicant.conf or ssh file in /boot**
