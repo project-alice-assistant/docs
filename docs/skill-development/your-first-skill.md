@@ -82,6 +82,17 @@ When instructed to use a particular dialog, Alice will choose one of these sente
 
 Each Skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language aswell, however there is just one json file for each language like `en.json` for english.
 
+Even when the skill has no Intents, at least a basic file is required containing the following lines:
+```json
+{
+	"skill": "<SkillName>",
+	"icon": "<Icon>",
+	"description": "<Skill description>",
+	"slotTypes": [],
+	"intents": []
+}
+```
+
 We will learn about Intents in more detail shortly.
 
 
