@@ -19,7 +19,6 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 2,
-    themeConfig: {
     algolia: {
       apiKey: '831c5fdecb500d055d0646d921dd6b2b',
       indexName: 'ProjectAliceDocs'
