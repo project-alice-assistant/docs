@@ -41,8 +41,12 @@ module.exports = {
         link: '/core-development/'
       },
       {
-        text: 'Contributing',
+        text: 'API',
         link: '/contribute/'
+      },
+      {
+        text: 'Contributing',
+        link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
       }
     ],
     sidebar: {
