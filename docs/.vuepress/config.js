@@ -42,11 +42,11 @@ module.exports = {
       },
       {
         text: 'API',
-        link: '/contribute/'
+        link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
       },
       {
         text: 'Contributing',
-        link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
+        link: '/contribute/'
       }
     ],
     sidebar: {
