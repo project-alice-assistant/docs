@@ -102,11 +102,12 @@ This is what makes your widget be loaded by Alice! A raw widget python file woul
 import sqlite3
 
 from core.base.model.Widget import Widget
+from core.base.model.Widget import WidgetSizes
 
 
 class WorldMap(Widget):
 
-	SIZE = 'w_extralarge_wide'
+	SIZE = WidgetSizes.w_extralarge_wide
 	OPTIONS: dict = dict()
 
 	def __init__(self, data: sqlite3.Row):
@@ -122,8 +123,8 @@ Let's take a little look at this!
   - w_tiny_tall: 50x100
   -
   - w_small: 100x100
-  - w_wide: 200x100
-  - w_tall: 100x200
+  - w_small_wide: 200x100
+  - w_small_tall: 100x200
   -
   - w: 200x200
   - w_wide: 300x200
