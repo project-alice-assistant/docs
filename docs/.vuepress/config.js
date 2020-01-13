@@ -102,7 +102,8 @@ module.exports = {
             '',
             'your-first-skill',
             'logging',
-            'events'
+            'events',
+            'widgets'
           ]
         }
       ],
@@ -117,4 +118,4 @@ module.exports = {
       ]
     }
   }
-}
+};
