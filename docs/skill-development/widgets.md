@@ -93,7 +93,7 @@ This is what is rendered on the home page, it's your widget! A basic widget file
 ```
 
 Remember the css classes we defined a little higher? See where they go now?
-Also, do you remember the language file? Using automatic translation isn't that hard! Instead of hardcoding your language string, simply replace it by `{{ lang.yourStringIndex }}`. This will automatically be replaced by, if your Alice instance runs in english, by `HelloWorldWidget.json['en']['yourStringIndex']`
+Also, do you remember the language file? Using automatic translation isn't that hard! Instead of hardcoding your language string, simply replace it by <code v-pre>{{ lang.yourStringIndex }}</code>. This will automatically be replaced by, if your Alice instance runs in english, by `HelloWorldWidget.json['en']['yourStringIndex']`
 
 ### HelloWorldWidget.py
 This is what makes your widget be loaded by Alice! A raw widget python file would be:
