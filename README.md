@@ -3,7 +3,6 @@
 currently available at https://docs.projectalice.io
 
 
-
 # Building locally
 This wiki is build using vuepress. When you want to test it locally build it with
 ```
