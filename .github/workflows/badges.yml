@@ -28,3 +28,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         BRANCH: gh-pages
         FOLDER: .
+        BASE_BRANCH: gh-pages
