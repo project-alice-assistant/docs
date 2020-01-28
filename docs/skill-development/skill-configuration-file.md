@@ -90,14 +90,78 @@ That all! This will grab the **login** setting value!
 
 Another way to access the settings, for another skill per example:
 ```python
-configValue = self.ConfigManager.getSkillConfigByName("skillName", "configName")
+configValue = self.ConfigManager.getSkillConfigByName('skillName', 'configName')
 ```
 
 This will grab the setting **configName** from the skill **skillName**
 
-And if you don't have access to self, in a class method per exemple:
+And if you don't have access to self, in a class method per example:
 ```python
-configValue = SuperManager.getInstance().configManager.getSkillConfigByName("skillName", "configName")
+configValue = SuperManager.getInstance().configManager.getSkillConfigByName('skillName', 'configName')
 ```
 
 I let you guess what it does.... Same as above!
+
+
+## Accessing system settings from my skill
+Beside your skill settings, you can also access Alice's settings from within your skill!
+
+Again, we have the same three methods as above:
+
+```python
+configValue = self.getAliceConfig('configName')
+```
+
+or
+
+```python
+configValue = self.ConfigManager.getAliceConfigByName('configName')
+```
+
+or
+
+```python
+configValue = SuperManager.getInstance().configManager.getAliceConfigByName('configName')
+```
+
+
+## Update a config value
+If for some reason you need to programmatically update a setting value, say the api key is not valid anymore, you can it easily!
+
+```python
+self.updateConfig('configName', 'configNewValue')
+```
+
+or
+
+```python
+self.ConfigManager.updateSkillConfigurationFile('skillName', 'configName', 'configNewValue')
+```
+
+or
+
+```python
+SuperManager.getInstance().configManager.updateSkillConfigurationFile('skillName', 'configName', 'configNewValue')
+```
+
+Aaaand of course, same goes for Alice's settings!
+
+```python
+self.updateAliceConfig('configName', 'configNewValue')
+```
+
+or
+
+```python
+self.ConfigManager.updateAliceConfiguration('configName', 'configNewValue')
+```
+
+or
+
+```python
+SuperManager.getInstance().configManager.updateAliceConfiguration('configName', 'configNewValue')
+```
+
+
+## What we learned
+We learned to create a skill configuration template file. We learned what different data type this file can contain. We also learned how to access those settings from within your skill as well as how to access Alice's settings! Oh, and also how to update those settings programmatically! No more excuses for hardcoded variables in your skills!
