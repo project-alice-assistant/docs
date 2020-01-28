@@ -1,0 +1,103 @@
+---
+sidebarDepth: 2
+---
+
+# Skill configuration file
+At some point, your skill will need some user dependant configuration, per example an api key, a threshold, login or a password. This is where skill configuration files come in the game!
+
+As a dev you have to provide a skill configuration **template** file. Based on this file, when Project Alice installs your skill, a **config** file will be automatically created with your default provided values. If you happen to update your config template, let's say, to drop a login and password field in favour of an api key field, Project Alice will detect it and update the configuration file accordingly.
+
+## The template file
+
+The name of the file **must be** `config.json.template`. Let's take a look at our HelloWorld skill that requires some configuration from the user:
+
+```json
+{
+	"login": {
+		"defaultValue": "",
+		"dataType": "string",
+		"description": "Login for the HelloWorld database"
+	},
+	"password": {
+		"defaultValue": "",
+		"dataType": "password",
+		"description": "Password for the HelloWorld database"
+	},
+	"autoConnect": {
+		"defaultValue": true,
+		"dataType": "boolean",
+		"description": "Check this is you want HelloWorld to automatically connect to the database"
+	},
+	"retries": {
+		"defaultValue": 3,
+		"dataType": "integer",
+		"description": "How many times should the skill retry to connect in case of failure before giving up"
+	},
+	"databaseToUse": {
+		"defaultValue": "HelloWorld",
+		"dataType": "list",
+        "values": ["HelloWord", "ByeByeWorld", "HelloKitty"],
+		"description": "Choose which database to connect to"
+	},
+	"language": {
+		"defaultValue": "en",
+		"dataType": "list",
+        "values": {"English": "en", "Français": "fr", "Deutsch":  "de"},
+		"description": "Choose what language to use"
+	}
+}
+```
+
+With the above example you have the full overview of what is supported. As you might have understood, we define each config by a name, this is the name you will use then in code to get the set value. We can then define a default value to use, a datatype and in case of lists, a list of value.
+
+In our example:
+- **login** is a string, the text will be visible to the user.
+- **password** is a string of type password, meaning characters won't be shown when typed or replaced with *.
+- **autoConnect** is a boolean, true or false, or on or off. This will display a checkbox.
+- **retries** is an integer. An integer is a full number, such as 1, 5, 9563, with no trailing decimals.
+- **databaseToUse** is a list of type list. It means it will display a dropdown field containing the defined values.
+- **language** is a list of type dictionary. The difference with the above list, is that it will display the key (in this case "English" / "Français" / "Deutsch") in a dropdown field, but the value selected will be "en" or "fr" or "de". Usefull when you have values to set that are not natural, the language example shows it well enough, it is nicer to display the full language name for the user to choose than a list with language codes.
+
+There are two more options you can add to **any** configuration!
+
+- `"display": "hidden"`: Hide the configuration field for the user. What the use then? Well, imagine a skill that require an API key, but to retrieve this api key, one needs his login and password. I'd make "login" and "password" visible configurations, so the user can fill them, and the api key be hidden. My skill would use the login and password fields to automatically retrieve the api key and set it for next uses. The user doesn't need to change or see that configuration
+
+- `"onUpdate": "reconnect"`: Replace "reconnect" with any method name in your skill and that method will be triggered every time the user updates that configuration field.
+
+
+## The generated config file
+When Alice loads her configuration she also loads all her active skills configurations. If there's a config template file available but no config file (config.json), she'll auto generate that said file! That file is git ignored so it cannot be pushed on your repository, keeping your personal data safe. This is how the template example would look like:
+
+```json
+{
+  "login": "",
+  "password": "",
+  "autoConnect": true,
+  "retries": 3,
+  "databaseToUse": "HelloWorld",
+  "language": "en"
+}
+```
+
+## Using the settings in my skill
+Now that you have created your template, it's time to use those settings in your skill! Happy you, it's **very** easy!
+
+```python
+configValue = self.getConfig('login')
+```
+
+That all! This will grab the **login** setting value!
+
+Another way to access the settings, for another skill per example:
+```python
+configValue = self.ConfigManager.getSkillConfigByName("skillName", "configName")
+```
+
+This will grab the setting **configName** from the skill **skillName**
+
+And if you don't have access to self, in a class method per exemple:
+```python
+configValue = SuperManager.getInstance().configManager.getSkillConfigByName("skillName", "configName")
+```
+
+I let you guess what it does.... Same as above!
