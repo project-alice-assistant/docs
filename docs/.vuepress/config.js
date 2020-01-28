@@ -107,7 +107,8 @@ module.exports = {
             'your-first-skill',
             'logging',
             'events',
-            'widgets'
+            'widgets',
+            'skill-configuration-file'
           ]
         }
       ],
