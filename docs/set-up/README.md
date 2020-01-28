@@ -24,7 +24,7 @@ sudo nano /boot/ProjectAlice.yaml
 ```
 - Configure it according to your informations and needs
 - Save it, unplug your sd, plug it in your raspberry pi and power it up.
-- Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while, so do not unplug until she has spoken to you! If you haven enabled the interface, you can check what's going on by browsing to http://x.x.x.x:5000, replace with the Project Alice device's IP adress.
+- Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while, so do not unplug until she has spoken to you! If you haven enabled the interface, you can check what's going on by browsing to `http://x.x.x.x:5000`, replace with the Project Alice device's IP adress.
 
 ------------------
 
@@ -37,9 +37,9 @@ The installer wasn't updated for month and will be replaced soon.
 :::
 
 - Flash your sd card with latest raspbian stretch lite. You don't need the desktop! Buster is not yet supported but shall soon
-- Setup the ssh and the wifi connection: https://www.raspberrypi.org/forums/viewtopic.php?t=191252
+- Setup the ssh and the wifi connection: [https://www.raspberrypi.org/forums/viewtopic.php?t=191252](https://www.raspberrypi.org/forums/viewtopic.php?t=191252)
 - Plug your microphone and speakers. If you do use devices such as respeakers, matrix or others, they are supported
-- SSH to your device. For windows users, I do recommend Kitty, a Putty brother with auto reconnection and login: http://www.9bis.net/kitty/?page=Download
+- SSH to your device. For windows users, I do recommend Kitty, a Putty brother with auto reconnection and login: [http://www.9bis.net/kitty/?page=Download](http://www.9bis.net/kitty/?page=Download)
 - Setup your raspberry: `sudo raspi-config`: Change the password, set your timezone, expand your main partition, enable SPI and I2C, force the audio on 3.5mm jack if needed.
 - Install git: `sudo aptitude install -y git`
 - Git clone the installer to /home/pi `https://github.com/project-alice-assistant/ProjectAliceInstaller`
