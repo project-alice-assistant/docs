@@ -56,7 +56,7 @@ In our example:
 - **autoConnect** is a boolean, true or false, or on or off. This will display a checkbox.
 - **retries** is an integer. An integer is a full number, such as 1, 5, 9563, with no trailing decimals.
 - **databaseToUse** is a list of type list. It means it will display a dropdown field containing the defined values.
-- **language** is a list of type dictionary. The difference with the above list, is that it will display the key (in this case "English" / "Français" / "Deutsch") in a dropdown field, but the value selected will be "en" or "fr" or "de". Usefull when you have values to set that are not natural, the language example shows it well enough, it is nicer to display the full language name for the user to choose than a list with language codes.
+- **language** is a list of type dictionary. The difference with the above list, is that it will display the key (in this case "English" / "Français" / "Deutsch") in a dropdown field, but the value selected will be "en" or "fr" or "de". Useful when you have values to set that are not natural, the language example shows it well enough, it is nicer to display the full language name for the user to choose than a list with language codes.
 
 There are two more options you can add to **any** configuration!
 
@@ -164,4 +164,4 @@ SuperManager.getInstance().configManager.updateAliceConfiguration('configName', 
 
 
 ## What we learned
-We learned to create a skill configuration template file. We learned what different data type this file can contain. We also learned how to access those settings from within your skill as well as how to access Alice's settings! Oh, and also how to update those settings programmatically! No more excuses for hardcoded variables in your skills!
+We learned to create a skill configuration template file and which different data types this file can contain. We also learned how to access those settings from within your skill as well as how to access Alice's settings! Oh, and also how to update those settings programmatically! No more excuses for hardcoded variables in your skills!
