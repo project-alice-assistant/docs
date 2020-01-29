@@ -60,7 +60,7 @@ In our example:
 
 There are two more options you can add to **any** configuration!
 
-- `"display": "hidden"`: Hide the configuration field for the user. What the use then? Well, imagine a skill that require an API key, but to retrieve this api key, one needs his login and password. I'd make "login" and "password" visible configurations, so the user can fill them, and the api key be hidden. My skill would use the login and password fields to automatically retrieve the api key and set it for next uses. The user doesn't need to change or see that configuration
+- `"display": "hidden"`: Hides the configuration field for the user. What's the use then? Well, imagine a skill that requires an API key but to retrieve this api key, one needs his login and password. I'd make "login" and "password" visible configurations, so the user can fill them, and the api key be hidden. My skill would use the login and password fields to automatically retrieve the api key and set it for next uses. The user doesn't need to change or see that api configuration.
 
 - `"onUpdate": "reconnect"`: Replace "reconnect" with any method name in your skill and that method will be triggered every time the user updates that configuration field.
 
