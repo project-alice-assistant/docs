@@ -45,7 +45,7 @@ There are five types of log messages available that are used for different purpo
 self.logDebug
 ```
 
-Debug messages are used for information that will help to diagnose problems. These are particularly useful if there is anything that has the potential to break in the future.
+Debug messages are used for information that will help to diagnose problems. These are particularly useful if there is anything that has the potential to break in the future. They will only show if debug is set to true in the settings.
 
 
 ### Info
@@ -95,8 +95,7 @@ They will always output a stack trace.
 self.logFatal
 ```
 
-`logFatal` has the same outcome as `logCritical`, but indicates, that Alice will exit afterwards. This is why in skills you
-should only use `logCritical` even though they do the same.
+`logFatal` is an unrecoverable error that forces Alice to shut down. It is not recommended to use in skills!
 
 
 
