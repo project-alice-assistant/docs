@@ -3,11 +3,6 @@
 Here's the list of what's preinstalled on Project Alice image:
 
 ## Sys reqs
-- Python 3.7.4
-- Project Alice
-- Snips Led Control
-- Mimic
-- git
 - apt-transport-https
 - zip
 - unzip
@@ -22,46 +17,41 @@ Here's the list of what's preinstalled on Project Alice image:
 - libpcre2-dev
 - libasound2-dev
 - portaudio19-dev
-- python-pyaudio
 - python3-pyaudio
 - mosquitto
 - mosquitto-clients
 - libxml2-dev
 - libxslt-dev
 - flac
-- chromium-driver
 - libttspico-utils
 - libav-tools
 - snips-platform-voice
 - snips-watch
 - snips-makers-tts
 - snips-hotword-model-heysnipsv4
+- libatlas-base-dev
+- gfortran
+- ffmpeg
+
 
 ## venv
-- enum34
-- django
-- pyalsaaudio
-- pyaudio
-- python-dateutil
-- paho-mqtt
-- watchdog
-- toml
-- requests
-- requests-jwt
-- spidev
-- gpiozero
-- langdetect
-- slugify
-- google-api-python-client
-- oauth2client
-- esptool
-- pyserial
-- selenium
-- pydub
-- terminaltables
-- PyInquirer
-- prompt_toolkit
-- colorama
-- pyyaml
-- boto3
-- google-cloud-texttospeech
+- pyalsaaudio==0.8.4
+- python-dateutil==2.8.0
+- paho-mqtt==1.5.0
+- requests==2.21.0
+- esptool==2.8
+- pyserial==3.4
+- pydub==0.23.1
+- terminaltables==3.1.0
+- click==7.0
+- pyyaml==5.3
+- boto3==1.10.46
+- flask==1.1.1
+- flask-classful==0.14.2
+- flask-login==0.4.1
+- flask-socketio==4.2.1
+- googletrans==2.4.0
+- bcrypt==3.1.7
+- psutil==5.6.7
+- numpy==1.16.2
+- pyjwt==1.7.1
