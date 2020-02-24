@@ -24,3 +24,6 @@ This is an alpha release! It is subject to major changes and the target audience
 - Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while, **so do not unplug until she has spoken to you!**
 - If you have enabled the interface (by default), you can check what's going on by browsing to `http://x.x.x.x:5000`, replace with the Project Alice device's IP adress.
 - The SSH User is `pi` and the password is `umbrella`
+
+#### Having issues with Alice? She doesn't hear you? Doesn't seem to start?
+Have a look at our [Troubleshooting guide](troubleshooting)!

@@ -75,7 +75,8 @@ module.exports = {
           children: [
             '',
             'requirements',
-            'preinstalled'
+            'preinstalled',
+            'troubleshooting'
           ]
         }
       ],
