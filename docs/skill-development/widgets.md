@@ -55,7 +55,7 @@ This is your widget dedicated css file! The default content should be as follow:
 If your widgets uses image files, such as backgrounds, you could place them here, for organisation's sake
 
 ### js/HelloWorldWidget.js
-The engine of your widget! If you widget is interactive, you can code whatever you want in there! Remember, we use Jquery and Jquery-UI so they are at your disposal for coding you stuff! A basic file should look like:
+The engine of your widget! If your widget is interactive, you can code whatever you want in there! Remember, we use Jquery and Jquery-UI so they are at your disposal for coding your stuff! A basic file should look like:
 
 ```js
 (function () {})();
@@ -93,7 +93,7 @@ This is what is rendered on the home page, it's your widget! A basic widget file
 ```
 
 Remember the css classes we defined a little higher? See where they go now?
-Also, do you remember the language file? Using automatic translation isn't that hard! Instead of hardcoding your language string, simply replace it by <code v-pre>{{ lang.yourStringIndex }}</code>. This will automatically be replaced by, if your Alice instance runs in english, by `HelloWorldWidget.json['en']['yourStringIndex']`
+Also, do you remember the language file? Using automatic translation isn't that hard! Instead of hardcoding your language string, simply replace it by <code v-pre>{{ lang.yourStringIndex }}</code>. This will automatically be replaced by, if your Alice instance runs in english, `HelloWorldWidget.json['en']['yourStringIndex']`
 
 ### HelloWorldWidget.py
 This is what makes your widget be loaded by Alice! A raw widget python file would be:
