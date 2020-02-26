@@ -12,7 +12,7 @@ This is an alpha release! It is subject to major changes and the target audience
 - Flash the image to your SD card
 - **do not place any wpa_supplicant.conf or ssh file in /boot**
 - **do not boot your raspberry before doing this next point!!**
-- ** Edit the /boot/ProjectAlice.yaml file**
+- ** Edit the /boot/ProjectAlice.yaml file**. If there's no ProjectAlice.yaml file on the /boot partition, grab the latest from sources: [ProjectAlice.yaml](https://github.com/project-alice-assistant/ProjectAlice/blob/master/ProjectAlice.yaml)
 - Configure it according to your informations and needs. All configuration have a little explanation but most should be self explanatory.
 - Make sure to have a space after the colons:
    - Wrong: `forceRewrite:yes`
