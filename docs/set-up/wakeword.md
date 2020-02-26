@@ -15,10 +15,10 @@ When you decide to not add a wakeword at the start, you have two ways to add it 
 ### Reset everything:
 Delete all memory of Alice and start over with the user creation of the Admin.
 This way is only recommended when you just created your instance of Alice.
-
+```Batchfile
 sudo rm ~/ProjectAlice/system/database/data.db
 sudo systemctl restart Alice
-
+```
 ### Create a wakeword manually:
 Here you will create your own recordings, cut them on any device and insert them into Alice.
 
