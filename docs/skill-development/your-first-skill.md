@@ -30,11 +30,6 @@ It's a good idea to start by writing down how your skill will work, including
 
 Once you've given these some thought, you can get started.
 
-## Alice Skill Kit (alice-sk)
-
-::: danger
-TODO: add description how it is created with skill kit
-:::
 
 ## Structure of a Skill
 
@@ -109,7 +104,7 @@ The `class` definition extends the `AliceSkill` class:
 class HelloWorldSkill(AliceSkill):
 ```
 
-The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your Skill, please join the [~skills Channel on our Discord chat]().
+The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your Skill, please join the [skills Channel on our Discord chat](https://discord.gg/MgJNR9c).
 
 Inside the class, methods are then defined.
 
@@ -154,6 +149,7 @@ Let's take a look at a basic install file:
 {
 	"name": "HelloWorldSkill",
 	"version": "1.0.1",
+	"icon": "battle-net",
 	"author": "MyGithubUsername",
 	"maintainers": [
 		"Psycho",
@@ -179,6 +175,9 @@ Defines the name of the skill. Everything should carry the same name and yes, it
 
 #### `version`
 Defines the current version of your skill, in a 3 positions versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release and the third one is commonly used for hotfixes.
+
+#### `icon`
+This is the icon that will be displayed for your skill on the skill store. It supports [any free Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
 
 #### `author`
 This is you! Make sure to use the same github username!
