@@ -55,8 +55,8 @@ Here you will create your own recordings, cut them on any device and insert them
 }```
 5. sudo nano /etc/snips.toml
 6. modify the following block to include the path to your wakeword and the sensitivity. Don't forget to replace <username>!
-[snips-hotword]
-model = ["/home/pi/ProjectAlice/trained/hotwords/snips_hotword=0.53","/home/pi/ProjectAlice/trained/hotwords/<username>=0.48"]
+```[snips-hotword]
+model = ["/home/pi/ProjectAlice/trained/hotwords/snips_hotword=0.53","/home/pi/ProjectAlice/trained/hotwords/<username>=0.48"]```
 
 7. restart Alice
 - sudo systemctl restart Alice
