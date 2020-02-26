@@ -1,4 +1,4 @@
-Wakeword
+# Wakeword
 
 There are two types of wakewords for Alice.
 The global wakewords, that work for everybody, and personal wakewords, that only work for one person.
@@ -12,14 +12,14 @@ The personal wakeword is created after the user is registered for Alice.
 This can be right after her start for the first user, or when you add in a new user later on.
 When you decide to not add a wakeword at the start, you have two ways to add it later on.
 
-The brutal way:
+### Reset everything:
 Delete all memory of Alice and start over with the user creation of the Admin.
 This way is only recommended when you just created your instance of Alice.
 
 sudo rm ~/ProjectAlice/system/database/data.db
 sudo systemctl restart Alice
 
-Or the manual way:
+### Create a wakeword manually:
 Here you will create your own recordings, cut them on any device and insert them into Alice.
 
 1. Record yourself 3 times saying "Hey Alice"
@@ -29,6 +29,7 @@ Here you will create your own recordings, cut them on any device and insert them
 3. move the files to ~/ProjectAlice/trained/hotwords/<username>/
 - add your username into the path, it should always be written in lower case!
 4. create a file "config.json" in the same folder with following content (again replace <username> with your name, all lower case)
+```json
 {
     "num_mel_bins": 13,
     "window_type": "povey",
@@ -51,7 +52,7 @@ Here you will create your own recordings, cut them on any device and insert them
     "num_mfcc": 13,
     "band_radius": 10,
     "hotword_key": "<username>"
-}
+}```
 5. sudo nano /etc/snips.toml
 6. modify the following block to include the path to your wakeword and the sensitivity. Don't forget to replace <username>!
 [snips-hotword]
