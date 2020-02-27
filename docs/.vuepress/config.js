@@ -76,7 +76,8 @@ module.exports = {
             '',
             'requirements',
             'preinstalled',
-            'troubleshooting'
+            'troubleshooting',
+            'wakeword'
           ]
         }
       ],
