@@ -3,14 +3,16 @@
 There are two types of wakewords for Alice.
 The global wakewords, that work for everybody, and personal wakewords, that only work for one person.
 
+## Global wakeword
 At the moment following global wakewords are supported:
 - "Hey Snips"
 
 This is subject to change and will be replaced when multiple wakeword engines are supported.
 
-The personal wakeword is created after the user is registered for Alice.
+## Personal wakeword
+The personal wakeword is created after a new user is registered for Alice.
 This can be right after her start for the first user, or when you add in a new user later on.
-When you decide to not add a wakeword at the start, you have two ways to add it later on.
+When you decide to not add a wakeword at the start, you (currently) have two ways to add it later on.
 
 ### Reset everything:
 Delete all memory of Alice and start over with the user creation of the Admin.
