@@ -1,7 +1,7 @@
 # Wakeword
 
 There are two types of wakewords for Alice.
-The global wakewords, that work for everybody, and personal wakewords, that only work for one person.
+The global wakewords, that work for everybody, and are preinstalled. And the personal wakewords, that only work for one person and are individually created in runtime.
 
 ## Global wakeword
 At the moment following global wakewords are supported:
