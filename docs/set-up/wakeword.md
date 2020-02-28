@@ -35,7 +35,7 @@ a free tool for this could be audacity https://www.audacity.de/downloads/`
 
 3. Move the files to ~/ProjectAlice/trained/hotwords/<username>/. Add your username into the path, it should always be written in lower case!
     
-4. create a file "config.json" in the same folder with following content (again replace <username> with your name, all lower case)
+4. Create a file "config.json" in the same folder with following content (again replace <username> with your name, all lower case)
     
 ```json
 {
@@ -63,15 +63,15 @@ a free tool for this could be audacity https://www.audacity.de/downloads/`
 }
 ```
     
-5. sudo nano /etc/snips.toml
+5. `sudo nano /etc/snips.toml`
     
-6. modify the following block to include the path to your wakeword and the sensitivity. Don't forget to replace <username>!
+6. Modify the following block to include the path to your wakeword and the sensitivity. Don't forget to replace <username>!
     
 ```
 [snips-hotword]
 model = ["/home/pi/ProjectAlice/trained/hotwords/snips_hotword=0.53","/home/pi/ProjectAlice/trained/hotwords/<username>=0.48"]
 ```
 
-7. restart Alice
+7. Restart Alice
 
 `sudo systemctl restart Alice`
