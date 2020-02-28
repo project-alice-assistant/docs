@@ -107,6 +107,7 @@ module.exports = {
           children: [
             '',
             'your-first-skill',
+            'builtin-slots',
             'logging',
             'events',
             'widgets',
