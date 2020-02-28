@@ -29,7 +29,9 @@ Here you will create your own recordings, cut them on any device and insert them
 1. Record yourself 3 times saying "Hey Alice". Name the files 0.wav 1.wav and 2.wav
 2. Crop the recording as close as possible (cutting of a millisecond should be better than keeping too much silence)
 
-`a free tool for this could be audacity https://www.audacity.de/downloads/`
+::: tip
+a free tool for this could be audacity https://www.audacity.de/downloads/`
+:::
 
 3. Move the files to ~/ProjectAlice/trained/hotwords/<username>/. Add your username into the path, it should always be written in lower case!
     
