@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 1
-title: Events
+title: Built-in slots
 ---
 
 # Built-in slots
