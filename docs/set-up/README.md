@@ -11,7 +11,7 @@ This is an alpha release! It is subject to major changes and the target audience
    - If you wonder what's check the [Preinstalled Packages Section](preinstalled)
 - Extract the image from the 7zip archive
 
-::: Pro tip
+::: tip
 Use [7zip](https://www.7-zip.org/), it's open source, fast, has one of the best compression ratio and comes with nice features
 :::
 
