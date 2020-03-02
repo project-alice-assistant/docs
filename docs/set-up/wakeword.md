@@ -74,4 +74,4 @@ model = ["/home/pi/ProjectAlice/trained/hotwords/snips_hotword=0.53","/home/pi/P
 
 7. Restart Alice
 
-`sudo systemctl restart Alice`
+`sudo systemctl restart ProjectAlice`
