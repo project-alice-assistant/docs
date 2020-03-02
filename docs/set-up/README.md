@@ -28,7 +28,7 @@ Use [7zip](https://www.7-zip.org/), it's open source, fast, has one of the best 
    - Correct: `mqttPassword: "a:%qJi"`
 - Save it, unplug your sd, plug it in your raspberry pi and power it up.
 - Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while, **so do not unplug until she has spoken to you!**
-- If you have enabled the interface (by default), you can check what's going on by browsing to `http://x.x.x.x:5000`, replace with the Project Alice device's IP adress.
+- If you have enabled the interface (by default), you can check what's going on by browsing to `http://x.x.x.x:5000`, replace with the Project Alice device's IP address.
 - The SSH User is `pi` and the password is `umbrella`
 
 #### Having issues with Alice? She doesn't hear you? Doesn't seem to start?
