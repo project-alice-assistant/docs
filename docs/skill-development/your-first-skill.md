@@ -149,7 +149,8 @@ Let's take a look at a basic install file:
 {
 	"name": "HelloWorldSkill",
 	"version": "1.0.1",
-	"icon": "battle-net",
+	"icon": "fab fa-battle-net",
+	"category": "entertainment"
 	"author": "MyGithubUsername",
 	"maintainers": [
 		"Psycho",
@@ -178,6 +179,24 @@ Defines the current version of your skill, in a 3 positions versioning system, l
 
 #### `icon`
 This is the icon that will be displayed for your skill on the skill store. It supports [any free Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
+
+### `category`
+Defines a category your skill belongs to. This helps categorize your skill to better search results on the store. Available categories:
+- weather
+- information
+- entertainment
+- music
+- game
+- kid
+- automation
+- assistance
+- security
+- planning
+- shopping
+- organisation
+- household
+- health
+
 
 #### `author`
 This is you! Make sure to use the same github username!
