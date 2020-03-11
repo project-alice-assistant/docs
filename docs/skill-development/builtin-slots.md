@@ -13,7 +13,7 @@ We have some sweet slots ready for you to use. You don't need to worry if they e
 - Alice/UserAccessLevel: The five supported access levels: admin, default, kid, worker, guest
 - Alice/Languages: A few languages: FR, EN, DE, SW, JP, FI, ES, RU, IT
 - Alice/Letters: Alphabet letter [A-Z]
-- Alice/Rooms: Contains about 130 room type names
+- Alice/Room: Contains about 130 room type names
 - Alice/AnswerYesNo: Yes or no, with synonyms
 - Alice/Name: Contains about 580 common names
 - Alice/RandomWords: Contains about 3200 common words
