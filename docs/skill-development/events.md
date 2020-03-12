@@ -34,6 +34,9 @@ Triggered when a wakeword is heard. A `wakeword` is a `hotword` that identifies 
 ###  def onHotwordToggleOn(self, siteId: str)
 Triggered when the hotword triggers itself on again. Typically, the hotword is turned off once it's been heard, until the dialog is over.
 
+###  def onHotwordToggleOff(self, siteId: str)
+Triggered when the hotword goes off. Typically, the hotword is turned off once it's been heard.
+
 ###  def onSessionStarted(self, session)
 Triggered when a session is started
 
@@ -43,8 +46,11 @@ Triggered when Alice starts listening to you, right after the hotword was caught
 ###  def onCaptured(self, session)
 Triggered when Alice captured what you said, when you finished talking to her
 
-###  def onIntentParsed(self, session)
-Triggered when Alice has parsed your intend. Typically occurs after onCaptured
+###  def onCaptured(self, session)
+Triggered when Alice captured what you said, when you finished talking to her
+
+###  def onPartialTextCaptured(self, session, text: str, likelihood: float, seconds: float):
+Triggered every time the ASR spits out a part of the utterance it is actively trying to capture.
 
 ###  def onUserCancel(self, session)
 Triggered when the user cancels a dialog. This ends the session and doesn't trigger onIntentParsed!
@@ -103,6 +109,26 @@ Triggered when a user failed authentication with his pin code
 ###  def onAudioFrame(self, message)
 Triggered when audio frame are coming in through MQTT. **Can be very consuming!**
 
+###  def onDeviceConnecting(self)
+Triggered when a device is trying to connect to Alice's network
+
+###  def onDeviceDisconnecting(self)
+Triggered when a device is disconnecting from Alice's network
+
+###  def onVadUp(self, **kwargs):
+Triggered when voice activity is heard
+
+###  def onVadDown(self, **kwargs):
+Triggered when voice activity has stopped
+
+###  def onNluTrained(self, **kwargs):
+Triggered when the NLU has finished training
+
+###  def onSnipsAssistantInstalled(self, **kwargs):
+Triggered when the assistant.json file has installed after training
+
+###  def onSnipsAssistantFailedTraining(self, **kwargs):
+Triggered when the assistant.json file failed training
 
 
 ## User states
@@ -178,13 +204,6 @@ Triggered every real time fifteen minutes. Example: 10:15, 7:30; 12:00
 ###  def onFullHour(self)
 Triggered every real time hour.
 
-###  def onDeviceConnecting(self)
-Triggered when a device is trying to connect to Alice's network
-
-###  def onDeviceDisconnecting(self)
-Triggered when a device is disconnecting from Alice's network
-
-
 
 ## Telemetry reports
 ::: tip Description
@@ -229,19 +248,3 @@ Triggered when a device reports an atmospheric pressure level above the limit se
 
 ###  def onPressureLowAlert(self, deviceList: list)
 Triggered when a device reports an atmospheric pressure level under the limit set by the user
-
-
-
-## Snips *(deprecated)*
-
-###  def onSnipsAssistantDownloaded(self, **kwargs)
-Triggered when a Snips assistant package was successfully downloaded
-
-###  def onSnipsAssistantDownloadFailed(self, **kwargs)
-Triggered when a Snips assistant package failed downloading
-
-###  def onSnipsAssistantInstalled(self, **kwargs)
-Triggered when a Snips assistant package successfully installed
-
-###  def onSnipsAssistantFailedInstalling(self, **kwargs)
-Triggered when a Snips assistant package failed installing
