@@ -152,19 +152,52 @@ It is actually quite simple to use:
   - mqttRegisterSelf(*myOnMessageFunction*, 'onMessage')
 - This registers `myOnConnectFunction` and `myOnMessageFunction` to the mqtt corresponding events!
 - Create the *myOnConnectFunction* (name this function as you wish, as long as you declare it accordingly with mqttRegisterSelf):
-  - ```js
-    function onConnect() {
-        MQTT.subscribe('projectalice/logging/syslog');
-    }
-    ```
-  - The MQTT object is automatically available in your scripts. It is a paho.MQTT object. In the above example we subscribe to a topic when we just connect
+  ```js
+  function onConnect() {
+      MQTT.subscribe('projectalice/logging/syslog');
+  }
+  ```
+- The MQTT object is automatically available in your scripts. It is a paho.MQTT object. In the above example we subscribe to a topic when we just connect
 - Create the *myOnMessageFunction* (name this function as you wish, as long as you declare it accordingly with mqttRegisterSelf):
-  - ```js
+  ```js
     function onMessage(msg) {
-        let payload = JSON.parse(msg.payloadString);
-        console.log(payload)
+      let payload = JSON.parse(msg.payloadString);
+      console.log(payload)
     }
-    ```
-    - The onMessage function parses the payload and prints it in the logs
+  ```
+- The onMessage function parses the payload and prints it in the logs
 
 And that's it! You don't have to worry about broker address, port or whatever! 
+
+
+## Widgets call to Alice Core
+Beside the API we also have the possibility for your widgets to call functions on the core directly! You want to know the best? It's very simple! For this we use a `POST` Ajax call directed to `/home/widget/`
+
+- In your widget javascript add an ajax call:
+  ```js
+  $.ajax({
+      url: '/home/widget/',
+      data: JSON.stringify({
+          skill: 'MySkillName',
+          widget: 'ThisWidgetName',
+          func: 'functionToCall',
+          param: ''
+      }),
+      contentType: 'application/json',
+      dataType: 'json',
+      type: 'POST'
+  }).done(function(answer) {
+      let theReturnedData = answer['theReturnedData'];
+  })
+  ```
+- Replace `MySkillName` with the skill name the current widget is from and `ThisWidgetName` with the name of the widget
+- Replace `func` with the python function to call, in your widget `.py` file
+- Add parameters for that function call if necessary, as a dictionary for named arguments
+- Once the call is done, `answer` will contain any answer from your widget `.py` script
+- In your widget `.py` file, add the function you want to call:
+  ```python
+  def functionToCall() -> dict:
+      return {'theReturnedData': 'It works'}
+  ```
+
+And that's it, your widget calls your function in Alice Core and it responds back with whatever you want!
