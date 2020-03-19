@@ -9,6 +9,7 @@ We have some sweet slots ready for you to use. You don't need to worry if they e
 
 
 ### Alice slots
+- Alice/Countries: Contains all countries on the world, with country code 2 as master value and spoken name as synonyms
 - Alice/CityNames: Contains about 4500 city names
 - Alice/UserAccessLevel: The five supported access levels: admin, default, kid, worker, guest
 - Alice/Languages: A few languages: FR, EN, DE, SW, JP, FI, ES, RU, IT
