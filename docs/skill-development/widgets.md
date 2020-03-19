@@ -140,3 +140,31 @@ Let's take a little look at this!
 
 - OPTIONS
   - To be implemented, but will allow widget options
+
+
+## Widgets mqtt connection
+We provide a built-in way for your widgets to connect to Project Alice mqtt broker!
+
+It is actually quite simple to use:
+
+- In your javascript file, add two function calls:
+  - mqttRegisterSelf(*myOnConnectFunction*, 'onConnect')
+  - mqttRegisterSelf(*myOnMessageFunction*, 'onMessage')
+- This registers `myOnConnectFunction` and `myOnMessageFunction` to the mqtt corresponding events!
+- Create the *myOnConnectFunction* (name this function as you wish, as long as you declare it accordingly with mqttRegisterSelf):
+  - ```js
+    function onConnect() {
+        MQTT.subscribe('projectalice/logging/syslog');
+    }
+    ```
+  - The MQTT object is automatically available in your scripts. It is a paho.MQTT object. In the above example we subscribe to a topic when we just connect
+- Create the *myOnMessageFunction* (name this function as you wish, as long as you declare it accordingly with mqttRegisterSelf):
+  - ```js
+    function onMessage(msg) {
+        let payload = JSON.parse(msg.payloadString);
+        console.log(payload)
+    }
+    ```
+    - The onMessage function parses the payload and prints it in the logs
+
+And that's it! You don't have to worry about broker address, port or whatever! 
