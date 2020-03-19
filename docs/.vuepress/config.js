@@ -55,6 +55,10 @@ module.exports = {
       {
         text: 'Sponsors',
         link: '/sponsors/'
+      },
+      {
+        text: 'Useful links',
+        link: '/links/'
       }
     ],
     sidebar: {
