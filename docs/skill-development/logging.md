@@ -98,10 +98,21 @@ self.logFatal
 `logFatal` is an unrecoverable error that forces Alice to shut down. It is not recommended to use in skills!
 
 
-
 ## Where do these messages get logged?
 
 Log messages from a skill are displayed in the ProjectAlice Web Interface so that a User can see in real-time what is happening in the skill. They are also written to the `logs` file located at: `~/ProjectAlice/var/logs`
+
+
+## Styling your logs
+
+Logs support a similar to markdown syntax. You can output bold text, underlined, dimmed and even colored text! These formatted logs will only show on stdout and on the interface. Here's how you can style your logs:
+
+##### Bold: `**My bold text**`
+##### Underlined: `__My underlined text__`
+##### Dimmed: `--My dimmed text--`
+##### Colored: `![red](My colored text)`
+
+Available colors are: red, green, yellow, blue, grey
 
 
 ## Using the logger outside the skill class
