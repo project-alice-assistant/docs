@@ -107,10 +107,18 @@ Log messages from a skill are displayed in the ProjectAlice Web Interface so tha
 
 Logs support a similar to markdown syntax. You can output bold text, underlined, dimmed and even colored text! These formatted logs will only show on stdout and on the interface. Here's how you can style your logs:
 
-##### Bold: `**My bold text**`
-##### Underlined: `__My underlined text__`
-##### Dimmed: `--My dimmed text--`
-##### Colored: `![red](My colored text)`
+### Bold:
+`**My bold text**`
+
+### Underlined:
+
+`__My underlined text__`
+### Dimmed:
+
+`--My dimmed text--`
+
+### Colored: 
+`![red](My colored text)`
 
 Available colors are: red, green, yellow, blue, grey
 
