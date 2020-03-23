@@ -26,10 +26,10 @@ And start the check!
 
 This will output a few things while checking your talk files, your dialog templates, your install file and others. If everything comes out clean it will tell you the skill is **valid**. Keep in mind it still doesn't mean it is **working** but at least it won't crash Alice's start if deployed on an existing assistant. Great
 
-### Publishing
+## Publishing
 As of now, I'm still thinking on how people are going to publish their skills to our store. I want to keep an eye on the proposed skills and make sure it's not malicious code and that it is of quality. I'm a real pain, I can tell you, but that's only for the good of the many. Knowing this, you understand that the publishing is made exclusively by the Project Alice team, after some checking and deployments on our side, in fact, we have several things to do to make your skill available.
 
 What you want to do though, is [propose your skill for the store](https://github.com/project-alice-assistant/ProjectAliceSkills/issues/new?assignees=Psychokiller1888&labels=Skill+publish+request&template=skill-publishing.md&title=%5BNew+skill%5D)
 
-### After publishing
+## After publishing
 Once we get your request, we'll fork your repository into Project Alice organisation, review your skill and make sure everything's ok. If there's something not ok, we'll let you know. Once we have forked your skill, you'll need to open Pull Requests onto it to keep it updated!
