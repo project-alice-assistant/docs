@@ -29,7 +29,7 @@ Skills are hosted on [Github](https://github.com), so you will need to create an
 
 ### Running Alice
 
-To test your Skill out, you will need to [set up a Alice device](../set-up). Currently Alice can be installed on devices running debian stretch/buster. Alice also comes with a number of helpful tools to create new Skills, and validate them. If you aren't yet familiar with how Alice works, check out the [overview of Alice components]() to understand the many technologies that come together to provide an intelligent voice assistant.
+To test your Skill out, you will need to [set up a Alice device](../setup). Currently Alice can be installed on devices running debian stretch/buster. Alice also comes with a number of helpful tools to create new Skills, and validate them. If you aren't yet familiar with how Alice works, check out the [overview of Alice components]() to understand the many technologies that come together to provide an intelligent voice assistant.
 
 ## What makes a good Skill?
 

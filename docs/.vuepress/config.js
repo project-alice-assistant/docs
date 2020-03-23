@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         text: 'Set Up',
-        link: '/set-up/'
+        link: '/setup/'
       },
       {
         text: 'Using Alice',
@@ -72,9 +72,9 @@ module.exports = {
           ]
         }
       ],
-      '/set-up/': [
+      '/setup/': [
         {
-          title: 'Set Up',
+          title: 'Setup',
           collapsable: false,
           children: [
             '',
@@ -115,7 +115,8 @@ module.exports = {
             'logging',
             'events',
             'widgets',
-            'skill-configuration-file'
+            'skill-configuration-file',
+            'publishing-to-skill-store'
           ]
         }
       ],
