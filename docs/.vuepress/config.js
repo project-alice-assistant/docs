@@ -29,7 +29,7 @@ module.exports = {
         link: '/about-alice/'
       },
       {
-        text: 'Set Up',
+        text: 'Setup',
         link: '/setup/'
       },
       {

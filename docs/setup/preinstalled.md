@@ -26,7 +26,6 @@ Here's the list of what's preinstalled on Project Alice image:
 - libttspico-utils
 - libav-tools
 - snips-platform-voice
-- snips-watch
 - snips-makers-tts
 - snips-hotword-model-heysnipsv4
 - libatlas-base-dev
