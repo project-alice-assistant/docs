@@ -40,10 +40,14 @@ Once we have forked it and added it to our quality and store control Continuous 
 
 On top of the readme, you will find a badge called "pipeline":
 
-![../images/pipeline_badge.png][/images/pipeline_badge.png]
+<div>
+  <img src="../images/pipeline_badge.png" alt="pipeline badge">
+</div>
 
 That badge should say "passed". In case not, something went wrong publishing the skill. Simply click on the badge to be redirected to gitlab where you will be able to understand what failed. We have 5 jobs that run before a skill is available and you can influience the 3 first ones, because they test your code:
 
-![../images/pipeline_example.png][/images/pipeline_example.png]
+<div>
+  <img src="../images/pipeline_example.png" alt="pipeline example">
+</div>
 
 The last one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. It is also a good idea to subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
