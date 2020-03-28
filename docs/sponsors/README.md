@@ -6,12 +6,12 @@ Project Alice says a huge thanks to the following persons and companies for supp
 </p>
 
 <p>
-  Liberapay: [https://liberapay.com/Psycho/donate](https://liberapay.com/Psycho/donate)<br>
+  Liberapay: <a href="https://liberapay.com/Psycho/donate">https://liberapay.com/Psycho/donate</a><br>
   <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay">
 </p>
 
 <p>
-  Paypal: [https://paypal.me/Psychokiller1888](https://paypal.me/Psychokiller1888)
+  Paypal: <a href="https://paypal.me/Psychokiller1888">https://paypal.me/Psychokiller1888</a>
 </p>
 
 ## Jetbrains
