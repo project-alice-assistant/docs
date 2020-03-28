@@ -1,6 +1,18 @@
 # Sponsors
 Project Alice says a huge thanks to the following persons and companies for supporting us! It's not an easy world for those developing free software for open source and the costs involved with creating can quickly become crushing if you aim for efficiency and quality.
 
+<p>
+  If you too want to sponsor Project Alice, we currentlya have two ways on place, either by a monthly support, with Liberapay that is clearer than Patreons and gives 100% of the funds to the receiver or a one shot donation through Paypal.
+</p>
+
+<p>
+  Liberapay: <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay">
+</p>
+
+<p>
+  Paypal: [https://paypal.me/Psychokiller1888](https://paypal.me/Psychokiller1888)
+</p>
+
 ## Jetbrains
 <p>
   <a href="https://www.jetbrains.com">
