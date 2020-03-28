@@ -6,7 +6,8 @@ Project Alice says a huge thanks to the following persons and companies for supp
 </p>
 
 <p>
-  Liberapay: <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay">
+  Liberapay: [https://liberapay.com/Psycho/donate](https://liberapay.com/Psycho/donate)<br>
+  <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay">
 </p>
 
 <p>
