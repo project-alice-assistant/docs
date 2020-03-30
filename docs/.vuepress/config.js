@@ -33,6 +33,10 @@ module.exports = {
         link: '/setup/'
       },
       {
+        text: 'Satellite setup',
+        link: '/satsetup/'
+      },
+      {
         text: 'Using Alice',
         link: '/usage/'
       },
@@ -82,6 +86,17 @@ module.exports = {
             'preinstalled',
             'troubleshooting',
             'wakeword'
+          ]
+        }
+      ],
+      '/satsetup/': [
+        {
+          title: 'Satellite setup',
+          collapsable: false,
+          children: [
+            '',
+            'preinstalled',
+            'troubleshooting'
           ]
         }
       ],
