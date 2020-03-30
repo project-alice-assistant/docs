@@ -17,7 +17,7 @@ You need the AliceSatellite installed and running on your main unit!
 - Flash the image to your SD card
 - **do not place any wpa_supplicant.conf or ssh file in /boot**
 - **do not boot your raspberry before doing this next point!!**
-- **Edit the /boot/ProjectAlice.yaml file**. If there's no ProjectAlice.yaml file on the /boot partition, grab the latest from sources: [ProjectAliceSatellite.yaml](https://github.com/project-alice-assistant/ProjectAliceSatellite/blob/master/ProjectAliceSatellite.yaml)
+- **Edit the /boot/ProjectAliceSatellite.yaml file**. If there's no ProjectAliceSatellite.yaml file on the /boot partition, grab the latest from sources: [ProjectAliceSatellite.yaml](https://github.com/project-alice-assistant/ProjectAliceSatellite/blob/master/ProjectAliceSatellite.yaml)
 - Configure it according to your information and needs. All configuration have a little explanation but most should be self explanatory.
 - Make sure to have a space after the colons:
    - Wrong: `forceRewrite:yes`
