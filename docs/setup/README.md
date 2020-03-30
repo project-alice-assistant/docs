@@ -5,9 +5,9 @@ This is an alpha release! It is subject to major changes and the target audience
 :::
 
 
-- Download our prefabricated Raspbian buster image:
+- Download our prefabricated Raspbian image:
    - [Direct download](https://github.com/project-alice-assistant/ProjectAlice/releases/tag/v1.0.0-a6)
-   - This image has nothing more than Python 3.7 pre installed along with Project Alice and its dependencies
+   - This image has nothing more Project Alice and its dependencies along with Hermes Led Control
    - If you wonder what's check the [Preinstalled Packages Section](preinstalled)
 - Extract the image from the 7zip archive
 
