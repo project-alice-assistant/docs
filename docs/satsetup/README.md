@@ -25,9 +25,11 @@ You need the AliceSatellite installed and running on your main unit!
 - If the option value contains any special characters, enclose the whole with double quotes:
    - Wrong: `mqttPassword: a:%qJi`
    - Correct: `mqttPassword: "a:%qJi"`
-- Save it, unplug your sd, plug it in your raspberry pi and power it up.
-- Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while
+- Save it, unplug your sd, plug it in your raspberry pi.
 - Ask Alice to "Add a new satellite"
+- Power up your satellite
+- Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while
+- If Alice times out for the satellite addition, after 5 minutes, she'll tell you. In that case ask her again to "Add a satellite". If you are using respeakers per exemple, the satellite setup might take more than 5 minutes.
 - The SSH User is `pi` and the password is `umbrella`
 
 If everything goes fine, Alice will confirm the addition of the satellite and automatically configure it to connect to the correct Mqtt server. She will also automatically upload the hotword and wakeword resources to the new device.
