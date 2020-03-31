@@ -29,9 +29,7 @@ If there's no errors and Alice seems to start fine, the last log line, on first 
 
 `[Project Alice]           Started in 0.58 seconds`
 
-And you should hear her welcoming you and asking for the first user creation.
-
-#### The logs says "Sending greetings but nothing happens
+#### The logs say "Sending greetings but nothing happens
 At this point, you should ask alice to "Add a new satellite"
 
 
