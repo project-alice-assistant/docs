@@ -27,9 +27,9 @@ This will manually start ProjectAlice printing out every details and stopping if
 
 If there's no errors and Alice seems to start fine, the last log line, on first boot, should be something like
 
-`[Project Alice]           Started in 0.58 seconds`
+`This satellite is not yet registered for Project Alice. Searching for main unit`
 
-#### The logs say "Sending greetings but nothing happens
+#### The logs say "This satellite is not yet registered for Project Alice. Searching for main unit" but nothing happens
 At this point, you should ask alice to "Add a new satellite"
 
 
