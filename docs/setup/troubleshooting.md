@@ -29,9 +29,9 @@ If there's no errors and Alice seems to start fine, the last log line, on first 
 
 `Starting Alice Core`
 
-And you should hear her welcoming you and asking for the first user creation.
+And you should hear her welcoming you.
 
-#### The logs says she is asking for a new user, but I don't hear anthing
+#### The logs say she is asking for a new user, but I don't hear anthing
 Common audio problem? Stop Alice with CTRL+c and let's see if your audio device is installed using
 
 ```shell script
