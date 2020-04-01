@@ -18,7 +18,7 @@ sidebarDepth: 2
   - Return '-> None' is not mandatory
 - We speak English
 - We use properties getters and setters, not getters and setters
-- We really care for anti patterns: https://docs.quantifiedcode.com/python-anti-patterns/
+- We really care for anti patterns: [https://docs.quantifiedcode.com/python-anti-patterns/](https://docs.quantifiedcode.com/python-anti-patterns/)
 - We use fstrings and dropped the usage of .format() when possible:
   - `print(f'Hi! my name is {name}')`instead of `print('My name is {}'.format(name)`
 - Python 2 is dead
