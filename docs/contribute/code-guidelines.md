@@ -21,3 +21,11 @@
 - Init dictionaries and lists with dict() and list() and not with {} and []
 - Do never shadow a builtin var or method
 - We don't copyright the files themselves. We believe in sharing and the main file contains authors. The project is licensed under GPLv3
+
+
+## Pycharm settings
+To make things easier, I have shared my pycharm settings under a [Github repository](https://github.com/project-alice-assistant/JetbrainsSettings). Simply open pycharm, click **File** in the top left corner and choose **Settings repository** and choose **Overwrite local**
+
+
+## Check your code
+
