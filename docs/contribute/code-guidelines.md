@@ -30,6 +30,8 @@ sidebarDepth: 2
 ## Pycharm settings
 To make things easier, I have shared my pycharm settings under a [Github repository](https://github.com/project-alice-assistant/JetbrainsSettings). Simply open pycharm, click **File** in the top left corner and choose **Settings repository** and choose **Overwrite local**
 
+**NOTE:** You may have to also ctrl+alt+s to open the settings editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous github account stored in here then it may get overwritten with one for Psycho1888. If so click that name then remove it by clicking the " - " then click the " + " and re add your Github account 
+
 
 ## Reformat your code
 
@@ -37,9 +39,12 @@ Pycharm comes with a powerful inbuilt code formatter which you can use to adapt 
 
 <img src="/images/reformat_code.png" alt="reformat code">
 
+If you don't see that reformat option on a right click then it can also be found under the menu heading **code** on the toolbar.
+
 
 ## Check your code
 
 Pycharm comes with an inbuilt code checker. Beside the "per file" instant check (top right corner, green tick if ok) you can run an analysis on your code by right clicking your project and choose **Inspect code**:
 
 <img src="/images/inspect_code.png" alt="inspect code">
+
