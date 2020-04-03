@@ -46,4 +46,7 @@ That badge should say "passed". In case not, something went wrong publishing the
 
 <img src="/images/pipeline_example.png" alt="pipeline example">
 
-The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployement will begining and should take about 2 minutes. It is also a good idea to subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
+The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployement will begining and should take about 2 minutes. 
+
+- Please subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
+- **Please subscribe to the fork of your skill so you get alerted when someone reports a bug on your skill.**
