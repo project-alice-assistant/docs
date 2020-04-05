@@ -5,16 +5,17 @@ sidebarDepth: 2
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
 # Missing slots info
-## And how to get them properly
+
+Sometimes you need more information than what the user provided...
 
 ### Study case
 
-Let's take a intent with a few slots, highlighted in the example.
+Let's take an intent with a few slots, highlighted in the example.
 
 <div class="userSpeech male">Hey Alice?</div>
-<div class="userSpeech female">Yes?</div>
+<div class="aliceSpeech female">Yes?</div>
 <div class="userSpeech male">Can you book me a flight from <strong class="slotWord">Geneva</strong> to <strong class="slotWord">New York</strong> for <strong class="slotWord">tuesday 23 third of april around midday</strong> please?</div>
-<div class="userSpeech female">Of course, let me check that!</div>
+<div class="aliceSpeech female">Of course, let me check that!</div>
 
 For this example (and also in reality) a flight can only be booked if
 
