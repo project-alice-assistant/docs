@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 4
+title: Dialog template file
 ---
 
 # Dialog template file

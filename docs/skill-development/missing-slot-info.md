@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 2
+title
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">

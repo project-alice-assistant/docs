@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 2
+title: Skill configuration file
 ---
 
 # Skill configuration file

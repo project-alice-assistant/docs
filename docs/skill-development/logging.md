@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 1
+title: Logging
 ---
 
 # Logging

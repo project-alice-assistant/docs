@@ -1,10 +1,11 @@
 ---
 sidebarDepth: 2
+Title: Your first skill
 ---
 
-# Your First Skill
-Ready to create your first Skill? See how easy it is to get a new Skill up and
-running, then we will step through the basic anatomy of a Alice Skill.
+# Your first skill
+Ready to create your first skill? See how easy it is to get a new skill up and
+running, then we will step through the basic anatomy of a Alice skill.
 
 ::: warning
 This describes functions that are not fully implemented yet
@@ -19,19 +20,19 @@ If you haven't already, check out our [Introduction to Skill Development](./). T
 * have an account on [Github.com](https://github.com), and
 * have a working version of ProjectAlice.
 
-## Understand the flow of your Skill
+## Understand the flow of your skill
 
 It's a good idea to start by writing down how your skill will work, including
 
-* What words will the User speak to activate the Skill?
+* What words will the user speak to activate the skill?
 * What will Alice speak in response?
-* What data will you need to deliver the Skill?
+* What data will you need to deliver the skill?
 * Will you need any additional packages or dependencies?
 
 Once you've given these some thought, you can get started.
 
 
-## Structure of a Skill
+## Structure of a skill
 
 If we now navigate to our new skill, we can see that it created the following structure
 
@@ -54,13 +55,13 @@ We will look at each of these in turn.
 
 The `talks` directories contains a subdirectory for each spoken language the skill supports. The subdirectories are named using the [ISO639-1 Language Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language. For example, German is 'de', and English is 'en'.
 
-There will be a subdirectory for each language you selected when creating the Skill using the Skill Kit.
+There will be a subdirectory for each language you selected when creating the skill using the skill Kit.
 
 Each of these subdirectories can include two files. The first one is called `talk.json` and the second one `engine.py`.
 The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. That's why we will only describe how to create the `talk.json` file here, while more information on the topic can be found in the chapter [Talks](./your-first-skill.md).
 
 
-The File created by the Skill Kit does only contain some dummy answers that show the structure of the file:
+The File created by the skill Kit does only contain some dummy answers that show the structure of the file:
 ```json
 {
 	"dummy": [
@@ -75,14 +76,14 @@ When instructed to use a particular dialog, Alice will choose one of these sente
 
 ### `DialogTemplate` directory
 
-Each Skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language as well, however there is just one json file for each language like `en.json` for english.
+Each skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language as well, however there is just one json file for each language like `en.json` for english.
 
 We will learn about Intents in more detail shortly.
 
 
 ### HelloWorldSkill.py
 
-The `HelloWorldSkill.py` file is where most of the Skill is defined using Python code. We will learn more about the contents of this file in the next section.
+The `HelloWorldSkill.py` file is where most of the skill is defined using Python code. We will learn more about the contents of this file in the next section.
 
 Let's take a look:
 
@@ -94,7 +95,7 @@ from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 ```
 
-This section of code imports the required _libraries_. Some libraries will be required on every Skill, and your skill may need to import additional libraries.
+This section of code imports the required _libraries_. Some libraries will be required on every skill, and your skill may need to import additional libraries.
 
 #### Class definition
 
@@ -104,13 +105,13 @@ The `class` definition extends the `AliceSkill` class:
 class HelloWorldSkill(AliceSkill):
 ```
 
-The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your Skill, please join the [skills Channel on our Discord chat](https://discord.gg/MgJNR9c).
+The class should be named logically, for example "TimeSkill", "WeatherSkill", "NewsSkill", "IPaddressSkill". If you would like guidance on what to call your skill, please join the [skills Channel on our Discord chat](https://discord.gg/MgJNR9c).
 
 Inside the class, methods are then defined.
 
 #### \_\_init\_\_\(\)
 
-This method is the _constructor_. It is called when the Skill is first constructed. It is often used to declare state variables or perform setup actions. You don't have to include the constructor.
+This method is the _constructor_. It is called when the skill is first constructed. It is often used to declare state variables or perform setup actions. You don't have to include the constructor.
 
 An example `__init__` method might be:
 
@@ -235,9 +236,9 @@ This is where you define conditions for your skill to run. Let's say your skill 
 
 ### README.md
 
-The README file contains human readable information about your Skill.
+The README file contains human readable information about your skill.
 
 
 ## What have we learned
 
-You have now successfully created a new skill and have an understanding of the basic components that make up an Alice Skill. Next we will dive into each component in more detail.
+You have now successfully created a new skill and have an understanding of the basic components that make up an Alice skill. Next we will dive into each component in more detail.

@@ -1,5 +1,6 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 
+title: Publishing your skill
 ---
 
 # Publishing to skill store

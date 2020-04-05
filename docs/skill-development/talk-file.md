@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 3
+title: Talk file
 ---
 
 # Skill Talk file
