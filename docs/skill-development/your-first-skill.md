@@ -143,6 +143,10 @@ The intent handler then calls the `self.endDialog()` method passing the session 
 
 This file defines what is required to get the skill up and running. It includes parameters like the `version number`, a `description`, `supported languages` and `conditions` for your skill to be started.
 
+::: tip Pro tip
+If you are using an IDE able to handle json schema, it is highly recommended to use our [Install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
+:::
+
 Let's take a look at a basic install file:
 
 ```json
