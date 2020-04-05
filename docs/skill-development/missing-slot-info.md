@@ -34,7 +34,7 @@ Now, let's imagine the following:
 <div class="aliceSpeech female">Yes?</div>
 <div class="userSpeech male">Can you book me a flight from <strong class="slotWord">Geneva</strong> please?</div>
 
-The problem is that the user hasn't provided a `destination` or a `date`, for which Alice will have to query the user for details.
+The problem is that the user did not provide a `destination` or a `date`, for which Alice will have to query the user for details.
  
 ## The bad solution
 You could use the classic `intent` decorators with 4 separate methods, which is not recommended but written here to demonstrate:

@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 
+sidebarDepth: 3
 title: Publishing your skill
 ---
 

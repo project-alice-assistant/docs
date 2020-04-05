@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 2
 title: Built-in slots
 ---
 
@@ -8,7 +8,7 @@ title: Built-in slots
 We have some slots ready for you to use. You don't need to worry if they exist or not, they do, as they are coming from required skills! Beside former snips skills that are supported, the Alice/XXX skills are also available. Let's list them here! This listing is about the english version. Other languages might differ in numbers
 
 
-### Alice slots
+## Alice slots
 - Alice/Countries: Contains all countries on the world, with country code 2 as master value and spoken name as synonyms
 - Alice/CityNames: Contains about 4500 city names
 - Alice/UserAccessLevel: The five supported access levels: admin, default, kid, worker, guest
@@ -20,7 +20,7 @@ We have some slots ready for you to use. You don't need to worry if they exist o
 - Alice/RandomWords: Contains about 3200 common words
 
 
-### Snips slots
+## Snips slots
 These are only available with snips nlu
 - snips/date
 - snips/timePeriod

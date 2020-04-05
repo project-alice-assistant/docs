@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 2
 title: Introduction to Skill Development
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 3
 title: Missing slot info
 ---
 
