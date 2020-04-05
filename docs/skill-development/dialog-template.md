@@ -7,7 +7,7 @@ This is the "pièce of resistance", the beef! This defines your intents, utteran
 
 
 ::: tip Pro tip
-If you are using an idea able to handle json schema, it is highly recommended to use our [Dialogue Template Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/dialog-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended to use our [Dialogue Template Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/dialog-schema.json)
 :::
 
 

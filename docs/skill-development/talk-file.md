@@ -11,7 +11,7 @@ We have different ways of defining those text strings. First of all, this is a `
 
 
 ::: tip Pro tip
-If you are using an idea able to handle json schema, it is highly recommended to use our [Talk file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/talk-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended to use our [Talk file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/talk-schema.json)
 :::
 
 
