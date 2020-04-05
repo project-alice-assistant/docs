@@ -63,7 +63,7 @@ In this example the `key` is `confirmAddition` but defines a dictionary this tim
 }
 ```
 
-In the case a user prefers a short answer or as turned on `night mode`, Alice will pick a random answer from from the `short` list. Otherwise, she will randomly pick from the `default` list.
+In the case a user prefers a short answer or has turned on `night mode`, Alice will pick a random answer from the `short` list. Otherwise she will randomly pick from the `default` list.
 
 ## Variables
 The time you will need variables in your answers will come very fast. Imagine answering for the weather, you cannot make 100 strings declaration for each possible temperatures! Two solutions exist
