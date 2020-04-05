@@ -127,6 +127,7 @@ module.exports = {
             '',
             'your-first-skill',
             'talk-file',
+            'dialog-template',
             'builtin-slots',
             'logging',
             'events',

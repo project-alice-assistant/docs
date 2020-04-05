@@ -9,6 +9,12 @@ Inside a skill directory, there is a `talks` sub directory containing `.json` fi
 
 We have different ways of defining those text strings. First of all, this is a `json` object. The `keys` **are never to be translated**!
 
+
+::: tip Pro tip
+If you are using an idea able to handle json schema, it is highly recommended to use our [Talk file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/talk-schema.json)
+:::
+
+
 ## Structure
 ### Example 1 - A list of strings
 Let's take this example:
