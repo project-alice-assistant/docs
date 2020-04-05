@@ -29,7 +29,7 @@ Let's take this example:
 }
 ```
 
-In this example, the `key` is `busy` and that `key? is used by skills to retrieve the text to be spoken and contains a list of 3 different strings, 3 different ways for Alice to choose from when answering. The choice is random, you cannot influence it, but it feels more natural if Alice doesn't always answer the same for the same question. This example is the very basic way of defining answers for a skill and is not the preferred way for skills.
+In this example, the `key` is `busy` and that `key` is used by skills to retrieve the text to be spoken and contains a list of 3 different strings, 3 different ways for Alice to choose from when answering. The choice is random, you cannot influence it, but it feels more natural if Alice doesn't always answer the same for the same question. This example is the very basic way of defining answers for a skill and is not the preferred way for skills.
 
 
 ### Example 2 - A dictionary of strings
