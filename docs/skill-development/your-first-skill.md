@@ -50,14 +50,14 @@ If we now navigate to our new skill, we can see that it created the following st
 We will look at each of these in turn.
 
 
-### `talks` directory
+### `Talks` directory
 
 The `talks` directories contains a subdirectory for each spoken language the skill supports. The subdirectories are named using the [ISO639-1 Language Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language. For example, German is 'de', and English is 'en'.
 
 There will be a subdirectory for each language you selected when creating the Skill using the Skill Kit.
 
 Each of these subdirectories can include two files. The first one is called `talk.json` and the second one `engine.py`.
-The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. That's why we will only describe how to create the `talk.json` file here, while more information on the topic can be found in the chapter [Talks]().
+The `engine.py` is intended for more complex use cases where a simple string is not enough for the answer and is not created by default. That's why we will only describe how to create the `talk.json` file here, while more information on the topic can be found in the chapter [Talks](./your-first-skill.md).
 
 
 The File created by the Skill Kit does only contain some dummy answers that show the structure of the file:
@@ -73,9 +73,9 @@ The File created by the Skill Kit does only contain some dummy answers that show
 When instructed to use a particular dialog, Alice will choose one of these sentences at random. This is closer to natural speech. That is, many similar phrases mean the same thing.
 
 
-### `dialogTemplate` directory
+### `DialogTemplate` directory
 
-Each Skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language aswell, however there is just one json file for each language like `en.json` for english.
+Each Skill defines one or more Intents. Intents are defined in the `dialogTemplate` directory. The `dialogTemplate` directory is organized by language as well, however there is just one json file for each language like `en.json` for english.
 
 We will learn about Intents in more detail shortly.
 
@@ -180,7 +180,7 @@ Defines the current version of your skill, in a 3 positions versioning system, l
 #### `icon`
 This is the icon that will be displayed for your skill on the skill store. It supports [any free Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
 
-### `category`
+#### `category`
 Defines a category your skill belongs to. This helps categorize your skill to better search results on the store. Available categories:
 - weather
 - information

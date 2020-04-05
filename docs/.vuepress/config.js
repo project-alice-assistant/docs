@@ -126,6 +126,7 @@ module.exports = {
           children: [
             '',
             'your-first-skill',
+            'talk-file',
             'builtin-slots',
             'logging',
             'events',
