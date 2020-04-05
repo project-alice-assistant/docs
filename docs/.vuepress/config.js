@@ -126,6 +126,7 @@ module.exports = {
           children: [
             '',
             'your-first-skill',
+            'missing_info',
             'talk-file',
             'dialog-template',
             'builtin-slots',
