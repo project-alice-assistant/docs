@@ -7,6 +7,10 @@ At some point, your skill will need some user dependant configuration, per examp
 
 As a dev you have to provide a skill configuration **template** file. Based on this file, when Project Alice installs your skill, a **config** file will be automatically created with your default provided values. If you happen to update your config template, let's say, to drop a login and password field in favour of an api key field, Project Alice will detect it and update the configuration file accordingly.
 
+::: tip Pro tip
+If you are using an IDE able to handle json schema, it is highly recommended to use our [Install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
+:::
+
 ## The template file
 
 The name of the file **must be** `config.json.template`. Let's take a look at our HelloWorld skill that requires some configuration from the user:
