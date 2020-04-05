@@ -12,7 +12,7 @@ If you are using an IDE able to handle json schema, it is highly recommended to 
 :::
 
 
-### A basic file
+## A basic file
 A basic template look fairly simple, without any defined slot or intent
 
 ```json
@@ -33,7 +33,7 @@ Four mandatory fields:
 And that's it! Every skill must ship with at least this. In this example, it would be a skill without any interaction User -> Alice
 
 
-### Let's define an intent
+## Let's define an intent
 Ok, say we want the user to be able to say hello to Alice, we need to add an intent to our dialog template:
 
 ```json
@@ -70,7 +70,7 @@ Ok, say we want the user to be able to say hello to Alice, we need to add an int
 - The last filed is `slots` and is empty in the example.
 
 
-### Add some variable to our utterances, aka `slots`
+## Add some variable to our utterances, aka `slots`
 Imagine a shopping skill and an intent to add an item to your shopping list. For sure you won't define 10'000 utterances with all possible items to say. For that you will use `slots`
 
 ```json
@@ -122,7 +122,7 @@ Imagine a shopping skill and an intent to add an item to your shopping list. For
 }
 ``` 
 
-#### Slots declaration
+### Slots declaration
 Ok, we went a little higher in our file and added a `slot definition` to our `slotTypes`
 
 ```json
@@ -159,7 +159,7 @@ Ok, we went a little higher in our file and added a `slot definition` to our `sl
   Now let's move to our `intent`:
 
 
-#### Utterances
+### Utterances
 ```json
 {
 	"name": "HelloWorld_AddItem",
@@ -186,7 +186,7 @@ Ok, we went a little higher in our file and added a `slot definition` to our `sl
 Take a look at the `utterances`. You surely see that weird syntax made of curly braces `{hawaii pizza:=>Item}`. This is our slot! In this case you taught alice that `hawaii pizza` is of slot type `Item`, the one you defined just before! It is important to know that slots you use in your intents are first defined, but the value is also declared in the slot definition.
 
 
-#### Slot definition
+### Slot definition
 We also have now defined the `intent slot` itself:
 
 ```json

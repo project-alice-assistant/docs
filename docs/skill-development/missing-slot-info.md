@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 2
+sidebarDepth: 3
 title: Missing slot information
 ---
 
@@ -9,7 +9,7 @@ title: Missing slot information
 
 Sometimes you need more information than what the user provided...
 
-### Study case
+## Study case
 
 Let's take an intent with a few slots, highlighted in the example.
 
@@ -27,16 +27,16 @@ For this example (and also in reality) a flight can only be booked if
   - `date`: A date and possibly a time at which the user wants to leave
 
 
-### The potential problem
+## The potential problem
 Now, let's imagine the following:
 
 <div class="userSpeech male">Hey Alice?</div>
-<div class="userSpeech female">Yes?</div>
+<div class="aliceSpeech female">Yes?</div>
 <div class="userSpeech male">Can you book me a flight from <strong class="slotWord">Geneva</strong> please?</div>
 
 The problem is that the user hasn't provided a `destination` or a `date`, for which Alice will have to query the user for details.
  
-### The bad solution
+## The bad solution
 You could use the classic `intent` decorators with 4 separate methods, which is not recommended but written here to demonstrate:
 
 ```python
@@ -63,7 +63,7 @@ def bookFlight(self, session: DialogSession):
 Well, not that effective is it? lots of writing only to declare the methods, imagine the work in each of the methods to finally get to book the ticket.
 
 
-### The good solution
+## The good solution
 This is what I call the `Fill the glass` method, because we come always at the same method until everything is filled.
 
 ```python
