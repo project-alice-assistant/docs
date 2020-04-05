@@ -36,13 +36,17 @@ We are currently natively supporting the following languages:
 - German
 - French
 - Italian
-Beside these languages, we provide support for nearly all languages in the world, for as long as you do not set Alice as offline only. We can use Google Translate free services to obtain a good result when sending the request to our NLU. Commit your changes every now and then and [Push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) them on your repository. Once everything is done and you have run the [basic verifications](../skill-development/publishing-to-skill-store.md), you can create a [Pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) which we will review and merge if possible and otherwise inform you of what's still needed.
+
+Beside these languages, we provide support for nearly all languages in the world, for as long as you do not set Alice as offline only. We can use Google Translate free services to obtain a good result when sending the request to our NLU.
 
 However not all skills are translated into all these languages yet.
+
 You can add translations for one of the languages we already support, or any other language you would like to be supported in the future.
 
 
-You will need a [Github](https://github.com) account to translate skills. Once you have your account and are logged in, simply [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the skill you want to translate. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) your fork on your computer and do the translation 
+You will need a [Github](https://github.com) account to translate skills. Once you have your account and are logged in, simply [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the skill you want to translate. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) your fork on your computer and do the translation
+
+Commit your changes every now and then and [Push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) them on your repository. When translated, do not forget to increment the version number in the `.install`file. Once everything is done and you successfully ran the [basic verifications](../skill-development/publishing-to-skill-store.md), you can create a [Pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) which we will review and merge if possible and otherwise inform you of what's still needed. 
 
 
 The sections [talk files](../skill-development/talk-file.md) and [dialog templates](../skill-development/dialog-template.md) provide further information about the files that need to be translated.
