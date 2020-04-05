@@ -41,7 +41,11 @@ Beside these languages, we provide support for nearly all languages in the world
 
 However not all skills are translated into all these languages yet.
 
-You can add translations for one of the languages we already support, or any other language you would like to be supported in the future.
+You can add translations for one of the languages we already support, or any other language you would like to be supported in the future. 
+
+::: warning
+Alice is a friend of yours, she familiar and not impersonal. She uses the familiar "you" and not the formal "you". In french shes uses "tu" and not "vous", in german "du" and not "Sie" etc etc
+:::
 
 
 You will need a [Github](https://github.com) account to translate skills. Once you have your account and are logged in, simply [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the skill you want to translate. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) your fork on your computer and do the translation
