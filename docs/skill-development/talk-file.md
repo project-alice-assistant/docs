@@ -29,7 +29,7 @@ Let's take this example:
 }
 ```
 
-In this example, the `key` is `busy` and that `key? is used by skills to retrieve the text to be spoken and contains a list of 3 different strings, 3 different ways for Alice to choose from when answering. The choice is random, you cannot influence it, but it feels more natural if Alice doesn't always answer the same for the same question. This example is the very basic way of defining answers for a skill and is not the preferred way for skills.
+In this example, the `key` is `busy` and that `key` is used by skills to retrieve the text to be spoken and contains a list of 3 different strings, 3 different ways for Alice to choose from when answering. The choice is random, you cannot influence it, but it feels more natural if Alice doesn't always answer the same for the same question. This example is the very basic way of defining answers for a skill and is not the preferred way for skills.
 
 
 ### Example 2 - A dictionary of strings
@@ -63,7 +63,7 @@ In this example the `key` is `confirmAddition` but defines a dictionary this tim
 }
 ```
 
-In the case a user prefers a short answer or as turned on `night mode`, Alice will pick a random answer from from the `short` list. Otherwise, she will randomly pick from the `default` list.
+In the case a user prefers a short answer or has turned on `night mode`, Alice will pick a random answer from the `short` list. Otherwise she will randomly pick from the `default` list.
 
 ## Variables
 The time you will need variables in your answers will come very fast. Imagine answering for the weather, you cannot make 100 strings declaration for each possible temperatures! Two solutions exist
