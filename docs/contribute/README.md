@@ -45,7 +45,7 @@ You can add translations for one of the languages we already support, or any oth
 You will need a [Github](https://github.com) account to translate skills. Once you have your account and are logged in, simply [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the skill you want to translate. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) your fork on your computer and do the translation 
 
 
-The sections [talk files]() and [dialog templates]() provide further information about the files that need to be translated.
+The sections [talk files](../skill-development/talk-file.md) and [dialog templates]() provide further information about the files that need to be translated.
 
 ### Pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
