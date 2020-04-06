@@ -46,9 +46,6 @@ Triggered when Alice starts listening to you, right after the hotword was caught
 ###  def onCaptured(self, session)
 Triggered when Alice captured what you said, when you finished talking to her
 
-###  def onCaptured(self, session)
-Triggered when Alice captured what you said, when you finished talking to her
-
 ###  def onPartialTextCaptured(self, session, text: str, likelihood: float, seconds: float):
 Triggered every time the ASR spits out a part of the utterance it is actively trying to capture.
 
