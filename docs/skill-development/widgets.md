@@ -85,9 +85,7 @@ This is what is rendered on the home page, it's your widget! A basic widget file
 ```html
 <div class="HelloWorldWidget" id="HelloWorldWidget">
 	<div class="widgetIcons">
-		<div class="widgetIcon">
-			<i class="fas fa-space-shuttle" aria-hidden="true"></i>
-		</div>
+		<i class="fas fa-space-shuttle" aria-hidden="true"></i>
 	</div>
     <!-- Your widget html code -->
 </div>
