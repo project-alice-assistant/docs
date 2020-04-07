@@ -37,10 +37,10 @@ This is your widget dedicated css file! The default content should be as follow:
 .HelloWorldWidget {
 	width: 100%;
 	height: 100%;
-	background-color: #636363;
 	color: #d1d1d1;
 	padding: 5px;
 	box-sizing: border-box;
+	overflow-y: hidden;
 }
 
 .HelloWorldWidget .icon {
