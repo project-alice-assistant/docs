@@ -23,6 +23,8 @@ Skills for Alice are written using the [Python programming language](https://www
 
 If you aren't familiar with the basics of Python, check out our [list of Python tutorials and resources](python-resources) to get you started. If you've programmed in other object-oriented languages, like Javascript or C\#, then you'll be able to pick it up, but if you're totally new to programming, you might want to look at an [introductory programming course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11).
 
+It is also required that you read **and understand** our [Code guidelines](../contribute/code-guidelines.md)
+
 ### Github account
 
 Skills are hosted on [Github](https://github.com), so you will need to create an account there if you don't already have one. It is good to have an basic understanding of the [Git basics](https://git-scm.com/video/get-going) and [GitHub basics](https://guides.github.com/activities/hello-world/).

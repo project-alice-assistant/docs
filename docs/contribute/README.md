@@ -36,33 +36,8 @@ Make sure you follow the code guidelines described in the section [code guidelin
 New skills are always welcome. A guide on how to create skills for Project Alice can be found in the section [skill-development](../skill-development)
 
 ### Translations
-We are currently natively supporting the following languages:
-- English
-- German
-- French
-- Italian
+Skills need new language support, the system can be translated to support new languages! Check our [dedicated page](../skill-development/new-language-support.md) to learn how to do it!
 
-Beside these languages, we provide support for nearly all languages in the world, for as long as you do not set Alice as offline only. We can use Google Translate free services to obtain a good result when sending the request to our NLU.
-
-However not all skills are translated into all these languages yet.
-
-You can add translations for one of the languages we already support, or any other language you would like to be supported in the future. 
-
-::: warning
-Alice is a your friend, she's familiar and not impersonal. She uses the familiar "you" and not the formal "you". In french shes uses "tu" and not "vous", in german "du" and not "Sie" etc etc
-:::
-
-#### What means "Translating a skill"
-We speak of translation, but it's not really a translation, it's basically adding the language support. It's of no use to translate word for word what's in the files. It's really about creating a new language support for the skill. Don't just translate, but add new ways of saying, remove those that are not used in your language, turn utterances around, make it lively. Same goes for the talk files, just use your imagination to make Alice sound natural in your language!
-
-
-#### How to add a new language support
-You will need a [Github](https://github.com) account to translate skills. Once you have your account and are logged in, simply [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the skill you want to translate. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) your fork on your computer and do the translation
-
-Commit your changes every now and then and [Push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) them on your repository. When translated, do not forget to increment the version number in the `.install`file. Once everything is done and you successfully ran the [basic verifications](../skill-development/publishing-to-skill-store.md), you can create a [Pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) which we will review and merge if possible and otherwise inform you of what's still needed. 
-
-
-The sections [talk files](../skill-development/talk-file.md) and [dialog templates](../skill-development/dialog-template.md) provide further information about the files that need to be translated.
 
 ### Pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.

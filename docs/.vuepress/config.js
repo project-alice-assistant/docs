@@ -134,7 +134,8 @@ module.exports = {
             'events',
             'widgets',
             'skill-configuration-file',
-            'publishing-to-skill-store'
+            'publishing-to-skill-store',
+            'new-language-support'
           ]
         }
       ],
