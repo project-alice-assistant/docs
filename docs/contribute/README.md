@@ -1,3 +1,8 @@
+---
+sidebarDepth: 4
+title: Contributing
+---
+
 # Contributing
 
 First of all, thank you for being interested in contributing to **ProjectAlice**. 🙏 
