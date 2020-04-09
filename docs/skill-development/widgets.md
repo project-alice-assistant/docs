@@ -28,7 +28,9 @@ Widgets come embedded with your skill. They are not mandatory but can be a nice 
 Let's break down this structure!
 
 ### css/common.css
-This contains any css that is common between the widgets your skill proposes
+This contains any css that is common between the widgets your skill proposes. If there's no common css rule, please add this to the file:
+
+`/* empty */
 
 ### css/HelloWorldWidget.css
 This is your widget dedicated css file! The default content should be as follow:
