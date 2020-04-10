@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 4
+sidebarDepth: 3
 title: Database Access
 ---
 
