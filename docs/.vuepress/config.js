@@ -135,7 +135,8 @@ module.exports = {
             'widgets',
             'skill-configuration-file',
             'publishing-to-skill-store',
-            'new-language-support'
+            'new-language-support',
+            'database-access'
           ]
         }
       ],
