@@ -130,6 +130,7 @@ module.exports = {
             'talk-file',
             'dialog-template',
             'builtin-slots',
+            'builtin-intents',
             'logging',
             'events',
             'widgets',
