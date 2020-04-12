@@ -53,7 +53,7 @@ Let's image you are building a skill that gives the user the ability to add remi
 <div class="userSpeech male"><strong class="slotWord">Yes</strong> thank you</div>
 <div class="aliceSpeech female">Ok, deleted</div>
 
-To this point, nothing big or hard. What if I told you that the `AnswerYesOrNo` intent is already used by many skills? So if you have a little chance, your skill might by the first one to catch the intent but what if the `Yes` the user is answering is not meant for your skill? See where I'm going? You need to make sure the `AnswerYesOrNo` is actually meant for your skill at this moment. It is important to understand that Alice doesn't lok a skill while in dialogue. You could hypothetically answer `What time is it` instead of `Yes` and she'd answer you, forgetting about the reminder question.
+To this point, nothing big or hard. What if I told you that the `AnswerYesOrNo` intent is already used by many skills? So if you have a little chance, your skill might by the first one to catch the intent but what if the `Yes` the user is answering is not meant for your skill? See where I'm going? You need to make sure the `AnswerYesOrNo` is actually meant for your skill at this moment. It is important to understand that Alice doesn't lock a skill while in dialogue. You could hypothetically answer `What time is it` instead of `Yes` and she'd answer you, forgetting about the reminder question.
 
 ### The solutions
 To solve these collision issues, we have implemented what we call `dialogStates`. You can either do the mapping in the `__init__` method, of you can use the `IntentHandler` decorator for easier cases.
@@ -113,7 +113,7 @@ class Reminder(AliceSkill):
 
 	def __init__(self):
 		# Declare the skill's supported intents
-		# The two first ones have no direct mapping, the two one directly declares its mapping
+		# The two first ones have no direct mapping, the last one directly declares its mapping
 		self._INTENTS = [
 			self._INTENT_ANSWER_YES_OR_NO,
 			self._INTENT_ANSWER_ROOM,
@@ -121,7 +121,7 @@ class Reminder(AliceSkill):
 		]
 
 		# Create a mapping for the intent YES_OR_NO
-		# Depending on the dialog state, either answerDeleteReminder or answerReminderIsCorrect will be called
+		# Depending on the dialogue state, either answerDeleteReminder or answerReminderIsCorrect will be called
 		self._INTENT_ANSWER_YES_OR_NO.dialogMapping = {
 			'askingToDeleteReminder': self.answerDeleteReminder,
 			'askingIfCorrect': self.answerReminderIsCorrect,
