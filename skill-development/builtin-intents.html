@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Built-in intents | ProjectAlice</title>
+    <meta name="description" content="A smart voice assistant that guarantees your privacy">
+    <meta name="generator" content="VuePress 1.4.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39;; img-src &#39;self&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;; frame-ancestors &#39;none&#39;">
+  <meta name="referrer" content="no-referrer">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <meta name="apple-mobile-web-app-title" content="ProjectAlice">
+  <meta name="application-name" content="ProjectAlice Docs">
+    
+    <link rel="preload" href="/assets/css/0.styles.37c77e6d.css" as="style"><link rel="preload" href="/assets/js/app.b4affdba.js" as="script"><link rel="preload" href="/assets/js/3.991a9b5d.js" as="script"><link rel="preload" href="/assets/js/22.5a12a399.js" as="script"><link rel="prefetch" href="/assets/js/10.1e3a2c36.js"><link rel="prefetch" href="/assets/js/11.89196e16.js"><link rel="prefetch" href="/assets/js/12.7574de8b.js"><link rel="prefetch" href="/assets/js/13.091dd331.js"><link rel="prefetch" href="/assets/js/14.e0b2d4d1.js"><link rel="prefetch" href="/assets/js/15.1ab0b62a.js"><link rel="prefetch" href="/assets/js/16.cfc822d3.js"><link rel="prefetch" href="/assets/js/17.edb356b9.js"><link rel="prefetch" href="/assets/js/18.66e46dde.js"><link rel="prefetch" href="/assets/js/19.0e9024cd.js"><link rel="prefetch" href="/assets/js/20.cbde9363.js"><link rel="prefetch" href="/assets/js/21.180c4c01.js"><link rel="prefetch" href="/assets/js/23.b1757fa6.js"><link rel="prefetch" href="/assets/js/24.ac1b63b5.js"><link rel="prefetch" href="/assets/js/25.5b0a3e03.js"><link rel="prefetch" href="/assets/js/26.9ea1b0cf.js"><link rel="prefetch" href="/assets/js/27.292949db.js"><link rel="prefetch" href="/assets/js/28.c1dcd1f1.js"><link rel="prefetch" href="/assets/js/29.c37facb3.js"><link rel="prefetch" href="/assets/js/30.daa53664.js"><link rel="prefetch" href="/assets/js/31.6c54c503.js"><link rel="prefetch" href="/assets/js/32.d715e8de.js"><link rel="prefetch" href="/assets/js/33.9fb1aaac.js"><link rel="prefetch" href="/assets/js/34.e0342461.js"><link rel="prefetch" href="/assets/js/35.f0690f4f.js"><link rel="prefetch" href="/assets/js/36.13984459.js"><link rel="prefetch" href="/assets/js/37.732f2c87.js"><link rel="prefetch" href="/assets/js/4.14c55d85.js"><link rel="prefetch" href="/assets/js/5.18c8acf7.js"><link rel="prefetch" href="/assets/js/6.e076e8e4.js"><link rel="prefetch" href="/assets/js/7.ec5c1b25.js"><link rel="prefetch" href="/assets/js/8.f12f2a1e.js"><link rel="prefetch" href="/assets/js/9.227c12e0.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.ef7fd654.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.37c77e6d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">ProjectAlice</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/about-alice/" class="nav-link">
+  About Alice
+</a></div><div class="nav-item"><a href="/setup/" class="nav-link">
+  Setup
+</a></div><div class="nav-item"><a href="/satsetup/" class="nav-link">
+  Satellite setup
+</a></div><div class="nav-item"><a href="/usage/" class="nav-link">
+  Using Alice
+</a></div><div class="nav-item"><a href="/skill-development/" class="nav-link router-link-active">
+  Skill Development
+</a></div><div class="nav-item"><a href="/core-development/" class="nav-link">
+  Core Development
+</a></div><div class="nav-item"><a href="https://documenter.getpostman.com/view/7504420/SW7W59r7" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/contribute/" class="nav-link">
+  Contributing
+</a></div><div class="nav-item"><a href="/sponsors/" class="nav-link">
+  Sponsors
+</a></div><div class="nav-item"><a href="/links/" class="nav-link">
+  Useful links
+</a></div> <a href="https://github.com/project-alice-assistant/ProjectAlice" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/about-alice/" class="nav-link">
+  About Alice
+</a></div><div class="nav-item"><a href="/setup/" class="nav-link">
+  Setup
+</a></div><div class="nav-item"><a href="/satsetup/" class="nav-link">
+  Satellite setup
+</a></div><div class="nav-item"><a href="/usage/" class="nav-link">
+  Using Alice
+</a></div><div class="nav-item"><a href="/skill-development/" class="nav-link router-link-active">
+  Skill Development
+</a></div><div class="nav-item"><a href="/core-development/" class="nav-link">
+  Core Development
+</a></div><div class="nav-item"><a href="https://documenter.getpostman.com/view/7504420/SW7W59r7" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  API
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/contribute/" class="nav-link">
+  Contributing
+</a></div><div class="nav-item"><a href="/sponsors/" class="nav-link">
+  Sponsors
+</a></div><div class="nav-item"><a href="/links/" class="nav-link">
+  Useful links
+</a></div> <a href="https://github.com/project-alice-assistant/ProjectAlice" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Skill Development</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/skill-development/" class="sidebar-link">Introduction to Skill Development</a></li><li><a href="/skill-development/your-first-skill.html" class="sidebar-link">Your first skill</a></li><li><a href="/skill-development/missing-slot-info.html" class="sidebar-link">Missing slot information</a></li><li><a href="/skill-development/talk-file.html" class="sidebar-link">Talk file</a></li><li><a href="/skill-development/dialog-template.html" class="sidebar-link">Dialog template file</a></li><li><a href="/skill-development/builtin-slots.html" class="sidebar-link">Built-in slots</a></li><li><a href="/skill-development/builtin-intents.html" class="active sidebar-link">Built-in intents</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/skill-development/builtin-intents.html#listing" class="sidebar-link">Listing</a></li><li class="sidebar-sub-header"><a href="/skill-development/builtin-intents.html#how-to-use-these-intents" class="sidebar-link">How to use these intents</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/skill-development/builtin-intents.html#the-problem" class="sidebar-link">The problem</a></li><li class="sidebar-sub-header"><a href="/skill-development/builtin-intents.html#the-solutions" class="sidebar-link">The solutions</a></li></ul></li></ul></li><li><a href="/skill-development/logging.html" class="sidebar-link">Logging</a></li><li><a href="/skill-development/events.html" class="sidebar-link">Missing slot info</a></li><li><a href="/skill-development/widgets.html" class="sidebar-link">Widgets</a></li><li><a href="/skill-development/skill-configuration-file.html" class="sidebar-link">Skill configuration file</a></li><li><a href="/skill-development/publishing-to-skill-store.html" class="sidebar-link">Publishing your skill</a></li><li><a href="/skill-development/new-language-support.html" class="sidebar-link">Adding a new language support</a></li><li><a href="/skill-development/database-access.html" class="sidebar-link">Database Access</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><link rel="stylesheet" href="/css/speechbubbles.css"> <h1 id="built-in-intents"><a href="#built-in-intents" class="header-anchor">#</a> Built-in intents</h1> <p>There are intents that are already available for you to use due to the fact the <code>AliceCore</code> skill needs to be loaded and run for Alice to start. You should <strong>always check</strong> if the intents you are creating do not already exist. Those intents are usually used for answering to missing information and are <strong>disabled by default</strong>. They take advantage of our built-in slots. Let's list those intents here:</p> <h2 id="listing"><a href="#listing" class="header-anchor">#</a> Listing</h2> <ul><li><code>UserRandomAnswer</code> The user answers with random words.
+<ul><li>Type: <em>Alice/RandomWords</em></li> <li>SlotName: <em>RandomWord</em></li></ul></li> <li><code>AnswerYesOrNo</code> User answers yes or no.
+<ul><li>Type: <em>Alice/AnswerYesNo</em></li> <li>SlotName: <em>Answer</em></li> <li>Note: Did you know you can use <code>self.Commons.isYes(session)</code>?</li></ul></li> <li><code>AnswerRoom</code> User answers with a room name.
+<ul><li>Type: <em>Alice/Rooms</em></li> <li>SlotName: <em>Room</em></li></ul></li> <li><code>AnswerName</code> User answers with a name.
+<ul><li>Type: <em>Alice/Name</em></li> <li>SlotName: <em>Name</em></li></ul></li> <li><code>AnswerNumber</code> User answers with a name.
+<ul><li>Type: <em>snips/number</em></li> <li>SlotName: <em>Number</em></li></ul></li> <li><code>SpellWord</code> User answers with a name.
+<ul><li>Type: <em>Alice/Letter</em></li> <li>SlotName: <em>Letters</em></li> <li>Notes:
+<ul><li>You can use <code>self.Commons.isSpelledWord(TheString)</code> to check if a string is a spelled word</li> <li>You can build a string from <em>Letters</em> slots with <code>string = ''.join([slot.value['value'] for slot in session.slotsAsObjects['Letters']])</code></li></ul></li></ul></li> <li><code>AnswerAccessLevel</code> User answers with access level
+<ul><li>Type: <em>Alice/UserAccessLevel</em></li> <li>SlotName: <em>UserAccessLevel</em></li></ul></li> <li><code>AnswerPercent</code> User answers with access level
+<ul><li>Type: <em>snips/number</em></li> <li>SlotName: <em>Percent</em></li></ul></li></ul> <p>We will implement more inbuilt intents over time, such as answering with time, dates etc.</p> <h2 id="how-to-use-these-intents"><a href="#how-to-use-these-intents" class="header-anchor">#</a> How to use these intents</h2> <p>Now comes the very important part, understanding the problematic behind using those intents and how to overcome those limitations</p> <h3 id="the-problem"><a href="#the-problem" class="header-anchor">#</a> The problem</h3> <p>Let's image you are building a skill that gives the user the ability to add reminders. At some point, you might want to ask the user if the reminder can be deleted, to which, the user is going to answer with either yes or no:</p> <div class="aliceSpeech female">Hey, you told me to remind you this: Buy some beer before weekend.</div> <div class="aliceSpeech female">Can I now delete this reminder?</div> <div class="userSpeech male"><strong class="slotWord">Yes</strong> thank you</div> <div class="aliceSpeech female">Ok, deleted</div> <p>To this point, nothing big or hard. What if I told you that the <code>AnswerYesOrNo</code> intent is already used by many skills? So if you have a little chance, your skill might by the first one to catch the intent but what if the <code>Yes</code> the user is answering is not meant for your skill? See where I'm going? You need to make sure the <code>AnswerYesOrNo</code> is actually meant for your skill at this moment. It is important to understand that Alice doesn't lok a skill while in dialogue. You could hypothetically answer <code>What time is it</code> instead of <code>Yes</code> and she'd answer you, forgetting about the reminder question.</p> <h3 id="the-solutions"><a href="#the-solutions" class="header-anchor">#</a> The solutions</h3> <p>To solve these collision issues, we have implemented what we call <code>dialogStates</code>. You can either do the mapping in the <code>__init__</code> method, of you can use the <code>IntentHandler</code> decorator for easier cases.</p> <h4 id="the-decorator-way"><a href="#the-decorator-way" class="header-anchor">#</a> The decorator way</h4> <p>First thing, add you method for Alice to ask if the reminder can be safely deleted. I'd imagine this method to be triggered if a reminder was just spoken.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">askDeleteReminder</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> siteId<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	self<span class="token punctuation">.</span>ask<span class="token punctuation">(</span>
+		siteId<span class="token operator">=</span>siteId<span class="token punctuation">,</span>
+		text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'CanTheReminderBeDeleted'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+		intentFilter<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'AnswerYesOrNo'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+		currentDialogState<span class="token operator">=</span><span class="token string">'askingToDeleteReminder'</span>
+	<span class="token punctuation">)</span>
+</code></pre></div><p>Two important things here:</p> <ul><li><code>intentFilter</code>: This is used to limit the NLU on parsing the user answer on the specified intent. You don't want the user to answer with <code>What time is it</code>, but only with yes or no</li> <li><code>currentDialogState</code>: This is the <strong>very</strong> important part! It tells Alice that she is in dialogue with the user and that the <code>state</code> or <code>next turn</code>, is <code>askingToDeleteReminder</code>. You can use literally whatever you want here, as long as you remember what you've declared.</li></ul> <p>Ok, so the user is going to answer with <code>Yes!</code>. Now we need an intent handler to take care of that!</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token decorator annotation punctuation">@IntentHandler</span><span class="token punctuation">(</span>intent<span class="token operator">=</span><span class="token string">'AnswerYesOrNo'</span><span class="token punctuation">,</span> requiredState<span class="token operator">=</span><span class="token string">'askingToDeleteReminder'</span><span class="token punctuation">,</span> isProtected<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">answerDeleteReminder</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> session<span class="token punctuation">:</span> DialogSession<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">if</span> self<span class="token punctuation">.</span>Commons<span class="token punctuation">.</span>isYes<span class="token punctuation">(</span>session<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		self<span class="token punctuation">.</span>endDialog<span class="token punctuation">(</span>
+			sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+			text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'okDeleted'</span><span class="token punctuation">)</span>
+		<span class="token punctuation">)</span>
+	<span class="token keyword">else</span><span class="token punctuation">:</span>
+		self<span class="token punctuation">.</span>endDialog<span class="token punctuation">(</span>
+			sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+			text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'okKeepingIt'</span><span class="token punctuation">)</span>
+		<span class="token punctuation">)</span>
+</code></pre></div><p>The important part here is that our <code>IntentHandler</code> decorator took one more important argument, the <code>requiredState</code>. This means that your skill support the <code>AnswerYesOrNo</code> intent <strong>only</strong> if the current dialog state is <code>askingToDeleteReminder</code>! No more collision with other skills! The argument <code>isProtected</code> makes Alice unable to be moody and ignore your answer. It's always a good idea to protect answers in dialogue turns.</p> <h4 id="manual-mapping"><a href="#manual-mapping" class="header-anchor">#</a> Manual mapping</h4> <p>We call <code>mapping</code> the declaration of intents vs dialog states. Same example as above, but not by using decorators and adding another intent. It is useful when you have a more complex structure of intents or skill.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">from</span> core<span class="token punctuation">.</span>base<span class="token punctuation">.</span>model<span class="token punctuation">.</span>AliceSkill <span class="token keyword">import</span> AliceSkill
+<span class="token keyword">from</span> core<span class="token punctuation">.</span>base<span class="token punctuation">.</span>model<span class="token punctuation">.</span>Intent <span class="token keyword">import</span> Intent
+<span class="token keyword">from</span> core<span class="token punctuation">.</span>dialog<span class="token punctuation">.</span>model<span class="token punctuation">.</span>DialogSession <span class="token keyword">import</span> DialogSession
+
+
+<span class="token keyword">class</span> <span class="token class-name">Reminder</span><span class="token punctuation">(</span>AliceSkill<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token comment"># Declare our intents</span>
+	_INTENT_ANSWER_YES_OR_NO <span class="token operator">=</span> Intent<span class="token punctuation">(</span><span class="token string">'AnswerYesOrNo'</span><span class="token punctuation">,</span> isProtected<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+	_INTENT_ANSWER_ROOM <span class="token operator">=</span> Intent<span class="token punctuation">(</span><span class="token string">'AnswerRoom'</span><span class="token punctuation">,</span> isProtected<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+	_INTENT_ADD_REMINDER <span class="token operator">=</span> Intent<span class="token punctuation">(</span><span class="token string">'NewReminder'</span><span class="token punctuation">)</span>
+
+
+	<span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token comment"># Declare the skill's supported intents</span>
+		<span class="token comment"># The two first ones have no direct mapping, the two one directly declares its mapping</span>
+		self<span class="token punctuation">.</span>_INTENTS <span class="token operator">=</span> <span class="token punctuation">[</span>
+			self<span class="token punctuation">.</span>_INTENT_ANSWER_YES_OR_NO<span class="token punctuation">,</span>
+			self<span class="token punctuation">.</span>_INTENT_ANSWER_ROOM<span class="token punctuation">,</span>
+			<span class="token punctuation">(</span>self<span class="token punctuation">.</span>_INTENT_ADD_REMINDER<span class="token punctuation">,</span> self<span class="token punctuation">.</span>addReminder<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">]</span>
+
+		<span class="token comment"># Create a mapping for the intent YES_OR_NO</span>
+		<span class="token comment"># Depending on the dialog state, either answerDeleteReminder or answerReminderIsCorrect will be called</span>
+		self<span class="token punctuation">.</span>_INTENT_ANSWER_YES_OR_NO<span class="token punctuation">.</span>dialogMapping <span class="token operator">=</span> <span class="token punctuation">{</span>
+			<span class="token string">'askingToDeleteReminder'</span><span class="token punctuation">:</span> self<span class="token punctuation">.</span>answerDeleteReminder<span class="token punctuation">,</span>
+			<span class="token string">'askingIfCorrect'</span><span class="token punctuation">:</span> self<span class="token punctuation">.</span>answerReminderIsCorrect<span class="token punctuation">,</span>
+		<span class="token punctuation">}</span>
+		
+		<span class="token comment"># Create a mapping for the intent AnswerRoom</span>
+		self<span class="token punctuation">.</span>_INTENT_ANSWER_ROOM<span class="token punctuation">.</span>dialogMapping <span class="token operator">=</span> <span class="token punctuation">{</span>
+			<span class="token string">'askingWhereToRemind'</span><span class="token punctuation">:</span> self<span class="token punctuation">.</span>addReminder
+		<span class="token punctuation">}</span>
+
+		<span class="token builtin">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>__init__<span class="token punctuation">(</span>self<span class="token punctuation">.</span>_INTENTS<span class="token punctuation">)</span>
+
+
+	<span class="token comment"># This is called directly by the mapping for intents AddReminder and AnswerRoom on lines 18 and 19</span>
+	<span class="token keyword">def</span> <span class="token function">addReminder</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> session<span class="token punctuation">:</span> DialogSession<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">if</span> <span class="token string">'Room'</span> <span class="token keyword">not</span> <span class="token keyword">in</span> session<span class="token punctuation">.</span>slots<span class="token punctuation">:</span>
+			self<span class="token punctuation">.</span>continueDialog<span class="token punctuation">(</span>
+				sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+				text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'inWhichRoom'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+				intentFilter<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'AnswerRoom'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+				currentDialogState<span class="token operator">=</span><span class="token string">'askingWhereToRemind'</span>
+			<span class="token punctuation">)</span>
+			<span class="token keyword">return</span>
+
+		self<span class="token punctuation">.</span>continueDialog<span class="token punctuation">(</span>
+			sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+			text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'isItCorrect'</span><span class="token punctuation">,</span> replace<span class="token operator">=</span><span class="token punctuation">[</span>session<span class="token punctuation">.</span>slots<span class="token punctuation">[</span><span class="token string">'reminder'</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+			intentFilter<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'AnswerYesOrNo'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+			currentDialogState<span class="token operator">=</span><span class="token string">'askingIfCorrect'</span>
+		<span class="token punctuation">)</span>
+
+
+	<span class="token comment"># This would be called after you've read out loud a reminder</span>
+	<span class="token comment"># It asks if the reminder can be deleted and sets the dialogue state to 'askingToDeleteReminder'</span>
+	<span class="token keyword">def</span> <span class="token function">askDeleteReminder</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> siteId<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		self<span class="token punctuation">.</span>ask<span class="token punctuation">(</span>
+			siteId<span class="token operator">=</span>siteId<span class="token punctuation">,</span>
+			text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'CanTheReminderBeDeleted'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+			intentFilter<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'AnswerYesOrNo'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+			currentDialogState<span class="token operator">=</span><span class="token string">'askingToDeleteReminder'</span>
+		<span class="token punctuation">)</span>
+
+
+	<span class="token comment"># This is called by the intent YesOrNo ONLY if the current dialogue state is 'askingToDeleteReminder'</span>
+	<span class="token comment"># As declared in our mapping on line 25</span>
+	<span class="token keyword">def</span> <span class="token function">answerDeleteReminder</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> session<span class="token punctuation">:</span> DialogSession<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">if</span> self<span class="token punctuation">.</span>Commons<span class="token punctuation">.</span>isYes<span class="token punctuation">(</span>session<span class="token punctuation">)</span><span class="token punctuation">:</span>
+			self<span class="token punctuation">.</span>endDialog<span class="token punctuation">(</span>
+				sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+				text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'okDeleted'</span><span class="token punctuation">)</span>
+			<span class="token punctuation">)</span>
+		<span class="token keyword">else</span><span class="token punctuation">:</span>
+			self<span class="token punctuation">.</span>endDialog<span class="token punctuation">(</span>
+				sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+				text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'okKeepingIt'</span><span class="token punctuation">)</span>
+			<span class="token punctuation">)</span>
+
+	<span class="token comment"># This is called by the intent YesOrNo ONLY if the current dialogue state is 'askingIfCorrect'</span>
+	<span class="token comment"># As declared in our mapping on line 26</span>
+	<span class="token keyword">def</span> <span class="token function">answerReminderIsCorrect</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> session<span class="token punctuation">:</span> DialogSession<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">if</span> self<span class="token punctuation">.</span>Commons<span class="token punctuation">.</span>isYes<span class="token punctuation">(</span>session<span class="token punctuation">)</span><span class="token punctuation">:</span>
+			self<span class="token punctuation">.</span>endDialog<span class="token punctuation">(</span>
+				sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+				text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'okAdded'</span><span class="token punctuation">)</span>
+			<span class="token punctuation">)</span>
+		<span class="token keyword">else</span><span class="token punctuation">:</span>
+			self<span class="token punctuation">.</span>continueDialog<span class="token punctuation">(</span>
+				sessionId<span class="token operator">=</span>session<span class="token punctuation">.</span>sessionId<span class="token punctuation">,</span>
+				text<span class="token operator">=</span>self<span class="token punctuation">.</span>randomTalk<span class="token punctuation">(</span>text<span class="token operator">=</span><span class="token string">'sorryWhatIsItThen'</span><span class="token punctuation">)</span>
+				<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+</code></pre></div><p>The important parts here are how we declare our mappings. You can add as many routes as you wish, just take a look at <a href="https://github.com/project-alice-assistant/skill_AliceCore/blob/master/AliceCore.py" target="_blank" rel="noopener noreferrer">AliceCore skill<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. We are still declaring dialogue states the same in <code>continueDialog</code>. Keep in mind this manual approach is useful for complex structures and you should take advantage of the decorator approach first!</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/project-alice-assistant/docs/edit/master/docs/skill-development/builtin-intents.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/skill-development/builtin-slots.html" class="prev">
+        Built-in slots
+      </a></span> <span class="next"><a href="/skill-development/logging.html">
+        Logging
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b4affdba.js" defer></script><script src="/assets/js/3.991a9b5d.js" defer></script><script src="/assets/js/22.5a12a399.js" defer></script>
+  </body>
+</html>
