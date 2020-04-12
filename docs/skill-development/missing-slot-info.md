@@ -60,7 +60,7 @@ def bookFlight(self, session: DialogSession):
 	pass
 ```
 
-Well, not that effective is it? lots of writing only to declare the methods, imagine the work in each of the methods to finally get to book the ticket.
+Well, not that effective, is it? lots of writing only to declare the methods, imagine the work in each of the methods to finally get to book the ticket.
 
 
 ## The good solution
@@ -102,3 +102,5 @@ def bookFlight(self, session: DialogSession):
 What we did here is link our 4 `intents` to the same method `bookFlight` and we check if all our slots are filled. If not, we ask the user for the information and limit the NLU on the intent that interests us using `intentFilter`. In the first if condition I even mentioned the `slot` the NLU should focus on extracting! 
 
 As the answer will come back to the same method, the checks will naturally continue until all three are False and we can proceed to the booking!
+
+Make sure to read [builtin intents](../skill-development/builtin-intents.md) to understand dialogue state or you will end up having collisions with other skills!
