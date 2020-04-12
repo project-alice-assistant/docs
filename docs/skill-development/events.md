@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 3
-title: Missing slot info
+title: Events
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
