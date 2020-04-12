@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 3
+sidebarDepth: 5
 title: Built-in intents
 ---
 
