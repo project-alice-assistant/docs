@@ -31,7 +31,7 @@
 .aliceSpeech:before {
 	content: "";
 	display: block;
-	background-image: url('../images/projectalice.svg');
+	background-image: url('../images/aliceAvatar.png');
 	background-repeat: no-repeat;
 	background-size: 50px;
 	width: 50px;
@@ -69,7 +69,7 @@
 .userSpeech.female:before {
 	content: "";
 	display: block;
-	background-image: url('../images/femaleAvatar.svg');
+	background-image: url('../images/femaleAvatar.png');
 	background-repeat: no-repeat;
 	background-size: 50px;
 	width: 50px;
@@ -81,7 +81,7 @@
 .userSpeech.male:before {
 	content: "";
 	display: block;
-	background-image: url('../images/maleAvatar.svg');
+	background-image: url('../images/maleAvatar.png');
 	background-repeat: no-repeat;
 	background-size: 50px;
 	width: 50px;
