@@ -56,11 +56,11 @@ Let's image you are building a skill that gives the user the ability to add remi
 To this point, nothing big or hard. What if I told you that the `AnswerYesOrNo` intent is already used by many skills? So if you have a little chance, your skill might by the first one to catch the intent but what if the `Yes` the user is answering is not meant for your skill? See where I'm going? You need to make sure the `AnswerYesOrNo` is actually meant for your skill at this moment. It is important to understand that Alice doesn't lock a skill while in dialogue. You could hypothetically answer `What time is it` instead of `Yes` and she'd answer you, forgetting about the reminder question.
 
 ### The solutions
-To solve these collision issues, we have implemented what we call `dialogStates`. You can either do the mapping in the `__init__` method, of you can use the `IntentHandler` decorator for easier cases.
+To solve these collision issues, we have implemented what we call `dialogStates`. You can either do the mapping in the `__init__` method, or you can use the `IntentHandler` decorator for easier cases.
 
 #### The decorator way
 
-First thing, add you method for Alice to ask if the reminder can be safely deleted. I'd imagine this method to be triggered if a reminder was just spoken.
+First thing, add your method for Alice to ask if the reminder can be safely deleted. I'd imagine this method to be triggered if a reminder was just spoken.
 
 ```python
 def askDeleteReminder(self, siteId):
@@ -93,7 +93,7 @@ def answerDeleteReminder(self, session: DialogSession):
 		)
 ```
 
-The important part here is that our `IntentHandler` decorator took one more important argument, the `requiredState`. This means that your skill support the `AnswerYesOrNo` intent **only** if the current dialog state is `askingToDeleteReminder`! No more collision with other skills! The argument `isProtected` makes Alice unable to be moody and ignore your answer. It's always a good idea to protect answers in dialogue turns.
+The important part here is that our `IntentHandler` decorator took one more important argument, the `requiredState`. This means that your skill supports the `AnswerYesOrNo` intent **only** if the current dialog state is `askingToDeleteReminder`! No more collision with other skills! The argument `isProtected` makes Alice unable to be moody and ignore your answer. It's always a good idea to protect answers in dialogue turns.
 
 #### Manual mapping
 We call `mapping` the declaration of intents vs dialog states. Same example as above, but not by using decorators and adding another intent. It is useful when you have a more complex structure of intents or skill.
