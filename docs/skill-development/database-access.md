@@ -12,9 +12,9 @@ and there are methods available for adding, removing, modifying and of course re
 
 Define the DB in your program as a dictionary and prepare the name of the database as a variable as best practice:
 ```python
-    _DBNAME = 'MyReminders'
+    _TABLENAME = 'MyReminders'
     _DATABASE = {
-        _DBNAME: [
+        _TABLENAME: [
             'message TEXT NOT NULL',
             'timestamp INTEGER NOT NULL'
         ]
@@ -32,7 +32,7 @@ If you later on decide to change the structure of your database, Alice will take
 ## Writing to your database
 Adding an entry to your database is as easy as defining the new entry as dictonary and calling the DatabaseManager:
 ```python
-self.databaseInsert(tableName=self._DBNAME, values={'message': yourMessage, 'timestamp': yourTimestamp})
+self.databaseInsert(tableName=self._TABLENAME, values={'message': yourMessage, 'timestamp': yourTimestamp})
 ```
 
 ## Reading from your database
@@ -40,7 +40,7 @@ If you want to read entries, you have to know a bit SQL for the selection criter
 With `myMessage` as a local python variable you can make the following call, to read a database entry with the message stored in `myMessage`:
 ```python
 self.databaseFetch(
-            tableName=self._DBNAME,
+            tableName=self._TABLENAME,
             query='SELECT * FROM :__table__ WHERE message = :tmpMessage',
             values={'tmpMessage': myMessage},
             method='all'
