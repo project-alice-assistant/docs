@@ -46,7 +46,7 @@ We will implement more inbuilt intents over time, such as answering with time, d
 Now comes the very important part, understanding the problematic behind using those intents and how to overcome those limitations
 
 ### The problem
-Let's image you are building a skill that gives the user the ability to add reminders. At some point, you might want to ask the user if the reminder can be deleted, to which, the user is going to answer with either yes or no:
+Let's imagine you are building a skill that gives the user the ability to add reminders. At some point, you might want to ask the user if the reminder can be deleted, to which, the user is going to answer with either yes or no:
 
 <div class="aliceSpeech female">Hey, you told me to remind you this: Buy some beer before weekend.</div>
 <div class="aliceSpeech female">Can I now delete this reminder?</div>
