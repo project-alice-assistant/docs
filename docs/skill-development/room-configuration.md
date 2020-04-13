@@ -28,6 +28,7 @@ In addition two methods can be implemented:
 
 ##### deviceLinks:
 - UUID
+- device_UUID
 - room_UUID
 - roomConfig (filled json defined by deviceTypes)
 - ?onlyUser (user specific devices?)
