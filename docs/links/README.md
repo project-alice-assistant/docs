@@ -11,5 +11,7 @@ Project Alice exists at many different places for you to be updated! Likes and f
 # Attributions
 
 <a href="https://www.freepik.com/free-photos-vectors/house">House vector created by vectorpocket - www.freepik.com</a>
+
 <a href="https://www.freepik.com/free-photos-vectors/kitchen">Kitchen vector created by macrovector - www.freepik.com</a>
+
 <a href="https://www.freepik.com/free-photos-vectors/technology">Technology vector created by macrovector - www.freepik.com</a>
