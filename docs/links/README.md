@@ -9,3 +9,4 @@ Project Alice exists at many different places for you to be updated! Likes and f
 
 
 # Attributions
+<a href='https://pngtree.com/so/size-chart-furniture'>size-chart-furniture png from pngtree.com</a>
