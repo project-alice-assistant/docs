@@ -96,6 +96,7 @@ module.exports = {
           children: [
             '',
             'preinstalled',
+            'manual-install',
             'troubleshooting'
           ]
         }
