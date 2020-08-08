@@ -65,6 +65,12 @@ The name of the file **must be** `config.json.template`. Let's take a look at ou
 		"isSensitive": false,
 		"description": "How many times should a user be allowed to fail authentication"
 	}
+	"notes": {
+		"defaultValue": '',
+		"dataType": "longstring",
+		"isSensitive": false,
+		"description": "Anything you would like to add?"
+	}
 }
 ```
 
@@ -77,6 +83,7 @@ In our example:
 - **databaseToUse** is a list of type list. It means it will display a dropdown field containing the defined values.
 - **language** is a list of type dictionary. The difference with the above list, is that it will display the key (in this case "English" / "Français" / "Deutsch") in a dropdown field, but the value selected will be "en" or "fr" or "de". Useful when you have values to set that are not natural, the language example shows it well enough, it is nicer to display the full language name for the user to choose than a list with language codes.
 - **maxTries** is a slider. It needs to have a default value, a minimum allowed value, a maximum allowed value and a step which defines the increment by which the value is modified by each slider step. This setting cannot be made sensitive.
+- **longstring** is a textarea, a text input that handles multiple lines.
 
 There are three more options you can add to **any** configuration!
 
