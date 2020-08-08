@@ -78,14 +78,23 @@ With the above example you have the full overview of what is supported. As you m
 
 In our example:
 - **login** is a string, the text will be visible to the user.
+- **password** is a string, the text won't be visible thanks to the "isSensitive" option.
 - **autoConnect** is a boolean, true or false, or on or off. This will display a checkbox.
 - **retries** is an integer. An integer is a full number, such as 1, 5, 9563, with no trailing decimals.
 - **databaseToUse** is a list of type list. It means it will display a dropdown field containing the defined values.
 - **language** is a list of type dictionary. The difference with the above list, is that it will display the key (in this case "English" / "Français" / "Deutsch") in a dropdown field, but the value selected will be "en" or "fr" or "de". Useful when you have values to set that are not natural, the language example shows it well enough, it is nicer to display the full language name for the user to choose than a list with language codes.
 - **maxTries** is a slider. It needs to have a default value, a minimum allowed value, a maximum allowed value and a step which defines the increment by which the value is modified by each slider step. This setting cannot be made sensitive.
-- **longstring** is a textarea, a text input that handles multiple lines.
+- **notes** is a textarea, a text input that handles multiple lines.
 
-There are three more options you can add to **any** configuration!
+So we have, as setting types:
+- string
+- longstring
+- boolean
+- integer
+- list
+- range
+
+There are three more options you can add to any configuration!
 
 - `"isSensitive": true|false`: If true, the setting's value won't be shown, but replaced with * as passwords do per exemple. Cannot be applied to **range** configuration.
 
