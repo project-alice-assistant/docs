@@ -6,8 +6,8 @@ This is an alpha release! It is subject to major changes and the target audience
 
 
 - Download our prefabricated Raspbian image:
-   - [Direct download](https://github.com/project-alice-assistant/ProjectAlice/releases/tag/v1.0.0-a6)
-   - This image has nothing more than Project Alice and its dependencies along with Hermes Led Control
+   - [Direct download](https://github.com/project-alice-assistant/ProjectAlice/releases/tag/v1.0.0-b1)
+   - This image has nothing more than Project Alice and a few dependencies.
    - If you wonder what's inside, check the [Preinstalled Packages Section](preinstalled)
 - Extract the image from the 7zip archive
 
