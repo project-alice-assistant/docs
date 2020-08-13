@@ -1,6 +1,12 @@
-Since beta 1 we do no preinstall anything else than `git` in order to clone the project on the image.
+Since beta 1, we do not preinstall all the dependencies anymore except for a few critical ones:
 
-If you are looking at the actual dependencies, have a look here:
+- Python3 PIP
+- psutil
+- PyYAML
+- toml
 
-- System: https://github.com/project-alice-assistant/ProjectAlice/blob/master/sysrequirements.txt
-- Python: https://github.com/project-alice-assistant/ProjectAlice/blob/master/requirements.txt
+
+If you are looking for the actual dependencies, once installed, have a look here:
+
+- [System](https://github.com/project-alice-assistant/ProjectAlice/blob/master/sysrequirements.txt)
+- [Python](https://github.com/project-alice-assistant/ProjectAlice/blob/master/requirements.txt)
