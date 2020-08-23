@@ -1,7 +1,7 @@
 # Setup
 
 ::: warning
-This is an alpha release! It is subject to major changes and the target audience is people with some knowledge of their devices, coding, installing python modules and basic stuff!
+This is a beta release! It is subject to changes and the target audience is people with some knowledge of their devices, installing python modules and basic stuff!
 :::
 
 
