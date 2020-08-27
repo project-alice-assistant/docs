@@ -239,7 +239,7 @@ This is where you define conditions for your skill to run. Let's say your skill 
 The README file contains human readable information about your skill.
 
 
-### instruction.md
+### instructions.md
 
 You skill requires some extra steps to run, like activating an API, setting up another system, modifying the hardware of that awesome remote? Well, put all these instructions into a file named "instructions.md". The content of this file is accessible on the interface on the skills page, and will automatically pop up whenever the skill is installed and/or updated.
 
