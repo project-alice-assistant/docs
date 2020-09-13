@@ -166,6 +166,7 @@ Let's take a look at a basic install file:
 	"aliceMinVersion": "1.0.0-a4",
 	"systemRequirements": [],
 	"pipRequirements": [],
+	"script": "",
 	"conditions": {
 		"lang": [
 			"en",
@@ -220,6 +221,9 @@ Whatever you add here will be installed using `apt install`
 
 #### `pipRequirements`
 Whatever you add here will be installed using `pip install --no-cache`
+
+#### `script`
+By specifying a shell script name here, the script will be run after installation. The script must be placed in your skill root directory. It is very usefull for a skill that needs to git clone a repo per exemple!
 
 #### `conditions`
 This is where you define conditions for your skill to run. Let's say your skill is only english, german users won't be able to use it. There's quite a few conditions you can use:
