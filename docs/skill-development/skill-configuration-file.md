@@ -22,13 +22,17 @@ The name of the file **must be** `config.json.template`. Let's take a look at ou
 		"defaultValue": "",
 		"dataType": "string",
 		"isSensitive": false,
-		"description": "Login for the HelloWorld database"
+		"description": "Login for the HelloWorld database",
+		"beforeUpdate": "tryConnection",
+		"onUpdate": "reconnect"
 	},
 	"password": {
 		"defaultValue": "",
 		"dataType": "string",
 		"isSensitive": true,
-		"description": "Password for the HelloWorld database"
+		"description": "Password for the HelloWorld database",
+		"beforeUpdate": "tryConnection",
+		"onUpdate": "reconnect"
 	},
 	"autoConnect": {
 		"defaultValue": true,
