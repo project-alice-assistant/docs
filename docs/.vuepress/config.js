@@ -53,6 +53,10 @@ module.exports = {
         link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
       },
       {
+        text: 'Skill store',
+        link: 'https://store.projectalice.io'
+      },
+      {
         text: 'Contributing',
         link: '/contribute/'
       },

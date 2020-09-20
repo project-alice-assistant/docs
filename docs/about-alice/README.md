@@ -37,3 +37,7 @@ Alice is young, although in development since quite a while now. You can also be
  - A microphone and some speaker. I recommend a [Seeed-Studio Respeaker 2](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) to start with.
  - A way to flash your SD card with our [prefabricated image!](https://docs.projectalice.io/setup/)
  
+ 
+ ## What can Alice do?
+ Many things! But she cannot cook yet. Have a look at our ever growing community made skill collection: [https://store.projectalice.io](https://store.projectalice.io)
+ 

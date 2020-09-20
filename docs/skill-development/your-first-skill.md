@@ -124,7 +124,7 @@ def __init__(self):
 #### Intent handlers
 
 Previously the `__init__` function was used to register intents, however our new `@IntentHandler` decorator is a cleaner way to achieve this.
-In our current HelloWorldSkill this could be implemented in the following way
+In our current HelloWorldSkill this could be implemented in the following way.
 
 ```python
 @IntentHandler('HelloWorldIntent')
@@ -137,7 +137,7 @@ The function receives two _parameters_:
 * `self` - a reference to the HelloWorldSkill object itself
 * `session` - an `DialogSession` object, that includes information like the `slots` an intent was called with
 
-The intent handler then calls the `self.endDialog()` method passing the session to end and the answer to say. In this case the type of the answer is `helloWorld`
+The intent handler then calls the `self.endDialog()` method passing the session to end, and the answer to say. In this case the type of the answer is `helloWorld`
 
 
 ### HelloWorldSkill.install
@@ -145,7 +145,7 @@ The intent handler then calls the `self.endDialog()` method passing the session 
 This file defines what is required to get the skill up and running. It includes parameters like the `version number`, a `description`, `supported languages` and `conditions` for your skill to be started.
 
 ::: tip Pro tip
-If you are using an IDE able to handle json schema, it is highly recommended to use our [Install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended using our [Install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
 :::
 
 Let's take a look at a basic install file:
@@ -181,7 +181,7 @@ Let's take a look at a basic install file:
 Defines the name of the skill. Everything should carry the same name and yes, it is case sensitive!
 
 #### `version`
-Defines the current version of your skill, in a 3 positions versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release and the third one is commonly used for hotfixes.
+Defines the current version of your skill, in a 3 positions versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release, and the third one is commonly used for hotfixes.
 
 #### `icon`
 This is the icon that will be displayed for your skill on the skill store. It supports [any free Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
@@ -245,7 +245,7 @@ The README file contains human readable information about your skill.
 
 ### instructions.md
 
-You skill requires some extra steps to run, like activating an API, setting up another system, modifying the hardware of that awesome remote? Well, put all these instructions into a file named "instructions.md". The content of this file is accessible on the interface on the skills page, and will automatically pop up whenever the skill is installed and/or updated.
+Your skill requires some extra steps to run, like activating an API, setting up another system, modifying the hardware of that awesome remote? Well, put all these instructions into a file named "instructions.md". The content of this file is accessible on the interface on the skills page, and will automatically pop up whenever the skill is installed and/or updated.
 
 
 ## What have we learned

@@ -24,5 +24,6 @@ Consider a weather skill. It might have e.g. an intent `GetWeather` with the fol
 * **ASR** - *Automatic Speech Recognition* is a component that allows to capture human speech and turn it into text.
 * **NLU** - *Natural Language Understanding* is a component that allows to extract intents and slots for the text detected by the ASR
 * **TTS** -- *Text To Speech* is a component that turns text into an audio file, a voice.
+* **Event** - An event is something that happened and Alice broadcasted to all of her managers and skills. An event name always starts with `on`. An exemple of event could be `onUserDetected`, `onWakeup` or `onRaining`. A complete list of events can by found [here](../skill-development/events.md)
 
 Are we missing a word? Let us know, or add it yourself below.
