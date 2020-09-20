@@ -18,7 +18,8 @@ We have some slots ready for you to use. You don't need to worry if they exist o
 - Alice/AnswerYesNo: Yes or no, with synonyms
 - Alice/Name: Contains about 580 common names
 - Alice/RandomWords: Contains about 3200 common words
-- Alice/PersonalPronoun: II, you, he, she, it, we, you, they :-)
+- Alice/PersonalPronoun: I, you, he, she, it, we, you, they :-)
+- Alice/Colors: A collection of spoken colors, with RGB values as master value
 
 
 ## Snips slots
