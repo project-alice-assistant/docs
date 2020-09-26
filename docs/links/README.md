@@ -1,5 +1,5 @@
 # Useful links
-Project Alice exists at many different places for you to be updated! Likes and follows very welcome!
+Project Alice exists at many places for you to be updated! Likes and follows very welcome!
 
 - [Homepage](https://projectalice.io)
 - [Youtube](https://www.youtube.com/channel/UC6mQG2SZALQH0YwASnroI8g)
