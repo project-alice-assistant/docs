@@ -1,10 +1,7 @@
 module.exports = {
-  plugins: [
-      '@vuepress/back-to-top',
-      '@vuepress/active-header-links',
-      '@vuepress/nprogress'
-  ],
+  plugins: [],
   base: '',
+  dest: '.dist',
   locales: {
     '/': {
       lang: 'en-US',
@@ -28,6 +25,7 @@ module.exports = {
   ],
   serviceWorker: true,
   themeConfig: {
+    logo: '/images/umbrella.png',
     repo: 'project-alice-assistant/ProjectAlice',
     docsRepo: 'project-alice-assistant/docs',
     docsDir: 'docs',
@@ -56,42 +54,61 @@ module.exports = {
           },
           {
             text: 'Setup',
-            link: '/setup/'
+            items: [
+              {
+                text: 'Main unit setup',
+                link: '/setup/'
+              },
+              {
+                text: 'Satellite setup',
+                link: '/satsetup/'
+              }
+            ]
           },
           {
-            text: 'Satellite setup',
-            link: '/satsetup/'
+            text: 'Usage',
+            items: [
+              {
+                text: 'Using Alice',
+                link: '/usage/'
+              },
+              {
+                text: 'Using satellites',
+                link: ''
+              },
+              {
+                text: 'Skill store',
+                link: 'https://store.projectalice.io'
+              },
+            ]
           },
           {
-            text: 'Using Alice',
-            link: '/usage/'
-          },
-          {
-            text: 'Skill Development',
-            link: '/skill-development/'
-          },
-          {
-            text: 'Core Development',
-            link: '/core-development/'
-          },
-          {
-            text: 'API',
-            link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
-          },
-          {
-            text: 'Skill store',
-            link: 'https://store.projectalice.io'
-          },
-          {
-            text: 'Contributing',
-            link: '/contribute/'
+            text: 'Learn more',
+            items: [
+              {
+                text: 'Contributing',
+                link: '/contribute/'
+              },
+              {
+                text: 'Skill development',
+                link: '/skill-development/'
+              },
+              {
+                text: 'Core development',
+                link: '/core-development/'
+              },
+              {
+                text: 'API',
+                link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
+              },
+            ]
           },
           {
             text: 'Sponsors',
             link: '/sponsors/'
           },
           {
-            text: 'Useful links',
+            text: 'Links',
             link: '/links/'
           }
         ],
@@ -201,42 +218,61 @@ module.exports = {
           },
           {
             text: 'Setup',
-            link: '/de/setup/'
+            items: [
+              {
+                text: 'Main unit setup',
+                link: '/de/setup/'
+              },
+              {
+                text: 'Satellite setup',
+                link: '/de/satsetup/'
+              }
+            ]
           },
           {
-            text: 'Satellite setup',
-            link: '/de/satsetup/'
+            text: 'Usage',
+            items: [
+              {
+                text: 'Using Alice',
+                link: '/de/usage/'
+              },
+              {
+                text: 'Using satellites',
+                link: ''
+              },
+              {
+                text: 'Skill store',
+                link: 'https://store.projectalice.io'
+              },
+            ]
           },
           {
-            text: 'Using Alice',
-            link: '/de/usage/'
-          },
-          {
-            text: 'Skill Development',
-            link: '/de/skill-development/'
-          },
-          {
-            text: 'Core Development',
-            link: '/de/core-development/'
-          },
-          {
-            text: 'API',
-            link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
-          },
-          {
-            text: 'Skill store',
-            link: 'https://store.projectalice.io'
-          },
-          {
-            text: 'Contributing',
-            link: '/de/contribute/'
+            text: 'Learn more',
+            items: [
+              {
+                text: 'Contributing',
+                link: '/de/contribute/'
+              },
+              {
+                text: 'Skill development',
+                link: '/de/skill-development/'
+              },
+              {
+                text: 'Core development',
+                link: '/de/core-development/'
+              },
+              {
+                text: 'API',
+                link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
+              },
+            ]
           },
           {
             text: 'Sponsors',
             link: '/de/sponsors/'
           },
           {
-            text: 'Useful links',
+            text: 'Links',
             link: '/de/links/'
           }
         ],

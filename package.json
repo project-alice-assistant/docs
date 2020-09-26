@@ -1,0 +1,15 @@
+{
+  "name": "project-alice-documentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "http-server .dist",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.6.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
