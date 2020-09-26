@@ -1,4 +1,9 @@
 module.exports = {
+  plugins: [
+      '@vuepress/back-to-top',
+      '@vuepress/active-header-links',
+      '@vuepress/nprogress'
+  ],
   base: '',
   locales: {
     '/': {

@@ -15,6 +15,12 @@ jobs:
     
     - name: install requirements
       run: npm install -g vuepress@1.6.0
+
+    - name: install plugins
+      run: |
+        npm install -g @vuepress/plugin-active-header-links
+        npm install -g @vuepress/plugin-back-to-top
+        npm install -g @vuepress/plugin-nprogress
   
     - name: build website
       run: vuepress build docs
