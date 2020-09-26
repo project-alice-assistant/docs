@@ -180,7 +180,7 @@ module.exports = {
       },
       '/de/': {
         selectText: ' Sprachen',
-        label: 'English',
+        label: 'Deutsch',
         ariaLabel: 'Sprachen',
         editLinkText: 'Edit this page on Github',
         serviceWorker: {
