@@ -24,7 +24,12 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }]
   ],
   serviceWorker: true,
+  theme: 'yuu',
   themeConfig: {
+    yuu: {
+      defaultDarkTheme: true,
+      defaultColorTheme: 'blue'
+    },
     logo: '/images/umbrella.png',
     repo: 'project-alice-assistant/ProjectAlice',
     docsRepo: 'project-alice-assistant/docs',

@@ -15,6 +15,9 @@ jobs:
     
     - name: install requirements
       run: npm install -g vuepress@1.6.0
+
+    - name: install themes
+      run: npm install -g vuepress-theme-yuu@2.3.0
   
     - name: build website
       run: vuepress build docs

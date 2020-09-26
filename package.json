@@ -7,7 +7,8 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress": "^1.6.0"
+    "vuepress": "^1.6.0",
+    "vuepress-theme-yuu": "^2.3.0"
   },
   "devDependencies": {
     "http-server": "^0.12.3"
