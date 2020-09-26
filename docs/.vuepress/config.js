@@ -1,14 +1,16 @@
 module.exports = {
   base: '',
-  '/': {
-    lang: 'en-US',
-    title: 'ProjectAlice',
-    description: 'A smart voice assistant that guarantees your privacy',
-  },
-  '/de/': {
-    lang: 'de-DE',
-    title: 'ProjectAlice',
-    description: 'A smart voice assistant that guarantees your privacy',
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'ProjectAlice',
+      description: 'A smart voice assistant that guarantees your privacy',
+    },
+    '/de/': {
+      lang: 'de-DE',
+      title: 'ProjectAlice',
+      description: 'A smart voice assistant that guarantees your privacy',
+    }
   },
   head: [
     ['meta', { 'http-equiv': 'Content-Security-Policy', 'content': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'" }],
