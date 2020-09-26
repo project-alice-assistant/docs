@@ -11,10 +11,11 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '14.x'
     
     - name: install requirements
-      run: npm install -g vuepress@1.6.0
+      run: |
+        npm install -g vuepress@1.6.0
 
     - name: install themes
       run: npm install -g vuepress-theme-yuu@2.3.0
