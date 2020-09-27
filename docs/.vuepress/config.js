@@ -1,5 +1,7 @@
 module.exports = {
-  plugins: [],
+  plugins: [
+      'fulltext-search'
+  ],
   base: '',
   dest: '.dist',
   locales: {
@@ -37,14 +39,6 @@ module.exports = {
     editLinks: true,
     smoothScroll: true,
     sidebarDepth: 2,
-    algolia: {
-      apiKey: '9c1ce589746d934bcc349d41c79d6f26',
-      appId: 'MMU6GBACE6',
-      indexName: 'prod_ALICEDOCS',
-      algoliaOptions: {
-        hitsPerPage: 7
-      }
-    },
     locales: {
       '/': {
         selectText: ' Languages',
