@@ -35,17 +35,23 @@ module.exports = {
     docsRepo: 'project-alice-assistant/docs',
     docsDir: 'docs',
     editLinks: true,
+    smoothScroll: true,
     sidebarDepth: 2,
     algolia: {
-      apiKey: '831c5fdecb500d055d0646d921dd6b2b',
-      indexName: 'ProjectAliceDocs'
+      apiKey: '9c1ce589746d934bcc349d41c79d6f26',
+      appId: 'MMU6GBACE6',
+      indexName: 'prod_ALICEDOCS',
+      algoliaOptions: {
+        hitsPerPage: 7
+      }
     },
     locales: {
       '/': {
         selectText: ' Languages',
         label: 'English',
         ariaLabel: 'Languages',
-        editLinkText: 'Edit this page on Github',
+        editLinkText: 'Help us improve this page!',
+        repoLabel: 'Contribute!',
         serviceWorker: {
           updatePopup: {
             message: 'New content is available.',
@@ -209,7 +215,8 @@ module.exports = {
         selectText: ' Sprachen',
         label: 'Deutsch',
         ariaLabel: 'Sprachen',
-        editLinkText: 'Edit this page on Github',
+        editLinkText: 'Help us improve this page!',
+        repoLabel: 'Contribute!',
         serviceWorker: {
           updatePopup: {
             message: 'New content is available.',
