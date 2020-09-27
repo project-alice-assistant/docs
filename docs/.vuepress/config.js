@@ -126,7 +126,7 @@ module.exports = {
               children: [
                 '',
                 ['GLOSSARY', 'Glossary'],
-                ['/GLOSSARY', 'Glossary']
+                ['/GLOSSARY', 'Not in use']
               ]
             }
           ],
@@ -292,7 +292,7 @@ module.exports = {
               children: [
                 '',
                 ['GLOSSARY', 'Glossary'],
-                ['/GLOSSARY', 'Glossary']
+                ['/GLOSSARY', 'Not in use']
               ]
             }
           ],
