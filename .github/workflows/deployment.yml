@@ -21,10 +21,10 @@ jobs:
         npm install -g vuepress-plugin-fulltext-search@2.0.6
         npm install -g vuepress-plugin-glossary@1.0.2
 
-    - name: install themes
+    - name: Install themes
       run: npm install -g vuepress-theme-yuu@2.3.0
   
-    - name: build website
+    - name: Build website
       run: vuepress build docs
 
     - name: Download badges

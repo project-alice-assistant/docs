@@ -43,7 +43,7 @@ A complete list of events can be found [here](../skill-development/events.md).
 ### Intent example
 <div class="userSpeech male">Turn the lights on please</div>
 
-### Slot example
+### Slot example (slots are highligthed)
 <div class="userSpeech female">Turn <strong class="slotWord">on</strong> the lights in the <strong class="slotWord">kitchen</strong></div>
 
 ### Session example
