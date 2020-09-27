@@ -1,29 +1,46 @@
 ---
-title: Glossary of terms
+title: 'Glossary'
+terms:
+    hotword: 'the phrase you speak to wake Alice, to make her listen to you.'
+    wakeword: "the phrase you speak to wake Alice, to make her listen to you. Same as :hotword:hotword: but in Alice's world, the wakeword is linked to a specific user she knows and can identify."
+    skill: "an aptitude for Alice to do something with what you asked her, the :utterance:utterance: she captured/heard. Alice comes with 5 basic skills but more can be installed."
+    utterance: "a phrase spoken by the user, after saying the :hotword:hotword: or a :wakeword:wakeword:."
+    intent: "after catching an :utterance:utterance: Alice's :NLU:nlu: turns it into an intent which represents the action the user asked her to do."
+    slot: 'a variable in an :intent:intent:. An :intent:intent: can have as many slots as needed.'
+    ASR: "Automatic Speech Recognition is a component used to capture human speech and turn it into text."
+    NLU: "Natural Language Understanding is a component used to extract :intent:intents: and :slot:slots: for the text detected by the :ASR:ASR:."
+    TTS: "Text To Speech is a component used to turn text into an audio file, a voice."
+    event: 'An event is something that happened and Alice broadcasted to all of her managers and :skill:skills:. An event name always starts with "on". examples of events would be "onUserDetected", "onWakeup" or "onRaining".'
+    main unit: "the main unit runs the heavy stuff, it's the machine on which Alice is installed"
+    satellite: "satellites need less resources than the :main unit:, making them less expensive, they provide at least a microphone and speaker in your other :location:locations: to interact with Alice."
+    location: "is place in space, can be a room in your house, but your house can also be a location, or your garden."
+    manager: "they are the core engines for Alice and all have specific tasks, from loading and managing :skill:skills: to store telemetry data."
+    session: "could be a synonym of 'dialog'. A session starts by a :hotword: or a :wakeword: and Alice starting to listen. The session ends by itself at the end of the dialog exchange, after as many :utterance:utterances: capture and :intent:intents treatment, or by timing out."
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
+# Glossary
 
-# Glossary of terms
-::: tip
-Use our Glossary to learn more about the specialist terms that we use in natural language processing generally, and more specifically with Alice software and hardware.
-:::
+<Glossary :terms="$frontmatter.terms" />
 
-* **Wakeword** - The wakeword is the phrase you use to tell Alice you're about to issue a command. A wakeword is personal and linked to a specific user in Alice's world.
-* **Hotword** - Same as wakeword but Alice won't recognize the user based on it.
-* **Skill** - When Alice hears the wakeword and then an Utterance, Alice will try to find a skill that matches the Utterance. The skill might fetch some data, or play some audio, or speak, or display some information. If Alice can't find a skill that matches the utterance, she will tell you she doesn't understand.
-* **Utterance** - An utterance is a phrase spoken by a user, after the user says the wakeword.
-* **Intent** - An intent represents an action that fulfills a user’s spoken request. Intents can optionally have arguments called slots.
-* **Slot** - A slot is an argument to an intent that gives a voice assistant more information about that request.
+## Skills
+A complete list of events can by found [here](../skill-development/events.md)
 
-Consider a weather skill. It might have e.g. an intent `GetWeather` with the following utterances (slots are marked in red):
-<div class="userSpeech male">what's the weather like in <strong class="slotWord">Toronto</strong>?</div>
-<div class="userSpeech male">Tell me the weather in <strong class="slotWord">Toronto</strong> please?</div>
+## Hotword example
+<div class="userSpeech male">Hey Snips!</div>
 
-* **ASR** - *Automatic Speech Recognition* is a component that allows to capture human speech and turn it into text.
-* **NLU** - *Natural Language Understanding* is a component that allows to extract intents and slots for the text detected by the ASR
-* **TTS** -- *Text To Speech* is a component that turns text into an audio file, a voice.
-* **Event** - An event is something that happened and Alice broadcasted to all of her managers and skills. An event name always starts with `on`. An exemple of event could be `onUserDetected`, `onWakeup` or `onRaining`. A complete list of events can by found [here](../skill-development/events.md)
+## Wakeword example
+<div class="userSpeech female">Hey Alice?</div>
 
-Are we missing a word? Let us know, or add it yourself below.
+## Intent example
+<div class="userSpeech male">Turn the lights on please</div>
+
+## Slot example
+<div class="userSpeech female">Turn <strong class="slotWord">on</strong> the lights in the <strong class="slotWord">kitchen</strong></div>
+
+## Session example
+<div class="userSpeech male">Hey Alice?</div>
+<div class="aliceSpeech">Yes?</div>
+<div class="userSpeech male">What's the temperature <strong class="slotWord">outside?</strong></div>
+<div class="aliceSpeech male">It's currently 19°C outside</div>

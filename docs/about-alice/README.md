@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 3
-title: About Alice
+title: What is Project Alice
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
