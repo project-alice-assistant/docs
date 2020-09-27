@@ -73,7 +73,7 @@ def askDeleteReminder(self, siteId):
 ```
 
 Two important things here:
-- `intentFilter`: This is used to limit the NLU on parsing the user answer on the specified intent. You don't want the user to answer with `What time is it`, but only with yes or no
+- `intentFilter`: This is used to limit the NLU on parsing the user answer on the specified intent. You don't want the user to answer with `What time is it`, but only with yes or no.
 - `currentDialogState`: This is the **very** important part! It tells Alice that she is in dialogue with the user and that the `state` or `next turn`, is `askingToDeleteReminder`. You can use literally whatever you want here, as long as you remember what you've declared.
 
 Ok, so the user is going to answer with `Yes!`. Now we need an intent handler to take care of that!
@@ -195,4 +195,4 @@ class Reminder(AliceSkill):
 
 ```
 
-The important parts here are how we declare our mappings. You can add as many routes as you wish, just take a look at [AliceCore skill](https://github.com/project-alice-assistant/skill_AliceCore/blob/master/AliceCore.py). We are still declaring dialogue states the same in `continueDialog`. Keep in mind this manual approach is useful for complex structures and you should take advantage of the decorator approach first!
+The important parts here are how we declare our mappings. You can add as many routes as you wish, just take a look at [AliceCore skill](https://github.com/project-alice-assistant/skill_AliceCore/blob/master/AliceCore.py). We are still declaring dialogue states the same in `continueDialog`. Keep in mind this manual approach is useful for complex structures, and you should take advantage of the decorator approach first!

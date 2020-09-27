@@ -5,7 +5,7 @@ title: Built-in slots
 
 # Built-in slots
 
-We have some slots ready for you to use. You don't need to worry if they exist or not, they do, as they are coming from required skills! Beside former snips skills that are supported, the Alice/XXX skills are also available. Let's list them here! This listing is about the english version. Other languages might differ in numbers
+We have some slots ready for you to use. You don't need to worry if they exist or not, they do, as they are coming from required skills! Beside former snips skills that are supported, the Alice/XXX skills are also available. Let's list them here! This listing is about the english version. Other languages might differ in numbers.
 
 
 ## Alice slots

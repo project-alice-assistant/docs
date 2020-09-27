@@ -70,7 +70,7 @@ The name of the file **must be** `config.json.template`. Let's take a look at ou
 		"description": "How many times should a user be allowed to fail authentication"
 	}
 	"notes": {
-		"defaultValue": '',
+		"defaultValue": "",
 		"dataType": "longstring",
 		"isSensitive": false,
 		"description": "Anything you would like to add?"

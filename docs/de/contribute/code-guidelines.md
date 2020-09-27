@@ -22,15 +22,15 @@ sidebarDepth: 2
 - We use fstrings and dropped the usage of .format() when possible:
   - `print(f'Hi! my name is {name}')`instead of `print('My name is {}'.format(name)`
 - Python 2 is dead
-- Init dictionaries and lists with dict() and list() and not with {} and []
+- Init dictionaries and lists with `dict()` and `list()` and not with `{}` or `[]`
 - Do never shadow a builtin var or method
-- We don't copyright the files themselves. We believe in sharing and the main file contains authors. The project is licensed under GPLv3
+- We don't copyright the files themselves. We believe in sharing, and the main file contains authors. The project is licensed under GPLv3.
 
 
 ## Pycharm settings
 To make things easier, I have shared my pycharm settings under a [Github repository](https://github.com/project-alice-assistant/JetbrainsSettings). Simply open pycharm, click **File** in the top left corner and choose **Settings repository** and choose **Overwrite local**
 
-**NOTE:** You may have to also CTRL+ALT+s to open the settings editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous github account stored in here then it may get overwritten with ours. If so click that name then remove it by clicking the " - " then click the " + " and re add your Github account 
+**NOTE:** You may have to also CTRL+ALT+s to open the settings' editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous github account stored in here then it may get overwritten with ours. If so click that name then remove it by clicking the " - " then click the " + " and re add your Github account.
 
 
 ## Reformat your code
