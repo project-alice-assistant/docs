@@ -8,12 +8,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - uses: actions/checkout@v2.3.1
+    - uses: actions/setup-node@v2
       with:
         node-version: '14.x'
+        check-latest: true
     
-    - name: install requirements
+    - name: Install requirements
       run: |
         npm install -g vuepress@1.6.0
         npm install -g vue-click-outside@1.1.0
@@ -42,3 +43,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
         BRANCH: gh-pages
         FOLDER: .dist
+        CLEAN: true
