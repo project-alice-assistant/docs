@@ -125,6 +125,7 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
+                ['GLOSSARY', 'Glossary']
                 ['/GLOSSARY', 'Glossary']
               ]
             }
@@ -290,6 +291,7 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
+                ['GLOSSARY', 'Glossary']
                 ['/GLOSSARY', 'Glossary']
               ]
             }
