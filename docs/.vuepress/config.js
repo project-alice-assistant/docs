@@ -47,6 +47,7 @@ module.exports = {
         ariaLabel: 'Languages',
         editLinkText: 'Help us improve this page!',
         repoLabel: 'Contribute!',
+        lastUpdated: 'Last Updated',
         serviceWorker: {
           updatePopup: {
             message: 'New content is available.',
@@ -212,6 +213,7 @@ module.exports = {
         ariaLabel: 'Sprachen',
         editLinkText: 'Help us improve this page!',
         repoLabel: 'Contribute!',
+        lastUpdated: 'Last Updated',
         serviceWorker: {
           updatePopup: {
             message: 'New content is available.',

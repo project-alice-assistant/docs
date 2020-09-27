@@ -28,25 +28,32 @@ terms:
 
 ## Examples
 
-### Skills
-A complete list of skills can be found directly on your Alice's interface or online [here](https://store.projectalice.io).
+### Skills 
+:skill:Skills:
+A complete list of skills can be found directly on your Alice's :interface: or online [here](https://store.projectalice.io).
 
 ### Events
+:event:Events:
 A complete list of events can be found [here](../skill-development/events.md).
 
 ### Hotword example
+:hotword:Hotword:
 <div class="userSpeech male">Hey Snips!</div>
 
 ### Wakeword example
+:wakeword:Wakeword:
 <div class="userSpeech female">Hey Alice?</div>
 
 ### Intent example
+:intent:Intent:
 <div class="userSpeech male">Turn the lights on please</div>
 
-### Slot example
+### Slot example (slots are highlighted)
+:slot:Slot:
 <div class="userSpeech female">Turn <strong class="slotWord">on</strong> the lights in the <strong class="slotWord">kitchen</strong></div>
 
 ### Session example
+:session:Session:
 <div class="userSpeech male">Hey Alice?</div>
 <div class="aliceSpeech">Yes?</div>
 <div class="userSpeech male">What's the temperature <strong class="slotWord">outside?</strong></div>
