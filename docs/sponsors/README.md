@@ -8,7 +8,7 @@ Project Alice says a huge thanks to the following persons and companies for supp
 <p>
   Liberapay: <a href="https://liberapay.com/Psycho/donate">https://liberapay.com/Psycho/donate</a><br>
   <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay"><br><br>
-  At the moment I do not have any plans on how to thank patrons other than naming them here with some link of their will, but feel free to shot ideas if you have any.
+  At the moment I do not have any plans on how to thank patrons other than naming them here with some link of their will, but feel free to shoot ideas through if you have any.
 </p>
 
 <p>
