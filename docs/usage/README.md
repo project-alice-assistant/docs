@@ -34,7 +34,7 @@ At that point, instead of naturally say it again the same way, try to change the
 <div class="aliceSpeech">Is that what you meant before?</div>
 <div class="userSpeech male">Yes</div>
 <div class="aliceSpeech">Ok, cool, I'll remember that!</div>
-<div class="userSpeech male">Hey Alice?</div>
+<div class="userSpeech female">Hey Alice?</div>
 <div class="aliceSpeech">That's me!</div>
-<div class="userSpeech male">Gimme the temp outside</div>
+<div class="userSpeech female">Gimme the temp outside</div>
 <div class="aliceSpeech">It's currently 6°C outside</div>
