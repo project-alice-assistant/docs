@@ -25,7 +25,7 @@ What's better than an example?
 <div class="userSpeech male">Hey Alice?</div>
 <div class="aliceSpeech">That's me!</div>
 <div class="userSpeech male">Gimme the temp outside</div>
-<div class="aliceSpeeche">Sorry? I did not understand...</div>
+<div class="aliceSpeech">Sorry? I did not understand...</div>
 
 At that point, instead of naturally say it again the same way, try to change the way you are asking:
 
