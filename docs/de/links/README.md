@@ -1,5 +1,9 @@
-# Useful links
-Project Alice exists at many different places for you to be updated! Likes and follows very welcome!
+---
+title: 'Useful links'
+sidebarDepth: 3
+---
+<link rel="stylesheet" href="/css/speechbubbles.css">
+
 
 - [Homepage](https://projectalice.io)
 - [Youtube](https://www.youtube.com/channel/UC6mQG2SZALQH0YwASnroI8g)

@@ -1,12 +1,9 @@
-Since beta 1, we do not preinstall all the dependencies anymore except for a few critical ones:
+---
+title: 'Preinstalled'
+sidebarDepth: 3
+---
+<link rel="stylesheet" href="/css/speechbubbles.css">
 
-- Python3 PIP
-- psutil
-- PyYAML
-- toml
+# WIP
 
-
-If you are looking for the actual dependencies, once installed, have a look here:
-
-- [System](https://github.com/project-alice-assistant/ProjectAlice/blob/master/sysrequirements.txt)
-- [Python](https://github.com/project-alice-assistant/ProjectAlice/blob/master/requirements.txt)
+<div class="aliceSpeech">Ich brauche jemanden, diese Seite zu übersetzen bitte</div>

@@ -5,9 +5,7 @@ title: What is Project Alice
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
-# Intro
-
-## What is Project Alice?
+## Intro
 
 <div class="userSpeech male">Hey Alice?</div>
 <div class="aliceSpeech female">Yeah?</div>

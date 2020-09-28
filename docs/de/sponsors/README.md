@@ -1,3 +1,8 @@
+---
+title: 'Sponsors'
+sidebarDepth: 3
+---
+
 # Sponsors
 Project Alice says a huge thanks to the following persons and companies for supporting us! It's not an easy world for those developing free software for open source and the costs involved with creating can quickly become crushing if you aim for efficiency and quality.
 

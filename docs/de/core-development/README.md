@@ -1,6 +1,9 @@
 ---
-sidebarDepth: 4
-title: Core development
+title: 'Core development'
+sidebarDepth: 3
 ---
+<link rel="stylesheet" href="/css/speechbubbles.css">
 
-[Code guidelines](../contribute/code-guidelines.md)
+# WIP
+
+<div class="aliceSpeech">Ich brauche jemanden, diese Seite zu übersetzen bitte</div>
