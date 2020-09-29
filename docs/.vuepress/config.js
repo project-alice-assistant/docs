@@ -138,6 +138,7 @@ module.exports = {
                 '',
                 'requirements',
                 'preinstalled',
+                'docker',
                 'troubleshooting',
                 'wakeword'
               ]
@@ -304,6 +305,7 @@ module.exports = {
                 '',
                 'requirements',
                 'preinstalled',
+                'docker',
                 'troubleshooting',
                 'wakeword'
               ]
