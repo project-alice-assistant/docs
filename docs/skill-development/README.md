@@ -1,13 +1,13 @@
 ---
+title: 'Introduction to Skill Development'
 sidebarDepth: 2
-title: Introduction to Skill Development
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
-# Introduction to Skill Development
+# Intro
 
-Alice Skills are the voice applications that provide different functionality for users. To create a Skill requires at least basic technical experience, a Alice installation, and an idea of what your Skill will do, and how people will use it.
+Alice skills are the voice applications that provide different functionality for users. To create a Skill requires at least basic technical experience, an Alice installation, and an idea of what your Skill will do, and how people will use it.
 
 ::: tip
 Explore the fundamental building blocks of a Skill, and the knowledge required

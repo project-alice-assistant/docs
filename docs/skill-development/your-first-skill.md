@@ -1,6 +1,6 @@
 ---
-sidebarDepth: 2
-Title: Your first skill
+Title: 'Your first skill'
+sidebarDepth: 3
 ---
 
 # Your first skill

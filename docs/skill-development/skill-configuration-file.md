@@ -1,9 +1,9 @@
 ---
+title: 'Skill configuration file'
 sidebarDepth: 2
-title: Skill configuration file
 ---
 
-# Skill configuration file
+# Intro
 At some point, your skill will need some user dependant configuration, per example an api key, a threshold, login or a password. This is where skill configuration files come in the game!
 
 As a dev you have to provide a skill configuration **template** file. Based on this file, when Project Alice installs your skill, a **config** file will be automatically created with your default provided values. If you happen to update your config template, let's say, to drop a login and password field in favour of an api key field, Project Alice will detect it and update the configuration file accordingly.

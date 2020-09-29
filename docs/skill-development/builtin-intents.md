@@ -1,13 +1,13 @@
 ---
+title: 'Built-in intents'
 sidebarDepth: 5
-title: Built-in intents
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
-# Built-in intents
+# Intro
 
-There are intents that are already available for you to use due to the fact the `AliceCore` skill needs to be loaded and run for Alice to start. You should **always check** if the intents you are creating do not already exist. Those intents are usually used for answering to missing information and are **disabled by default**. They take advantage of our built-in slots. Let's list those intents here:
+There are :intent:intents: that are already available for you to use due to the fact the `AliceCore` :skill: needs to be loaded and run for Alice to start. You should **always check** if the intents you are creating do not already exist. Those intents are usually used for answering to missing information and are **disabled by default**. They take advantage of our built-in :slot:slots:. Let's list those intents here:
 
 
 ## Listing

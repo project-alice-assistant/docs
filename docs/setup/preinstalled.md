@@ -1,3 +1,8 @@
+---
+title: 'Preinstalled'
+sidebarDepth: 3
+---
+
 Since beta 1, we do not preinstall all the dependencies anymore except for a few critical ones:
 
 - Python3 PIP

@@ -1,4 +1,8 @@
-# Useful links
+---
+title: 'Useful links'
+sidebarDepth: 3
+---
+
 Project Alice exists at many places for you to be updated! Likes and follows very welcome!
 
 - [Homepage](https://projectalice.io)

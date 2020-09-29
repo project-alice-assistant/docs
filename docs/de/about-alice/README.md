@@ -1,5 +1,5 @@
 ---
-title: 'About Alice'
+title: 'What is Project Alice'
 sidebarDepth: 3
 ---
 <link rel="stylesheet" href="/css/speechbubbles.css">

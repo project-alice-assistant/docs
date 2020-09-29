@@ -1,8 +1,9 @@
 ---
-sidebarDepth: 2
+title: 'Code guidelines'
+sidebarDepth: 3
 ---
 
-# Code Guidelines
+# How we write Alice
 
 - **We use tabs and not spaces for indentation**
 - We prefix private class variables with an underscore
@@ -27,13 +28,13 @@ sidebarDepth: 2
 - We don't copyright the files themselves. We believe in sharing, and the main file contains authors. The project is licensed under GPLv3.
 
 
-## Pycharm settings
+# Pycharm settings
 To make things easier, I have shared my pycharm settings under a [Github repository](https://github.com/project-alice-assistant/JetbrainsSettings). Simply open pycharm, click **File** in the top left corner and choose **Settings repository** and choose **Overwrite local**
 
 **NOTE:** You may have to also CTRL+ALT+s to open the settings' editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous github account stored in here then it may get overwritten with ours. If so click that name then remove it by clicking the " - " then click the " + " and re add your Github account.
 
 
-## Reformat your code
+# Reformat your code
 
 Pycharm comes with a powerful inbuilt code formatter which you can use to adapt your code to our guidelines once you have linked your pycharm to our settings repository. Right click on your project and choose **Reformat code**. You'll be presented with a popup to choose some options:
 
@@ -42,7 +43,7 @@ Pycharm comes with a powerful inbuilt code formatter which you can use to adapt 
 If you don't see that reformat option on a right click then it can also be found under the menu heading **code** on the toolbar.
 
 
-## Check your code
+# Check your code
 
 Pycharm comes with an inbuilt code checker. Beside the "per file" instant check (top right corner, green tick if ok) you can run an analysis on your code by right clicking your project and choose **Inspect code**:
 

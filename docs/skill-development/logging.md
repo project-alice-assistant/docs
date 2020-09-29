@@ -1,9 +1,9 @@
 ---
+title: 'Logging'
 sidebarDepth: 2
-title: Logging
 ---
 
-# Logging
+# Intro
 
 To track events and data within your skill we can use logging. If you are new to programming, this is a way to output a message that can tell you the state of your skill at a particular point in time, details about an error that has occurred, or simply noting that a program reached a particular point in the code.
 

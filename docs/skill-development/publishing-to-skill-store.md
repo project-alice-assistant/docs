@@ -1,10 +1,10 @@
 ---
+title: 'Publishing your skill'
 sidebarDepth: 3
-title: Publishing your skill
 ---
 
-# Publishing to skill store
-So you think your freshly written skill is ready to be shared with the rest of the world? That's great! Here are the steps to have your skill published, from checking that everything is ok to have it published, let's review the remaining steps
+# Intro
+So you think your freshly written skill is ready to be shared with the rest of the world? That's great! Here are the steps to have your skill published, from checking that everything is ok to have it published, let's review the remaining steps.
 
 ## Checking your skill
 Because we like things clean and following a strict guideline!

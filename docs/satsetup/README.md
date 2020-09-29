@@ -1,4 +1,7 @@
-# Satellite setup
+---
+title: 'Satellite setup'
+sidebarDepth: 3
+---
 
 ::: warning
 This is an alpha release! It is subject to major changes and the target audience is people with some knowledge of their devices, coding, installing python modules and basic stuff!
@@ -18,7 +21,7 @@ You need the AliceSatellite installed and running on your main unit!
 - **do not place any wpa_supplicant.conf or ssh file in /boot**
 - **do not boot your raspberry before doing this next point!!**
 - **Edit the /boot/ProjectAliceSatellite.yaml file**. If there's no ProjectAliceSatellite.yaml file on the /boot partition, grab the latest from sources: [ProjectAliceSatellite.yaml](https://github.com/project-alice-assistant/ProjectAliceSatellite/blob/master/ProjectAliceSatellite.yaml)
-- Configure it according to your information and needs. All configuration have a little explanation but most should be self explanatory.
+- Configure it according to your information and needs. All configurations have a little explanation, but most should be self-explanatory.
 - Make sure to have a space after the colons:
    - Wrong: `forceRewrite:yes`
    - Correct: `forceRewrite: yes`
@@ -28,7 +31,7 @@ You need the AliceSatellite installed and running on your main unit!
 - Save it, unplug your sd, plug it in your raspberry pi.
 - Ask Alice to "Add a new satellite"
 - Power up your satellite
-- Alice should boot by herself and connect to your wifi, update, configure and start. This may take a while
+- Alice should boot by herself and connect to your Wi-Fi, update, configure and start. This may take a while
 - If Alice times out for the satellite addition, after 5 minutes, she'll tell you. In that case ask her again to "Add a satellite". If you are using respeakers per exemple, the satellite setup might take more than 5 minutes.
 - The SSH User is `pi` and the password is `umbrella`
 

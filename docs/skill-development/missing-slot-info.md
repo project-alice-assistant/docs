@@ -1,11 +1,11 @@
 ---
+title: 'Missing slot information'
 sidebarDepth: 3
-title: Missing slot information
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
-# Missing slots info
+# Intro
 
 Sometimes you need more information than what the user provided...
 

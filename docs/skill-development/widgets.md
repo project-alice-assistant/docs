@@ -1,9 +1,9 @@
 ---
+title: 'Widgets'
 sidebarDepth: 2
-title: Widgets
 ---
 
-# Widgets
+# Intro
 Widgets are little tiles that a user can add to the interface home screen. They provide a quick overview or functions to your skills. Think a Philips Hue lamp adding a widget for every lamp the user has connected, allowing the user to click on the widget to toggle the light state. Or a widget for a shopping list displaying what's currently in your list. Or a widget displaying the temperature at your Netatmo devices. Or... Well, you got it I guess?
 
 ## Widgets structure

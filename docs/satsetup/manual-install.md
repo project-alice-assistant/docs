@@ -1,7 +1,12 @@
-# Satellite setup - Manually
+---
+title: 'Manual install'
+sidebarDepth: 3
+---
+
+# Satellite setup
 
 ::: warning
-This is an alpha release! It is subject to major changes and the target audience is people with some knowledge of their devices, coding, installing python modules and basic stuff!
+This is an alpha release! It is subject to major changes, and the target audience is people with some knowledge of their devices, coding, installing python modules and basic stuff!
 :::
 
 ::: tip

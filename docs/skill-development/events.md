@@ -1,12 +1,12 @@
 ---
+title: 'Events'
 sidebarDepth: 3
-title: Events
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
-# Events
-Project Alice is driven by events. What are events you might ask, or what do we mean with it? Ever heard of "action -> reaction"? That's exactly it! When something happens, something occurs! Events are by convention prefixed with "on", like "onStormyWeather" or "onDoorOpened".
+# Intro
+Project Alice is driven by :event:events:. What are events you might ask, or what do we mean with it? Ever heard of "action -> reaction"? That's exactly it! When something happens, something occurs! Events are by convention prefixed with "on", like "onStormyWeather" or "onDoorOpened".
 
 We provide a load of pre-made system events you can override in your skills. Lemme try to list them all, more are added on regular bases though!
 

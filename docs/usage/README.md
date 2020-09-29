@@ -1,6 +1,6 @@
 ---
+title: 'Basic usage'
 sidebarDepth: 3
-title: Basic usage
 ---
 
 <link rel="stylesheet" href="/css/speechbubbles.css">

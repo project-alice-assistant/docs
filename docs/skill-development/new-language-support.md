@@ -1,9 +1,9 @@
 ---
+title: 'Adding a new language support'
 sidebarDepth: 4
-title: Adding a new language support
 ---
 
-# Language support
+# Intro
 We currently natively support the following languages:
 - English
 - French

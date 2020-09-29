@@ -1,21 +1,24 @@
-# Wakeword
+---
+title: 'Hotword and wakeword'
+sidebarDepth: 3
+---
 
 There are two types of wakewords for Alice.
-The global wakewords, that work for everybody, and are preinstalled. And the personal wakewords, that only work for one person and are individually created in runtime.
+The :hotword:, that works for everybody, and are preinstalled, and the personal :wakeword:wakewords:, that only work for one person and are individually created in runtime.
 
-## Global wakeword
-At the moment following global wakewords are supported:
+## Hotword
+At the moment following :hotword:hotwords: are supported:
 - "Hey Snips"
 
-This is subject to change and will be replaced when multiple wakeword engines are supported.
+This is subject to change and will be replaced when multiple :wakeword: engines are supported.
 
-## Personal wakeword
-The personal wakeword is created after a new user is registered for Alice.
+## Wakeword
+The personal :wakeword: is created after a new user is registered for Alice.
 This can be right after her start for the first user, or when you add in a new user later on.
-When you decide to not add a wakeword at the start, you (currently) have two ways to add it later on.
+If you decide not to add a :wakeword: at the start, you (currently) have two ways to add it later on.
 
 ### Reset everything
-Delete all memory of Alice and start over with the user creation of the Admin.
+Delete all memory of Alice and start over with the user creation of the admin user.
 This way is only recommended when you just created your instance of Alice.
 
 ```Batchfile
@@ -65,7 +68,7 @@ A free tool for this could be [Audacity](https://www.audacity.de/downloads/)
     
 5. `sudo nano /etc/snips.toml`
     
-6. Modify the following block to include the path to your wakeword and the sensitivity. Don't forget to replace %username%!
+6. Modify the following block to include the path to your :wakeword: and the sensitivity. Don't forget to replace %username%!
     
 ```
 [snips-hotword]

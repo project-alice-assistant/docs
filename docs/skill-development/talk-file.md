@@ -1,11 +1,11 @@
 ---
+title: 'Talk file'
 sidebarDepth: 3
-title: Talk file
 ---
 
-# Skill Talk file
+# Intro
 
-Inside a skill directory, there is a `talks` sub directory containing `.json` files. The files are named after the language code they contain. These files are used by Alice to respond to your requests and should by all mean contain at least 2 different ways of answering, optimal would be 5 ways so she doesn't answer always the same.
+Inside a skill directory, there is a `talks` sub directory containing `.json` files. The files are named after the language code they contain. These files are used by Alice to respond to your requests and should by all mean contain at least 2 different ways of answering, optimal would be 5 ways, so she doesn't always answer the same.
 
 
 We have different ways of defining those text strings. First of all, this is a `json` object. The `keys` **are never to be translated**!
@@ -64,10 +64,10 @@ In this example the `key` is `confirmAddition` but defines a dictionary this tim
 }
 ```
 
-In the case a user prefers a short answer or has turned on `night mode`, Alice will pick a random answer from the `short` list. Otherwise she will randomly pick from the `default` list.
+In the case a user prefers a short answer or has turned on `night mode`, Alice will pick a random answer from the `short` list. Otherwise, she will randomly pick from the `default` list.
 
 ## Variables
-The time you will need variables in your answers will come very fast. Imagine answering for the weather, you cannot make 100 strings declaration for each possible temperatures! Two solutions exist
+The time you will need variables in your answers will come very fast. Imagine answering for the weather, you cannot make 100 strings declaration for each possible temperatures! Two solutions exist.
 
 ### Unindexed variables
 This is ok to use in case your string only contains one variable but should be avoided in case of more, simply because some languages maybe have to inverse the position of the variable

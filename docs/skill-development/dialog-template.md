@@ -1,14 +1,14 @@
 ---
+title: 'Dialog template file'
 sidebarDepth: 4
-title: Dialog template file
 ---
 
-# Dialog template file
-This is the "pièce of resistance", the beef! This defines your intents, utterances and your slots in a readable way. Alice will then use this file to train the NLU and ASR components!
+# Intro
+This is the "pièce of resistance", the beef! This defines your :intent:intents:, :utterance:utterances: and your :slot:slots: in a readable way. Alice will then use this file to train the :NLU: and :ASR: components!
 
 
 ::: tip Pro tip
-If you are using an IDE able to handle json schema, it is highly recommended to use our [Dialogue Template Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/dialog-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended using our [Dialogue Template Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/dialog-schema.json)
 :::
 
 
@@ -71,7 +71,7 @@ Ok, say we want the user to be able to say hello to Alice, we need to add an int
 
 
 ## Add some variable to our utterances, aka `slots`
-Imagine a shopping skill and an intent to add an item to your shopping list. For sure you won't define 10'000 utterances with all possible items to say. For that you will use `slots`
+Imagine a shopping skill and an intent to add an item to your shopping list. For sure, you won't define 10'000 utterances with all possible items to say. For that you will use `slots`
 
 ```json
 {

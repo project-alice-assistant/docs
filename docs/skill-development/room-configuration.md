@@ -1,3 +1,8 @@
+---
+title: 'Room configuration'
+sidebarDepth: 3
+---
+
 # WIP CONCEPT: Room configuration
 
 If you develop a skill that introduces a new device type, that skill can provide two types of configs.

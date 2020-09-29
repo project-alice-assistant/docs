@@ -1,3 +1,8 @@
+---
+title: 'Room configuration'
+sidebarDepth: 3
+---
+
 # WIP CONCEPT: Room configuration
 
 Once you want to get the most out of Alice and her skills,

@@ -1,13 +1,13 @@
 ---
+title: 'Contributing'
 sidebarDepth: 4
-title: Contributing
 ---
 
-# Contributing
+# Thank you
 
 First of all, thank you for being interested in contributing to **ProjectAlice**. 🙏 
 
-A lot of things could be improved and enriched with you collaboration no matter if you are an experienced developer or not. Below you will find just some guidelines for inspiration.
+A lot of things could be improved and enriched with your collaboration no matter if you are an experienced developer or not. Below you will find just some guidelines for inspiration.
 
 ## Documentation
 You can write, translate and improve ProjectAlice's documentation. Each page has a link to its source code, so you can easily edit and send a PR if you find a typo or something that's not clear enough.
@@ -42,7 +42,7 @@ Skills need new language support, the system can be translated to support new la
 ### Pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
 Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
-To validate your skill you can use the Alice Skill Kit as described in the section [alice skill kit]()
+To validate your skill you can use the Alice Skill Kit as described in the section [alice skill kit]().
 
 
 

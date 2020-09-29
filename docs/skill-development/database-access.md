@@ -1,9 +1,9 @@
 ---
+title: 'Database Access'
 sidebarDepth: 3
-title: Database Access
 ---
 
-# Database Access
+# Intro
 Alice comes with a built in SQLite database and offers a service provider for accessing the database.
 There are methods for creating, modifying and deleting a table built right into the skill constructor 
 and there are methods available for adding, removing, modifying and of course reading the content of the database.
