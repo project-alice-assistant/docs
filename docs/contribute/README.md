@@ -52,7 +52,7 @@ To validate your skill you can use the Alice Skill Kit as described in the secti
 Help to promote the project with you friends, colleagues and the social media.
 
 ### Become a stargazer
-Maybe you don't have the habit to star projects on Github, we kindly ask you to do so. :)
+Maybe you don't have the habit to star projects on Github, we kindly ask you [to do so](https://github.com/project-alice-assistant/ProjectAlice/stargazers). :)
 
 ### Stay in touch
 
