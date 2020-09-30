@@ -1,3 +1,7 @@
+---
+title: 'Preinstalled'
+sidebarDepth: 3
+---
 
 # Preinstalled Packages
 Here's the list of what's preinstalled on Project Alice Satellite image:

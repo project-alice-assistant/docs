@@ -1,14 +1,22 @@
-# Sponsors
+---
+title: 'Sponsors'
+sidebarDepth: 3
+---
+
 Project Alice says a huge thanks to the following persons and companies for supporting us! It's not an easy world for those developing free software for open source and the costs involved with creating can quickly become crushing if you aim for efficiency and quality.
 
 <p>
-  If you too want to sponsor Project Alice, we currentlya have two ways on place, either by a monthly support, with Liberapay that is clearer than Patreons and gives 100% of the funds to the receiver or a one shot donation through Paypal.
+  If you too want to sponsor Project Alice, we currently have two ways on place, either by a monthly support, with Liberapay that is clearer than Patreons and gives 100% of the funds to the receiver or a one shot donation through Paypal.
 </p>
 
 <p>
   Liberapay: <a href="https://liberapay.com/Psycho/donate">https://liberapay.com/Psycho/donate</a><br>
   <img src="http://img.shields.io/liberapay/patrons/Psycho.svg?logo=liberapay"><br><br>
-  At the moment I do not have any plans on how to thank patrons other than naming them here with some link of their will, but feel free to shot ideas if you have any.
+  At the moment I do not have any plans on how to thank patrons other than naming them here with some link of their will, but feel free to shoot ideas through if you have any.
+</p>
+
+<p>
+  Blockchain.com: <a href="https://www.blockchain.com/">1Dv6CtEHUmDgv6tkgbsbrVRrBLh1KxUKPA</a>
 </p>
 
 <p>

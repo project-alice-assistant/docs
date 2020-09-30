@@ -1,9 +1,10 @@
 ---
-sidebarDepth: 1
+title: 'Publishing your skill'
+sidebarDepth: 3
 ---
 
-# Publishing to skill store
-So you think your freshly written skill is ready to be shared with the rest of the world? That's great! Here are the steps to have your skill published, from checking that everything is ok to have it published, let's review the remaining steps
+# Intro
+So you think your freshly written skill is ready to be shared with the rest of the world? That's great! Here are the steps to have your skill published, from checking that everything is ok to have it published, let's review the remaining steps.
 
 ## Checking your skill
 Because we like things clean and following a strict guideline!
@@ -38,12 +39,22 @@ Once we have forked it and added it to our quality and store control Continuous 
 
 `https://projectalice.io/skill_YOUR_SKILL_NAME`
 
-On top of the readme, you will find a badge called "pipeline":
+On top of the readme, you will find two badges:
 
-<img src="/images/pipeline_badge.png" alt="pipeline badge">
+<img src="/images/badges_demo.png" alt="badges demo">
 
-That badge should say "passed". In case not, something went wrong publishing the skill. Simply click on the badge to be redirected to gitlab where you will be able to understand what failed. We have 5 jobs that run before a skill is available and you can influence the 3 first ones because they test your code and react to your changes in files:
+The pipeline badge should say "passed" and be green. In case not, something went wrong publishing the skill. Simply click on the badge to be redirected to gitlab where you will be able to understand what failed. We have 5 jobs that run before a skill is available and you can influence the 3 first ones because they test your code and react to your changes in files:
 
 <img src="/images/pipeline_example.png" alt="pipeline example">
 
-The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployement will begining and should take about 2 minutes. It is also a good idea to subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
+The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployment will beginning and should take about 2 minutes.
+
+The second badge on the readme is the "Quality gate" status, run by Sonarcube. This test evaluates your code quality and should be green too. If not, you can click on it to be redirected to Sonarcloud where you will find the issues related to your skill code.
+
+::: warning Subscribe
+**Please subscribe to the fork of your skill so you get alerted when someone reports a bug on your skill.**
+
+Please subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
+:::
+
+

@@ -1,4 +1,7 @@
-# Requirements
+---
+title: 'Requirements'
+sidebarDepth: 3
+---
 
 We've successfully run Project Alice on raspberry Pi 2b, 3b, 3b, 3b+ and 3a+
 

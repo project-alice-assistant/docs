@@ -1,12 +1,13 @@
 ---
+title: 'Widgets'
 sidebarDepth: 2
 ---
 
-# Widgets
-Widgets are little tiles that a user can add to the interface home screen. They provide quick overview or functions to your skills. Think a Philips Hue lamp adding a widget for every lamp the user has connected, allowing the user to click on the widget to toggle the light state. Or a widget for a shopping list displaying what's currently in your list. Or a widget displaying the temperature at your Netatmo devices. Or... Well, you got it I guess?
+# Intro
+Widgets are little tiles that a user can add to the interface home screen. They provide a quick overview or functions to your skills. Think a Philips Hue lamp adding a widget for every lamp the user has connected, allowing the user to click on the widget to toggle the light state. Or a widget for a shopping list displaying what's currently in your list. Or a widget displaying the temperature at your Netatmo devices. Or... Well, you got it I guess?
 
 ## Widgets structure
-Widgets come embedded with your skill. They are not mandatory but can be a nice addition for users using the interface. You can add more than one widget per skill and the user decides which ones to use. To add a widget you must create the following structure in your existing skill structure, our HelloWorld skills:
+Widgets come embedded with your skill. They are not mandatory but can be a nice addition for users using the interface. You can add more than one widget per skill, and the user decides which ones to use. To add a widget you must create the following structure in your existing skill structure, our HelloWorld skills:
 
 ```text
 .
@@ -27,7 +28,9 @@ Widgets come embedded with your skill. They are not mandatory but can be a nice 
 Let's break down this structure!
 
 ### css/common.css
-This contains any css that is common between the widgets your skill proposes
+This contains any css that is common between the widgets your skill proposes. If there's no common css rule, please add this to the file:
+
+`/* empty */
 
 ### css/HelloWorldWidget.css
 This is your widget dedicated css file! The default content should be as follow:
@@ -36,10 +39,10 @@ This is your widget dedicated css file! The default content should be as follow:
 .HelloWorldWidget {
 	width: 100%;
 	height: 100%;
-	background-color: #636363;
 	color: #d1d1d1;
 	padding: 5px;
 	box-sizing: border-box;
+	overflow-y: hidden;
 }
 
 .HelloWorldWidget .icon {
@@ -84,9 +87,7 @@ This is what is rendered on the home page, it's your widget! A basic widget file
 ```html
 <div class="HelloWorldWidget" id="HelloWorldWidget">
 	<div class="widgetIcons">
-		<div class="widgetIcon">
-			<i class="fas fa-space-shuttle" aria-hidden="true"></i>
-		</div>
+		<i class="fas fa-space-shuttle" aria-hidden="true"></i>
 	</div>
     <!-- Your widget html code -->
 </div>
@@ -201,3 +202,39 @@ Beside the API we also have the possibility for your widgets to call functions o
   ```
 
 And that's it, your widget calls your function in Alice Core and it responds back with whatever you want!
+
+
+## In built css rules
+
+The interface loads our css rules, and these are available at all time! Let me try to list the ones that are most important for you as a widget dev!
+
+### Variables
+We have some variables set for you to use in your widgets:
+
+#### --hover : Color of a link when hovered
+#### --mainBG : Main color of the background
+#### --windowBG : Color of windows above the main background
+#### --secondary : Secondary color of windows above the main background
+#### --accentuated : Accentuated color, for items that need to draw attention
+#### --text : Texts color
+#### --short : Text font
+#### --long : Text font
+#### --readable : Text font
+
+### Classes
+Some reusable classes
+
+#### .widget : To be used for widgets, the wrapper around
+#### .tileContainer : If you need to create a tile system, this is used for the container
+#### .tile : If you create tiles, use this class for them
+#### .red : Red color for texts
+#### .disabled : Red color for texts
+#### .warning : Red color for texts
+#### .green : Green color for texts
+#### .saved : Green color for texts
+#### .yellow : Yellow color for texts
+#### .active : Yellow color for texts
+#### .saving : Yellow color for texts
+#### .hidden : Display None
+#### .button: If you use buttons, use this class
+

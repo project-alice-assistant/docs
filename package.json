@@ -1,0 +1,20 @@
+{
+  "name": "project-alice-documentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "http-server .dist",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.6.0",
+    "vuepress-theme-yuu": "^2.3.0",
+    "flexsearch": "^0.6.32",
+    "vue-click-outside": "^1.1.0",
+    "vuepress-plugin-fulltext-search": "^2.0.6",
+    "vuepress-plugin-glossary": "^1.0.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
