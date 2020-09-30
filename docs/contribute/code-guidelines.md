@@ -49,3 +49,26 @@ Pycharm comes with an inbuilt code checker. Beside the "per file" instant check 
 
 <img src="/images/inspect_code.png" alt="inspect code">
 
+
+# Automatic code check
+
+Pycharm has a Sonarcloud plugin that can check your code to make sure it is following our guidelines!
+
+- Create an account on [SonarCloud](https://sonarcloud.io/)
+- Contact us to add you as a skill dev, in order for you to generate your access token
+- Once you've been added in our skill dev group, go to your SonarCloud profile, under security, and generate a new access token.
+- In Pycharm open your settings
+- Go to `Plugins`
+- Search and install `SonarLint`
+
+<img src="/images/sonarlint.png" alt="SonarLint">
+
+- Under `Tools` select `SonarLint` and click on the `+` to add a new connection
+
+<img src="/images/sonarlintalice.png" alt="SonarLint">
+
+- Name it `ProjectAlice` and choose `SonarCloud`, then click on next
+
+<img src="/images/sonarlintserver.png" alt="SonarLint">
+
+- Enter your SonarCloud token and you are good to go!
