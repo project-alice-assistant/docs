@@ -1,6 +1,6 @@
 ---
 title: 'Contributing'
-sidebarDepth: 4
+sidebarDepth: 3
 ---
 
 # Thank you
