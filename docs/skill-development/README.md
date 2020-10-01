@@ -60,5 +60,5 @@ Consider a weather skill. It might have e.g. an intent `GetWeather` with the fol
 <div class="userSpeech male">Tell me the weather in <strong class="slotWord">Toronto</strong> please?</div>
 
 
-If you encounter anything else you're not familiar with, checkout the [Alice Glossary](../glossary).
+If you encounter anything else you're not familiar with, checkout the [Alice Glossary](../about-alice/GLOSSARY.md).
 
