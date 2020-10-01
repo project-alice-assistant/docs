@@ -16,6 +16,7 @@ You can write, translate and improve ProjectAlice's documentation. Each page has
 Find an open issue to tackle. New features are welcome!
 
 ### Inform an Issue
+
 - **What issues can I report?**
 
 Besides reporting a **bug**, you can **propose features, ideas, etc**. 
@@ -26,7 +27,7 @@ You can also open an issue if something in the **documentation** is not clear en
 
 Just try to explain **what happens** and **what is expected to happen** . Also, it would be very useful to provide **a way to reproduce the issue** and **logs that show the issue**
 
-### Pull request Guidelines
+### Core pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
 Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
 
@@ -39,7 +40,7 @@ New skills are always welcome. A guide on how to create skills for Project Alice
 Skills need new language support, the system can be translated to support new languages! Check our [dedicated page](../skill-development/new-language-support.md) to learn how to do it!
 
 
-### Pull request Guidelines
+### Skills pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
 Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
 To validate your skill you can use the Alice Skill Kit as described in the section [alice skill kit]().
