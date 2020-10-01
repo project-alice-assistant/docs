@@ -97,6 +97,10 @@ module.exports = {
                 link: '/contribute/'
               },
               {
+                text: 'Get started with Pycharm',
+                link: '/skill-development/getting-started-with-a-IDE'
+              },
+              {
                 text: 'Skill development',
                 link: '/skill-development/'
               },
@@ -193,8 +197,7 @@ module.exports = {
                 'skill-configuration-file',
                 'publishing-to-skill-store',
                 'new-language-support',
-                'database-access',
-                'getting-started-with-a-IDE'
+                'database-access'
               ]
             }
           ],
@@ -263,6 +266,10 @@ module.exports = {
               {
                 text: 'Contributing',
                 link: '/de/contribute/'
+              },
+              {
+                text: 'Get started with Pycharm',
+                link: '/de/skill-development/getting-started-with-a-IDE'
               },
               {
                 text: 'Skill development',
@@ -361,8 +368,7 @@ module.exports = {
                 'skill-configuration-file',
                 'publishing-to-skill-store',
                 'new-language-support',
-                'database-access',
-                'getting-started-with-a-IDE'
+                'database-access'
               ]
             }
           ],

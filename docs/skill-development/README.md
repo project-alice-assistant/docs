@@ -7,7 +7,7 @@ sidebarDepth: 2
 
 # Intro
 
-Alice skills are the voice applications that provide different functionality for users. To create a Skill requires at least basic technical experience, an Alice installation, and an idea of what your Skill will do, and how people will use it.
+Alice :skill:skills: are the voice applications that provide different functionality for users. To create a Skill requires at least basic technical experience, an Alice installation, and an idea of what your Skill will do, and how people will use it.
 
 ::: tip
 Explore the fundamental building blocks of a Skill, and the knowledge required
@@ -24,6 +24,8 @@ Skills for Alice are written using the [Python programming language](https://www
 If you aren't familiar with the basics of Python, check out our [list of Python tutorials and resources](python-resources) to get you started. If you've programmed in other object-oriented languages, like Javascript or C\#, then you'll be able to pick it up, but if you're totally new to programming, you might want to look at an [introductory programming course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11).
 
 It is also required that you read **and understand** our [Code guidelines](../contribute/code-guidelines.md)
+
+For a quick jump into setting your IDE for Alice, read the following community made documentation: [Getting started with Pycharm](../skill-development/getting-started-with-a-IDE.md).
 
 ### Github account
 
