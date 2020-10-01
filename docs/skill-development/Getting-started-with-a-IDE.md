@@ -65,7 +65,7 @@ and then on your Pi.
 
 ```cd ProjectAlice/skills/<your skillname>```
 
-``` git pull```
+```git pull```
 
 ```sudo systemctl restart ProjectAlice```
 
@@ -181,7 +181,7 @@ just one of those types into Pycharm and you can do all the rest on your own.
 - Now at the very bottom right of your Pycharm do you see a "no schema" button ? click that to open the schema 
 configuration screen 
 
-<img src="/images/schema.png" alt="schema">
+<img src="/images/schemapath.png" alt="schema">
 
 Note this image shows JSON ProjectAlice talks.... you'll likely have JSON No schema
 
