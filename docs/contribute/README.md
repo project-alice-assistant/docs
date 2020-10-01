@@ -29,7 +29,7 @@ Just try to explain **what happens** and **what is expected to happen** . Also, 
 
 ### Core pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
-Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
+Make sure you follow the code guidelines described in the section [code guidelines](code-guidelines.md).
 
 ## Skills
 
@@ -42,7 +42,7 @@ Skills need new language support, the system can be translated to support new la
 
 ### Skills pull request Guidelines
 Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
-Make sure you follow the code guidelines described in the section [code guidelines](./code-guidelines).
+Make sure you follow the code guidelines described in the section [code guidelines](code-guidelines.md).
 To validate your skill you can use the Alice Skill Kit as described in the section [alice skill kit]().
 
 
