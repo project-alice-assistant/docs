@@ -9,6 +9,7 @@ running, then we will step through the basic anatomy of a Alice skill.
 
 ::: warning
 This describes functions that are not fully implemented yet
+
 - the talk directory has a different structure right now, but will be changed to the one described here
 :::
 
@@ -188,6 +189,7 @@ This is the icon that will be displayed for your skill on the skill store. It su
 
 #### `category`
 Defines a category your skill belongs to. This helps categorize your skill to better search results on the store. Available categories:
+
 - weather
 - information
 - entertainment
