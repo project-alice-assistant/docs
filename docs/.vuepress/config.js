@@ -194,7 +194,7 @@ module.exports = {
                 'publishing-to-skill-store',
                 'new-language-support',
                 'database-access',
-                'Getting-started-with-a-IDE'
+                'getting-started-with-a-IDE'
               ]
             }
           ],
@@ -362,7 +362,7 @@ module.exports = {
                 'publishing-to-skill-store',
                 'new-language-support',
                 'database-access',
-                'Getting-started-with-a-IDE'
+                'getting-started-with-a-IDE'
               ]
             }
           ],
