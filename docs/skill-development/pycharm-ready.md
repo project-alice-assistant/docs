@@ -7,7 +7,7 @@ title: Getting started with a IDE
 
 Have you just started with Alice and all excited with the possibilities you could unlock by creating your own skills ?. But uncertain where to start?. Well you've come to the right place. Alice is written in the Python language. The team behind Alice do most of their Python magic and more using a IDE called Pycharm. For that reason and because it's a great program we will focus on getting Pycharm setup for you. That way getting help in the discord will also be easier. So let's get started.  
 What we will cover in the below!!
-- Where to get Pycharm
+- <a href=/#Download-and-install-Pycharm>Where to get Pycharm</a>
 - Basics of GitHub
 - Setting up Pycharm directories
 - Check dependencies are set
@@ -16,8 +16,11 @@ What we will cover in the below!!
 - Updating your repositories
 - Some handy Alice commands when skill making
 
-
-### Download and install Pycharm
+And yes i understand there are a quite a few steps in this process but for the most of it you'll only have to
+do it once. Then you'll have the re assurance that you've done all you can to meet [Alice code guidelines](https://docs.projectalice.io/contribute/code-guidelines.html#pycharm-settings)
+Which by the way is a must to read also.
+ 
+###Download and install Pycharm
 
 - First of all lets download Pycharm, The community version is free and a great starting point. Get that from here <https://www.jetbrains.com/Pycharm/download>
 
@@ -41,7 +44,7 @@ PI and the GitHub copy will stay the same.
 When you feel you have the code at a point that you want to save it on GitHub as well, then in Pycharm 
 you can click the green downwards pointing arrow (top right of the Pycharm screen) and "commit" the changes. 
 
-<img src="/image_sources/Push_Pull.png" alt="push and pull arrow">
+<img src="/docs/.vuepress/public/images/Push_Pull.png" alt="push and pull arrow">
 
 Commiting the changes in simple terms, is geek talk for saving. :)
 It tells GitHub you have modified code and you want to store it on GitHub.
@@ -71,7 +74,7 @@ In the top right of that page, click on "fork" to basically clone a copy of Proj
 - Now open Pycharm
 - In the menu along the top of Pycharm click on "VCS" then "get from version control" 
 
-<img src="/image_sources/cloning.png" alt="Clone screen">
+<img src="/docs/.vuepress/public/images/cloning.png" alt="Clone screen">
 
 - In the window that opens click on "GitHub" from the left hand menu.
 *You should see in the list that appears your ProjectAlice fork you just forked*.
@@ -110,6 +113,9 @@ in Pycharm you can now view and modify ProjectAlice files via Pycharm directly :
 
 ### Pycharm dependencies
 Now that you have the directories loaded in Pycharm. Go to Pycharm settings ( ctrl + shift +s )
+
+<img src="/docs/.vuepress/public/images/dependencies.png" alt="Dependencies">
+
 - Then in the left hand menu click "project-alice-assistant/ProjectAlice"
 - Then click "project dependencies"
 - Now click your skill to highlight it
@@ -123,7 +129,6 @@ The latest branch in Alice as of writing this is b3. You may want to set your Py
 In Pycharm click your way through this
 
  ```VCS -> Git -> branches-> respositories ->ProjectAlice -> localbranches -> 1.0.0-b3 -> checkout```. 
-<img src="/image_sources/pull.png" alt="Pull from b3">
 
 That should cause Pycharm to move to the b3 branch.
 You'll only need to do this once also unless you start playing with branches but i dont advise that for 
@@ -162,9 +167,6 @@ As a added bonus let's also add the sk schema files to Pycharm so that you get i
 install file and json files etc. Note that this does NOT check everything that the Sk package does so you still need
 to do the above. This will just tell you if you've got a syntax wrong as you modify the file.
 
-<img src="/image_sources/schema.png" alt="schema">
-
-Note this image shows JSON ProjectAlice talks.... you'll likely have JSON No schema
 
 - Go to this page [Schema Files](https://GitHub.com/project-alice-assistant/ProjectAliceSkillKit/tree/master/ProjectAliceSK/validate/src/schemas)
 - Take a look at that list. You will see different schema files for different file types. We will now go through installing
@@ -176,6 +178,11 @@ just one of those types into Pycharm and you can do all the rest on your own.
 - Double click the install file for your skill to open it in the editor
 - Now at the very bottom right of your Pycharm do you see a "no schema" button ? click that to open the schema 
 configuration screen 
+
+<img src="/docs/.vuepress/public/images/schema.png" alt="schema">
+
+Note this image shows JSON ProjectAlice talks.... you'll likely have JSON No schema
+
 - Then click "new schema mapping"
 - For name field type in something like "Alice install"
 - For URL field paste the URL of the Raw file you just copied
@@ -218,7 +225,7 @@ Pycharm has a Sonarcloud plugin that can check your code to make sure it is foll
  The following will apply Pycharm settings that are also for the most part Alice friendly such as 
  line spacing requirements etc . If you wish to install that then suggest you fork this repository <Add a clean repo of the settings for pycharm here> 
  ( which is originally a fork of Psychos settings but modified slightly to suit my colour preferences) 
- - Once forked copy the URL of your forked version
+ - Once forked... copy the URL of your forked version
  - Then in Pycharm click "file"  then "manage IDE settings" then " settings repository"
  - Paste in the url of your fork then click "merge" 
  - Then ctrl+alt+s to bring up the main Pycharm settings screen.
@@ -250,6 +257,9 @@ Knowing that. lets add that url to your Pycharm so we can receive updates.
 - Now click "VCS" again and then "git" then "fetch" this will update head and branches etc 
 - Next click "VCS" again then "pull"
 - In the window that opens starting from the left drop down box ....
+
+<img src="/docs/.vuepress/public/images/pull.png" alt="Pull from Alice">
+
 - Choose ProjectAlice
 - Choose "pull"
 - Choose "upstream"
