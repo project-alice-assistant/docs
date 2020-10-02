@@ -3,7 +3,9 @@
 	"short_name": "Alice doc",
 	"start_url": ".",
 	"display": "standalone",
+	"theme_color": "#000",
 	"background_color": "#000",
+	"orientation": "landscape-primary",
 	"description": "All you need to know to use or to dev Project Alice",
 	"icons": [{
 		"src": "/icons/favicon-16x16.png",
