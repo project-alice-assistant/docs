@@ -53,7 +53,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/favicon-64x64.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000' }],
-    ['meta', { name: 'theme-color', content: '#000' }]
+    ['meta', { name: 'theme-color', content: '#000' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }]
   ],
   serviceWorker: true,
