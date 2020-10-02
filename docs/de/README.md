@@ -14,3 +14,15 @@ features:
   details: Alice runs easily on a raspberry pi 3, but if you want more power, Alice runs on other hardware thanks to the work of our community!
 footer: GNU GPL v3 Licensed | Copyright © 2015-present Laurent Chervet
 ---
+
+---
+
+<p align="center" class="badges">
+  <a href="LICENSE" target="_blank" rel="noreferrer"><img src="/images/badges/license.svg" alt="License" /></a>
+  <a href="https://discord.gg/Jfcj355" target="_blank" rel="noreferrer"><img alt="Discord" src="/images/badges/Discord.svg"></a>
+</p>
+<p align="center" class="badges">
+  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"<img alt="Coverage Status" src="/images/badges/Coverage.svg"></a>
+  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Maintainability" src="/images/badges/Maintability.svg"></a>
+  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Code Smells" src="/images/badges/CodeSmells.svg"></a>
+</p>
