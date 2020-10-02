@@ -1,7 +1,12 @@
 module.exports = {
   plugins: [
     'fulltext-search',
-    'vuepress-plugin-glossary'
+    'vuepress-plugin-glossary',
+    '@vuepress/pwa',
+    {
+      serviceWorker: true,
+      updatePopup: true
+    }
   ],
   base: '',
   dest: '.dist',
@@ -23,8 +28,9 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `/icons/apple-touch-icon.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/icons/favicon-32x32.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: `/icons/favicon-16x16.png` }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ProjectAlice' }],
-    ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }]
+    ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }],
   ],
   serviceWorker: true,
   theme: 'yuu',
@@ -48,12 +54,6 @@ module.exports = {
         editLinkText: 'Help us improve this page!',
         repoLabel: 'Contribute!',
         lastUpdated: 'Last Updated',
-        serviceWorker: {
-          updatePopup: {
-            message: 'New content is available.',
-            buttonText: 'Refresh'
-          }
-        },
         nav: [
           {
             text: 'About Alice',
@@ -98,7 +98,7 @@ module.exports = {
               },
               {
                 text: 'Get started with Pycharm',
-                link: '/skill-development/getting-started-with-a-IDE'
+                link: '/community-made/getting-started-pycharm'
               },
               {
                 text: 'Skill development',
@@ -209,6 +209,16 @@ module.exports = {
                 ''
               ]
             }
+          ],
+          '/community-made/': [
+            {
+              title: 'By the community for the community',
+              collapsable: false,
+              children: [
+                '',
+                'getting-started-pycharm'
+              ]
+            }
           ]
         }
       },
@@ -219,12 +229,6 @@ module.exports = {
         editLinkText: 'Help us improve this page!',
         repoLabel: 'Contribute!',
         lastUpdated: 'Last Updated',
-        serviceWorker: {
-          updatePopup: {
-            message: 'New content is available.',
-            buttonText: 'Refresh'
-          }
-        },
         nav: [
           {
             text: 'About Alice',
@@ -269,7 +273,7 @@ module.exports = {
               },
               {
                 text: 'Get started with Pycharm',
-                link: '/de/skill-development/getting-started-with-a-IDE'
+                link: '/de/community-made/getting-started-pycharm'
               },
               {
                 text: 'Skill development',
@@ -378,6 +382,16 @@ module.exports = {
               collapsable: false,
               children: [
                 ''
+              ]
+            }
+          ],
+          '/de/community-made/': [
+            {
+              title: 'By the community for the community',
+              collapsable: false,
+              children: [
+                '',
+                'getting-started-pycharm'
               ]
             }
           ]

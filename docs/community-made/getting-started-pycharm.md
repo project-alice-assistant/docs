@@ -1,6 +1,14 @@
 ---
 sidebarDepth: 3
-title: Getting started with a IDE
+title: Getting started with Pycharm
+tags:
+- getting started
+- pycharm
+- jetbrains
+- ide
+- ide settings
+- install pycharm
+- skill dev
 ---
 
 # Pycharm from Jetbrains

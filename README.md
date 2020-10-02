@@ -20,7 +20,7 @@ Serve the website locally e.g. with [`http-server`](https://www.npmjs.com/packag
 - Make sure you have [`node.js`](https://nodejs.org/en/) installed
 - Clone this repo in Webstorm
 - Open this repo's `package.json` file
-    - Webstorm should automatically propose to install the non available dependencies
+    - Webstorm should automatically propose to install the not yet installed dependencies
     - If now, click on the packages that should be highlighted and `alt + enter` them, choosing `install xxx` for each
 - Open the `Run/Debug configuration` tool
 - Create 2 new `npm` configurations:

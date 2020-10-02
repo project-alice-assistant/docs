@@ -19,6 +19,7 @@ jobs:
         npm install -g vuepress@1.6.0
         npm install -g vue-click-outside@1.1.0
         npm install -g flexsearch@0.6.32
+        npm install -D @vuepress/plugin-pwa
         npm install -g vuepress-plugin-fulltext-search@2.0.6
         npm install -g vuepress-plugin-glossary@1.0.2
 
