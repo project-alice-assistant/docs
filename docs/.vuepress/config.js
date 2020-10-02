@@ -25,7 +25,8 @@ module.exports = {
   head: [
     ['meta', { 'http-equiv': 'Content-Security-Policy', 'content': "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none';" }],
     ['meta', { name: 'referrer', content: 'no-referrer'}],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `/icons/favicon-120x120.png` }],
+    ['link', { rel: 'apple-touch-icon', sizes: '144x144', href: `/icons/favicon-144x144.png` }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '144x144', href: `/icons/favicon-144x144.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '120x120', href: `/icons/favicon-120x120.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '64x64', href: `/icons/favicon-64x64.png` }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/icons/favicon-32x32.png` }],
@@ -35,7 +36,7 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/favicon-120x120.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/favicon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000' }],
     ['meta', { name: 'theme-color', content: '#000' }]
   ],
