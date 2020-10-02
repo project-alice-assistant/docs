@@ -5,7 +5,16 @@ module.exports = {
     '@vuepress/pwa',
     {
       serviceWorker: true,
-      updatePopup: true
+      updatePopup: {
+        '/': {
+          message: "New content is available",
+          buttonText: "Refresh"
+        },
+        '/de/': {
+          message: "New content is available",
+          buttonText: "Refresh"
+        }
+      }
     }
   ],
   base: '',
@@ -36,7 +45,7 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'ProjectAlice Docs' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/favicon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/favicon-64x64.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000' }],
     ['meta', { name: 'theme-color', content: '#000' }]
   ],
