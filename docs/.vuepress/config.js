@@ -1,9 +1,8 @@
 module.exports = {
-  plugins: [
-    'fulltext-search',
-    'vuepress-plugin-glossary',
-    '@vuepress/pwa',
-    {
+  plugins: {
+    'fulltext-search': {},
+    'vuepress-plugin-glossary': {},
+    '@vuepress/pwa': {
       serviceWorker: true,
       updatePopup: {
         '/': {
@@ -16,7 +15,7 @@ module.exports = {
         }
       }
     }
-  ],
+  },
   base: '',
   dest: '.dist',
   locales: {
