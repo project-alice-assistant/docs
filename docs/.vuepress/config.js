@@ -16,7 +16,6 @@ module.exports = {
       }
     }
   },
-  base: '/',
   dest: '.dist',
   locales: {
     '/': {
