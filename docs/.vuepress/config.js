@@ -16,7 +16,7 @@ module.exports = {
       }
     }
   },
-  base: '/docs/',
+  base: '/',
   dest: '.dist',
   locales: {
     '/': {
