@@ -154,6 +154,8 @@ module.exports = {
               children: [
                 '',
                 'requirements',
+                'manual-install',
+                'image-install',
                 'preinstalled',
                 'docker',
                 'troubleshooting',
@@ -329,6 +331,8 @@ module.exports = {
               children: [
                 '',
                 'requirements',
+                'manual-install',
+                'image-install',
                 'preinstalled',
                 'docker',
                 'troubleshooting',

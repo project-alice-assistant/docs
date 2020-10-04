@@ -13,7 +13,7 @@ This is an alpha release! It is subject to major changes, and the target audienc
 This guide is intended for users that wish to manually install Alice Satellite without downloading our image.
 :::
 
-- Download and burn Raspbian Lite: [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/)
+- Download and burn Rasppberry Pi OS Lite: [https://www.raspberrypi.org/downloads/raspberry-pi-os/](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
 - Start it headless by placing 2 files on the boot partition of your sd card:
    - Create a file called `ssh`, without extension and completely empty
    - Create a file called `wpa_supplicant.conf`, with the following content:
