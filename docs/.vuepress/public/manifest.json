@@ -1,8 +1,7 @@
 {
 	"name": "Project Alice Documentation",
 	"short_name": "Alice doc",
-	"start_url": "/docs/",
-	"scope": "/docs/",
+	"start_url": "/index.html",
 	"display": "standalone",
 	"theme_color": "#000",
 	"background_color": "#000",
