@@ -58,10 +58,10 @@ cd
 git clone https://github.com/project-alice-assistant/ProjectAlice.git
 ```
 
-- Update to latest dev branch:
+- Update to latest dev branch (OPTIONAL):
 ```
 cd ~/ProjectAlice
-git checkout 1.0.0-b3
+git checkout 1.0.0-b4
 git pull
 ```
 
