@@ -31,11 +31,14 @@ Alice ist noch jung, auch wenn sie eine Weile in Entwicklung ist. Werde Teil von
 
 
  ## Was wird benötigt
- - Ein Raspberry Pi 3 oder höher so wie eine SD Karte
- - Ein Mikrofon und ein paar Lautsprecher. Ich empfehle den [Respeaker 2](https://amzn.to/36OWxOG) to start with.
+ - Ein Raspberry Pi 3 oder höher ([Raspi 4*](https://amzn.to/36OWxOG)) so wie eine [SD Karte*](https://amzn.to/36OWxOG)
+ - Ein Mikrofon und ein paar Lautsprecher. Ich empfehle zum Einstieg den [Respeaker 2*](https://amzn.to/36OWxOG).
  - Ein Weg unser [vorgefertigtes image](https://docs.projectalice.io/setup/) oder Raspberry Os auf die SD Karte zu flashen
  
  
  ## Was kann Alice?
  Viele Dinge! Aber sie kann noch nicht kochen... Wirf einen Blick auf unsere stetig wachsenden, Community kreierte Skill Sammlung: [https://store.projectalice.io](https://store.projectalice.io)
+ 
+ 
+ * Mit einem Kauf über die angegebenen Amazon Links unterstützt du Project Alice. Die Empfehlung zu diesen Geräten ist jedoch komplett unabhängig davon. Alle Einnahmen werden transparent gehalten und dienen zunächst dazu aufgelaufene Serverkosten zu decken.
  
