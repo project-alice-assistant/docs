@@ -22,7 +22,7 @@ footer: Copyright © 2014-present Laurent Chervet
   <a href="https://discord.gg/Jfcj355" target="_blank" rel="noreferrer"><img alt="Discord" src="/images/badges/Discord.svg"></a>
 </p>
 <p align="center" class="badges">
-  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"<img alt="Coverage Status" src="/images/badges/Coverage.svg"></a>
-  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Maintainability" src="/images/badges/Maintability.svg"></a>
+  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Coverage Status" src="/images/badges/Coverage.svg"></a>
+  <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Maintainability" src="/images/badges/Maintainability.svg"></a>
   <a href="https://sonarcloud.io/dashboard?id=project-alice-assistant_ProjectAlice" target="_blank" rel="noreferrer"><img alt="Code Smells" src="/images/badges/CodeSmells.svg"></a>
 </p>
