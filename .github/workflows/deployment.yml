@@ -33,7 +33,7 @@ jobs:
         mkdir -p .dist/images/badges
         curl -L 'https://travis-ci.org/project-alice-assistant/ProjectAlice.svg?branch=master' -o .dist/images/badges/Travis.svg
         curl -L 'https://sonarcloud.io/api/project_badges/measure?project=project-alice-assistant_ProjectAlice&metric=coverage' -o .dist/images/badges/Coverage.svg
-        curl -L 'https://sonarcloud.io/api/project_badges/measure?project=project-alice-assistant_ProjectAlice&metric=sqale_rating' -o .dist/images/badges/Maintability.svg
+        curl -L 'https://sonarcloud.io/api/project_badges/measure?project=project-alice-assistant_ProjectAlice&metric=sqale_rating' -o .dist/images/badges/Maintainability.svg
         curl -L 'https://sonarcloud.io/api/project_badges/measure?project=project-alice-assistant_ProjectAlice&metric=code_smells' -o .dist/images/badges/CodeSmells.svg
         curl -L 'https://img.shields.io/discord/579345007518154752?logo=discord' -o .dist/images/badges/Discord.svg
 
