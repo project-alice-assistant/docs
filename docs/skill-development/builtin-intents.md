@@ -79,7 +79,7 @@ Two important things here:
 Ok, so the user is going to answer with `Yes!`. Now we need an intent handler to take care of that!
 
 ```python
-@IntentHandler(intent='AnswerYesOrNo', requiredState='askingToDeleteReminder', isProtected=True)
+@IntentHandler(intent='AnswerYesOrNo', requiredState='askingToDeleteReminder')
 def answerDeleteReminder(self, session: DialogSession):
 	if self.Commons.isYes(session):
 		self.endDialog(
@@ -93,7 +93,7 @@ def answerDeleteReminder(self, session: DialogSession):
 		)
 ```
 
-The important part here is that our `IntentHandler` decorator took one more important argument, the `requiredState`. This means that your skill supports the `AnswerYesOrNo` intent **only** if the current dialog state is `askingToDeleteReminder`! No more collision with other skills! The argument `isProtected` makes Alice unable to be moody and ignore your answer. It's always a good idea to protect answers in dialogue turns.
+The important part here is that our `IntentHandler` decorator took one more important argument, the `requiredState`. This means that your skill supports the `AnswerYesOrNo` intent **only** if the current dialog state is `askingToDeleteReminder`! No more collision with other skills!
 
 #### Manual mapping
 We call `mapping` the declaration of intents vs dialog states. Same example as above, but not by using decorators and adding another intent. It is useful when you have a more complex structure of intents or skill.
@@ -106,8 +106,8 @@ from core.dialog.model.DialogSession import DialogSession
 
 class Reminder(AliceSkill):
 	# Declare our intents
-	_INTENT_ANSWER_YES_OR_NO = Intent('AnswerYesOrNo', isProtected=True)
-	_INTENT_ANSWER_ROOM = Intent('AnswerRoom', isProtected=True)
+	_INTENT_ANSWER_YES_OR_NO = Intent('AnswerYesOrNo')
+	_INTENT_ANSWER_ROOM = Intent('AnswerRoom')
 	_INTENT_ADD_REMINDER = Intent('NewReminder')
 
 
