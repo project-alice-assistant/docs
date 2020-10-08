@@ -3,7 +3,7 @@ title: Haupteinheit installieren
 sidebarDepth: 3
 ---
 
-::: warning
+::: warning Achtung!
 Dies ist eine Beta Version! Die Software und Prozesse unterliegen kontinuierlicher Veränderung. Die Zielgruppe sind aktuell alle, die grundlegendes Wissen zu ihren Geräten haben, Systemlogs lesen und Python Module installieren können.
 :::
 
