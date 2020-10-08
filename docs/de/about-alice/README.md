@@ -20,7 +20,7 @@ Alice ist noch jung, auch wenn sie eine Weile in Entwicklung ist. Werde Teil von
 :::
 
 
-## Warum dieser Assistent
+## Warum Alice?
 
 1. Ich habe in 2014 angefangen meinen eigenen Assistenten zu bauen. Richtig groß ist es geworden, als ich auf Snips(abgeschaltet) gestoßen bin. Ich habe Alice auf dieser Platform aufgebaut und beschlossen sie mit dem Rest der Community zu teilen. Snips ist gestorben, Alice hat überlebt und alle closed source Komponenten von Snips wurden mittlerweile für die totale Transparenz als open source neu entwickelt.
 2. Ich **liebe Programmieren**. Ich bin vielleicht kein professioneller Entwickler, aber es liegt mir im Blut. Ich habe sehr früh angefangen, im Alter von 6, als noch alles über DOS lief. **Ich liebe** Herausforderungen. Das ist es was mich antreibt tiefer zu gehen und immer mehr zu wollen.
@@ -30,7 +30,7 @@ Alice ist noch jung, auch wenn sie eine Weile in Entwicklung ist. Werde Teil von
 6. Nach über 2 Jahren mit Snips, eines ist klar: **Privacy matters**. Alice kann komplett offline Arbeiten - oder aber online services Nutzen, sofern du es in den Einstellungen erlaubst. Damit sind auch Google ASR, Amazon TTS und viele andere Dienste verfügbar.
 
 
- ## Was wird benötigt
+ ## Was wird benötigt?
  - Ein Raspberry Pi 3 oder höher ([Raspi 4*](https://amzn.to/36OWxOG)) so wie eine [SD Karte*](https://amzn.to/36OWxOG)
  - Ein Mikrofon und ein paar Lautsprecher. Ich empfehle zum Einstieg den [Respeaker 2*](https://amzn.to/36OWxOG).
  - Ein Weg unser [vorgefertigtes image](https://docs.projectalice.io/setup/) oder Raspberry Os auf die SD Karte zu flashen
