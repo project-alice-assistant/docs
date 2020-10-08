@@ -7,11 +7,11 @@ actionText: Get started →
 actionLink: /about-alice/
 features:
 - title: Privacy first
-  details: You keep control of your data! Nothing goes out without your consent. You can configure Alice to use internet services, but those are all off by default.
+  details: Behalte die Kontrolle über deine Daten! Nichts geht raus ohne deine Zustimmung. Du kannst Alice erlauben auch online Services zu verwenden, aber erstmal sind nur die Offline Services aktiv!
 - title: Extensible
-  details: Alice comes with a minimum, but you can make her more powerful thanks to an everyday growing skill library made by the community. Even you can become a skill developer!
+  details: Alice kommt nur mit dem Notwendigsten, aber du kannst sie dank der stetig wachsenden, Community basierten Skill Library zu etwas großartigen machen. Und auch du kannst selbst Skill Entwickler werden!
 - title: Lightweight
-  details: Alice runs easily on a raspberry pi 3, but if you want more power, Alice runs on other hardware thanks to the work of our community!
+  details: Alice läuft ohne Probleme auf einem Raspberry Pi 3, willst du ihr aber mehr Power geben, läuft sie, dank unserer Community, auch auf stärkeren Maschinen!
 footer: Copyright © 2014-present Laurent Chervet
 ---
 
