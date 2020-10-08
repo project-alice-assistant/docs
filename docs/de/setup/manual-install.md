@@ -1,5 +1,5 @@
 ---
-title: Main unit manual setup
+title: Manuelle Installation der Haupteinheit
 sidebarDepth: 3
 tags:
 - Installation
