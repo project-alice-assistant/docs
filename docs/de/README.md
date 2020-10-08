@@ -2,7 +2,7 @@
 home: true,
 heroImage: /images/umbrella.png
 heroText: Project Alice
-tagline: A smart voice assistant privacy centered
+tagline: Dein smarter, auf Privatsphäre fokussierter Sprachassistent
 actionText: Get started →
 actionLink: /de/about-alice/
 features:
