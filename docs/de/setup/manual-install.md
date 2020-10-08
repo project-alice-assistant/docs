@@ -7,7 +7,7 @@ tags:
 - Haupteinheit
 ---
 
-Stand Oktober 2020 ist die manuelle Installation der bevorzugte Weg. Da aktuell neue Versionen sehr schnell veröffentlicht werden, ist es zu zeitaufwändig jedes Mal ein neues Image zu veröffentlichen. Es sind nur wenige Schritte von einem funktionierenden Raspberry Pi OS, bis Alice mit der neusten Version bereit ist! Um sicherzugehen, erstmal die Raspberry Pi OS Installation
+Stand Oktober 2020 ist die manuelle Installation der bevorzugte Weg. Da aktuell neue Versionen sehr schnell veröffentlicht werden, ist es zu zeitaufwändig jedes Mal ein neues Image zu erstellen. Es sind nur wenige Schritte von einem funktionierenden Raspberry Pi OS, bis Alice mit der neusten Version bereit ist! Um sicherzugehen, erstmal die Raspberry Pi OS Installation
 
 ## Installiere Raspberry Pi OS
 - Downloade [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/), die Lite Version wird **empfohlen**
