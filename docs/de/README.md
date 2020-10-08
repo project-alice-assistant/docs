@@ -4,7 +4,7 @@ heroImage: /images/umbrella.png
 heroText: Project Alice
 tagline: A smart voice assistant privacy centered
 actionText: Get started →
-actionLink: /about-alice/
+actionLink: /de/about-alice/
 features:
 - title: Privacy first
   details: Behalte die Kontrolle über deine Daten! Nichts geht raus ohne deine Zustimmung. Du kannst Alice erlauben auch online Services zu verwenden, aber erstmal sind nur die Offline Services aktiv!
