@@ -33,7 +33,7 @@ terms:
 Eine komplette Liste aller Skills ist online verfügbar: [Hier](https://store.projectalice.io). Auch über das Interface kannst du auf alle Skills zugreiffen, die in deiner Sprache verfügbar sind.
 
 ### Events
-:event:Events:
+:Event:Events:
 Eine komplette Liste aller Events findest du [hier](../skill-development/events.md).
 
 ### Hotword Beispiel
