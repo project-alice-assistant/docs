@@ -241,40 +241,40 @@ module.exports = {
         selectText: ' Sprachen',
         label: 'Deutsch',
         ariaLabel: 'Sprachen',
-        editLinkText: 'Help us improve this page!',
-        repoLabel: 'Contribute!',
-        lastUpdated: 'Last Updated',
+        editLinkText: 'Hilf uns diese Seite zu verbessern!',
+        repoLabel: 'Mitwirken!',
+        lastUpdated: 'Zuletzte aktualisiert',
         nav: [
           {
-            text: 'About Alice',
+            text: 'Über Alice',
             link: '/de/about-alice/'
           },
           {
             text: 'Setup',
             items: [
               {
-                text: 'Main unit setup',
+                text: 'Installation Haupteinheit',
                 link: '/de/setup/'
               },
               {
-                text: 'Satellite setup',
+                text: 'Installation Satellit',
                 link: '/de/satsetup/'
               }
             ]
           },
           {
-            text: 'Usage',
+            text: 'Verwendung',
             items: [
               {
-                text: 'Using Alice',
+                text: 'Alice verwenden',
                 link: '/de/usage/'
               },
               {
-                text: 'Using satellites',
+                text: 'Satelliten verwenden',
                 link: ''
               },
               {
-                text: 'Skill store',
+                text: 'Skill Store',
                 link: 'https://store.projectalice.io'
               },
             ]
@@ -283,19 +283,19 @@ module.exports = {
             text: 'Learn more',
             items: [
               {
-                text: 'Contributing',
+                text: 'Mitwirken',
                 link: '/de/contribute/'
               },
               {
-                text: 'Get started with Pycharm',
+                text: 'Lege los mit Pycharm',
                 link: '/de/community-made/getting-started-pycharm'
               },
               {
-                text: 'Skill development',
+                text: 'Skill Entwicklung',
                 link: '/de/skill-development/'
               },
               {
-                text: 'Core development',
+                text: 'Core Entwicklung',
                 link: '/de/core-development/'
               },
               {
@@ -305,7 +305,7 @@ module.exports = {
             ]
           },
           {
-            text: 'Sponsors',
+            text: 'Sponsoren',
             link: '/de/sponsors/'
           },
           {
@@ -316,17 +316,17 @@ module.exports = {
         sidebar: {
           '/de/about-alice/': [
             {
-              title: 'About Alice',
+              title: 'Über Alice',
               collapsable: false,
               children: [
                 '',
-                ['GLOSSARY', 'Glossary']
+                ['GLOSSARY', 'Glossar']
               ]
             }
           ],
           '/de/setup/': [
             {
-              title: 'Setup',
+              title: 'Installation',
               collapsable: false,
               children: [
                 '',
@@ -342,7 +342,7 @@ module.exports = {
           ],
           '/de/satsetup/': [
             {
-              title: 'Satellite setup',
+              title: 'Installation Satellit',
               collapsable: false,
               children: [
                 '',
@@ -354,7 +354,7 @@ module.exports = {
           ],
           '/de/usage/': [
             {
-              title: 'Using Alice',
+              title: 'Alice verwenden',
               collapsable: false,
               children: [
                 ''
@@ -363,7 +363,7 @@ module.exports = {
           ],
           '/de/contribute/': [
             {
-              title: 'Contribute',
+              title: 'Mitwirken',
               collapsable: false,
               children: [
                 '',
@@ -373,7 +373,7 @@ module.exports = {
           ],
           '/de/skill-development/': [
             {
-              title: 'Skill Development',
+              title: 'Skill Entwicklung',
               collapsable: false,
               children: [
                 '',
@@ -395,7 +395,7 @@ module.exports = {
           ],
           '/de/core-development/': [
             {
-              title: 'Core Development',
+              title: 'Core Entwicklung',
               collapsable: false,
               children: [
                 ''
@@ -404,7 +404,7 @@ module.exports = {
           ],
           '/de/community-made/': [
             {
-              title: 'By the community for the community',
+              title: 'Von der Community für die Community',
               collapsable: false,
               children: [
                 '',
