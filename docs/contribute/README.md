@@ -5,55 +5,56 @@ sidebarDepth: 3
 
 # Thank you
 
-Zunächst einmal vielen Dank, dass du daran interessiert bist, zu **ProjectAlice** beizutragen. 🙏
-Mit deiner Zusammenarbeit können viele Dinge verbessert und bereichert werden, unabhängig davon, ob du ein erfahrener Entwickler bist oder nicht. Im Folgenden findest du einige Richtlinien für Inspiration.
+First of all, thank you for being interested in contributing to **ProjectAlice**. 🙏 
 
-## Dokumentation
-Du kannst die Anleitungen von ProjectAlice schreiben, übersetzen und verbessern. Jede Seite hat einen Link zu ihrem Quellcode, sodass du eine Kopie (Fork) einfach bearbeiten und (Pull Request) einsenden kannst. Das gilt für Tippfehler oder wenn du etwas findest, das nicht klar genug ist, oder auch für komplett neue Abschnitte.
+A lot of things could be improved and enriched with your collaboration no matter if you are an experienced developer or not. Below you will find just some guidelines for inspiration.
+
+## Documentation
+You can write, translate and improve ProjectAlice's documentation. Each page has a link to its source code, so you can easily edit and send a PR if you find a typo or something that's not clear enough.
 
 ## Core
-Finde ein offenes issue auf Github. Neue Features sind immer willkommen!
+Find an open issue to tackle. New features are welcome!
 
 ### Inform an Issue
 
-- **Was für Issues kann ich erstellen?**
+- **What issues can I report?**
 
-Neben dem Report von einem **bug**, kannst du auch **neue Feature vorschlagen, Ideen kund tun, etc**. 
+Besides reporting a **bug**, you can **propose features, ideas, etc**. 
 
-Du kannst auch ein Issue erstellen, wenn dir etwas in der **Dokumentation** nicht eindeutig genug ist. 
+You can also open an issue if something in the **documentation** is not clear enough. 
 
-- **Wie erstellt man einen Report?**
+- **How to report?**
 
-Versuche einfach zu erklären **was passiert** und **was du erwartet hast, das passiert** . Am besten Beschreibst du auch wie man **einen Fehler reproduzieren kann** und kopiere ein paar **Logs** dazu, in denen man **den Fehler sieht**
+Just try to explain **what happens** and **what is expected to happen** . Also, it would be very useful to provide **a way to reproduce the issue** and **logs that show the issue**
 
 ### Core pull request Guidelines
-Referenziere deinen PR zu einem verwandten Issue (sofern vorhanden) und liefere eine Beschreibung deiner vorgeschlagenen Änderung.
-Stelle sicher, dass du den Coding Guidelines folgst. Du findest sie hier in der Sektion [Code Guidelines](code-guidelines.md).
+Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
+Make sure you follow the code guidelines described in the section [code guidelines](code-guidelines.md).
 
 ## Skills
 
-### Neue Skills
-Neue Skills sind immer willkommen! Eine Anleitung wie du Skills für Project Alice erstellst, findest du in der Sektion [Skill Entwicklung](../skill-development)
+### New skills
+New skills are always welcome. A guide on how to create skills for Project Alice can be found in the section [skill-development](../skill-development)
 
-### Übersetzungen
-Skills müssen deine Sprache unterstützen, damit du sie verwenden kannst. Wie du einen Skill in eine andere Sprache übersetzt, findest du auf in unserer [Anleitung](../skill-development/new-language-support.md)
+### Translations
+Skills need new language support, the system can be translated to support new languages! Check our [dedicated page](../skill-development/new-language-support.md) to learn how to do it!
 
 
 ### Skills pull request Guidelines
-Referenziere deinen PR zu einem verwandten Issue (sofern vorhanden) und liefere eine Beschreibung deiner vorgeschlagenen Änderung.
-Stelle sicher, dass du den Coding Guidelines folgst. Du findest sie hier in der Sektion [Code Guidelines](code-guidelines.md).
-Um deinen Skill zu validieren, kannst du das Alice Skill Kit verwenden. Wie das geht findest du in der Sektion [Alice Skill Kit]().
+Reference your PR to a related issue (if one exists) and provide a description of the changes proposed.
+Make sure you follow the code guidelines described in the section [code guidelines](code-guidelines.md).
+To validate your skill you can use the Alice Skill Kit as described in the section [alice skill kit]().
 
 
 
-## Dir gefällt ProjectAlice?
+## Do you like ProjectAlice?
 
 ### Spread the word
-Erzähle anderen davon! Teile deine Erfahrungen mit Freunden, Kollegen und den Sozialen Netzwerken.
+Help to promote the project with you friends, colleagues and the social media.
 
 ### Become a stargazer
-Vielleicht hinterlässt du normalerweise auf Github keine Sterne - wir bitten dich, mach eine Ausnahme und tu es. [Lass uns deinen Stern da.](https://github.com/project-alice-assistant/ProjectAlice/stargazers) :)
+Maybe you don't have the habit to star projects on Github, we kindly ask you [to do so](https://github.com/project-alice-assistant/ProjectAlice/stargazers). :)
 
 ### Stay in touch
 
-- Trete **ProjectAlice** auf [Discord](https://discord.gg/Jfcj355) bei und bringe dich Live in unsere Diskussionen ein, erhalte die neusten Neuigkeiten und werde ein Teil der Community!
+- Join **ProjectAlice** on [Discord](https://discord.gg/Jfcj355)
