@@ -1,5 +1,5 @@
 ---
-title: 'Gloassar'
+title: 'Glossar'
 sidebarDepth: 3
 terms:
     Hotword: 'Das Kommando, das du verwendest um Alice aufzuwecken, damit sie dir zuhört. Zum Beispiel "Hey Snips"'
