@@ -1,9 +1,20 @@
 ---
-title: 'Preinstalled'
+title: 'Vorinstalliert'
 sidebarDepth: 3
 ---
-<link rel="stylesheet" href="/css/speechbubbles.css">
 
-# WIP
+# Vorinstallierte Pakete
+Hier findest du eine Liste von allen Programmen die auf dem Project Alice Satelliten Image vorinstalliert sind:
 
-<div class="aliceSpeech">Ich brauche jemanden, diese Seite zu übersetzen bitte</div>
+## Systemweit
+- git
+- snips-satellite
+- python3-pip
+- python3-venv
+
+
+## venv
+- requests
+- psutil
+- pyyaml
+- paho-mqtt
