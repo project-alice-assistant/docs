@@ -3,8 +3,8 @@ title: 'Docker'
 sidebarDepth: 3
 ---
 
-<link rel="stylesheet" href="/css/speechbubbles.css">
+Dank der Arbeit unserer Community, gibt es noch einen weiteren Weg Alice auf vielfältigen Architekturen zu installieren.
 
-# WIP
+Dieser Weg wird aktuell nicht von uns verwaltet, bietet dir allerdings ein [Docker image](https://www.docker.com/) mit dem du Alice installieren kannst!
 
-<div class="aliceSpeech">Ich brauche jemanden, diese Seite zu übersetzen bitte</div>
+[https://github.com/poulsp/docker-Alice-Linux-x86](https://github.com/poulsp/docker-Alice-Linux-x86)
