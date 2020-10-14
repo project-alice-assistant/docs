@@ -53,7 +53,7 @@ This guide is intended for users that wish to manually install Alice Satellite w
   cd ~/ProjectAlice
   ./venv/bin/pip install --upgrade pip
   ```
-- Copy the init yaml file and edit it: `sudo cp ~/ProjectAlice/ProjectAlice.yaml /boot/ProjectAliceSatellite.yaml && sudo nano /boot/ProjectAliceSatellite.yaml`
+- Copy the init yaml file and edit it: `sudo cp ~/ProjectAlice/ProjectAliceSatellite.yaml /boot/ProjectAliceSatellite.yaml && sudo nano /boot/ProjectAliceSatellite.yaml`
 - Make your configurations
 - Start Alice manually with `./venv/bin/python main.py`
 
