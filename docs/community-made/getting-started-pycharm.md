@@ -43,7 +43,7 @@ GitHub once setup allows you to push and pull files between repositories without
 repositories (repo's for short).
 
 So when you create a new :skill: via the Alice dev-mode :interface: and upload it to GitHub, it will initially create the required framework for the :skill:. It will then place the new :skill: in your ProjectAlice/skills/ directory on your PI and store it on GitHub as a repository.
-Now when you edit/modify the :skill: and `ctrl + s` to save it, it will save the changes ONLY to your PI and the GitHub copy will stay the same. When you feel you have the code at a point that you want to save it on GitHub as well, then in Pycharm you can click the green downwards pointing arrow (top right of the Pycharm screen) and "commit" the changes.
+Now when you edit/modify the :skill: and `ctrl + s` to save it, it will save the changes ONLY to your PI and the GitHub copy will stay the same. When you feel you have the code at a point that you want to save it on GitHub as well, then in Pycharm you can click the green check mark (top right of the Pycharm screen) and "commit" the changes.
 
 <img src="/images/Push_Pull.png" alt="push and pull arrow">
 
