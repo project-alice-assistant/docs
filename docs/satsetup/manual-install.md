@@ -32,7 +32,7 @@ This guide is intended for users that wish to manually install Alice Satellite w
   - Make sure to fit the information (`country, ssid and psk`) with your wifi settings
 - Plug your SD card in your device and start it
 - Update your system: `sudo apt-get update && sudo apt-get dist-upgrade -y`
-- Update your preferences: `sudo raspiconfig`
+- Update your preferences: `sudo raspi-config`
 - Make sure you have python 3.7 at least. If not (stretch), compile it from sources:
   ```
   sudo apt install -y libffi-dev libbz2-dev liblzma-dev libsqlite3-dev libncurses5-dev libgdbm-dev zlib1g-dev libreadline-dev libssl-dev tk-dev build-essential libncursesw5-dev libc6-dev openssl
