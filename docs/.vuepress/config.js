@@ -97,6 +97,10 @@ module.exports = {
                 link: ''
               },
               {
+                text: 'Web interface',
+                link: '/usage/web-interface'
+              },
+              {
                 text: 'Skill store',
                 link: 'https://store.projectalice.io'
               },
@@ -180,7 +184,8 @@ module.exports = {
               title: 'Using Alice',
               collapsable: false,
               children: [
-                ''
+                '',
+                'web-interface'
               ]
             }
           ],
@@ -274,6 +279,10 @@ module.exports = {
                 link: ''
               },
               {
+                text: 'Web interface',
+                link: '/de/usage/web-interface'
+              },
+              {
                 text: 'Skill Store',
                 link: 'https://store.projectalice.io'
               },
@@ -357,7 +366,8 @@ module.exports = {
               title: 'Alice verwenden',
               collapsable: false,
               children: [
-                ''
+                '',
+                'web-interface'
               ]
             }
           ],
