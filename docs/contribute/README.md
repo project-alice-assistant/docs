@@ -13,15 +13,15 @@ A lot of things could be improved and enriched with your collaboration no matter
 You can write, translate and improve ProjectAlice's documentation. Each page has a link to its source code, so you can easily edit and send a PR if you find a typo or something that's not clear enough.
 
 ## Core
-Find an open issue to tackle. New features are welcome!
+Find an [open issue to tackle](https://github.com/project-alice-assistant/ProjectAlice/issues). New features are welcome!
 
 ### Inform an Issue
 
 - **What issues can I report?**
 
-Besides reporting a **bug**, you can **propose features, ideas, etc**. 
+Besides [reporting a **bug**, you can **propose features, ideas, etc**](https://github.com/project-alice-assistant/ProjectAlice/issues).
 
-You can also open an issue if something in the **documentation** is not clear enough. 
+You can also [open an issue](https://github.com/project-alice-assistant/docs/issues) if something in the **documentation** is not clear enough.
 
 - **How to report?**
 
@@ -37,7 +37,7 @@ Make sure you follow the code guidelines described in the section [code guidelin
 New skills are always welcome. A guide on how to create skills for Project Alice can be found in the section [skill-development](../skill-development)
 
 ### Translations
-Skills need new language support, the system can be translated to support new languages! Check our [dedicated page](../skill-development/new-language-support.md) to learn how to do it!
+Skills need new language support, and the system can be translated to support new languages! Check our [dedicated page](../skill-development/new-language-support.md) to learn how to do it!
 
 
 ### Skills pull request Guidelines
