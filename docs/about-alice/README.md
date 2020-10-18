@@ -31,8 +31,8 @@ Alice is young, although in development since quite a while now. You can also be
 
 
  ## What is needed
- - A Raspberry Pi 3 at least and an SD card
- - A microphone and some speaker. I recommend a [Seeed-Studio Respeaker 2](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) to start with.
+ - A [Raspberry Pi 3*](https://amzn.to/346WHPJ) or newer([Raspberry 4, 4GB*](https://amzn.to/3kne6cZ)) and a [SD card*](https://amzn.to/3o1D5V8)
+ - A microphone and some speaker. I recommend a [Respeaker 2*](https://amzn.to/3dJXN7u) (original, but more bit more expensive by [Seeed Studio*](https://amzn.to/3m0tnRo)) to start with.
  - A way to flash your SD card with our [prefabricated image!](https://docs.projectalice.io/setup/)
  
  
