@@ -39,3 +39,5 @@ Alice is young, although in development since quite a while now. You can also be
  ## What can Alice do?
  Many things! But she cannot cook yet... Have a look at our ever growing community made skill collection: [https://store.projectalice.io](https://store.projectalice.io)
  
+ 
+_*project Alice is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com. By buying over these links you support Project Alice - all recommendations are real and not influenced by this!_
