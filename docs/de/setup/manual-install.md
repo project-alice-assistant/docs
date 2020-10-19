@@ -57,7 +57,7 @@ cd
 git clone https://github.com/project-alice-assistant/ProjectAlice.git
 ```
 
-- Hole dir die allerneuste Entwicklungsversion (OPTIONAL):
+- Hole dir die allerneuste Entwicklungsversion:
 ```
 cd ~/ProjectAlice
 git checkout 1.0.0-b4
