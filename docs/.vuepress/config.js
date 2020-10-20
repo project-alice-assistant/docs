@@ -272,11 +272,7 @@ module.exports = {
             items: [
               {
                 text: 'Alice verwenden',
-                collapsable: false,
-                children: [
-                  '',
-                  'web-interface'
-                ]
+                link: '/de/usage'
               },
               {
                 text: 'Satelliten verwenden',
