@@ -10,8 +10,8 @@ module.exports = {
           buttonText: "Refresh"
         },
         '/de/': {
-          message: "New content is available",
-          buttonText: "Refresh"
+          message: "Neue Inhalte sind verfügbar!",
+          buttonText: "Aktualisieren"
         }
       }
     }
@@ -26,7 +26,7 @@ module.exports = {
     '/de/': {
       lang: 'de-DE',
       title: 'ProjectAlice',
-      description: 'A smart voice assistant that guarantees your privacy',
+      description: 'Ein intelligenter Sprachassistent der dein Privatsphäre garantiert',
     }
   },
   head: [
@@ -272,15 +272,15 @@ module.exports = {
             items: [
               {
                 text: 'Alice verwenden',
-                link: '/de/usage/'
+                collapsable: false,
+                children: [
+                  '',
+                  'web-interface'
+                ]
               },
               {
                 text: 'Satelliten verwenden',
                 link: ''
-              },
-              {
-                text: 'Web interface',
-                link: '/de/usage/web-interface'
               },
               {
                 text: 'Skill Store',
