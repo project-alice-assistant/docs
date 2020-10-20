@@ -211,6 +211,7 @@ module.exports = {
                 'events',
                 'widgets',
                 'skill-configuration-file',
+                'skill-download-suggestion',
                 'publishing-to-skill-store',
                 'new-language-support',
                 'database-access'
@@ -389,6 +390,7 @@ module.exports = {
                 'events',
                 'widgets',
                 'skill-configuration-file',
+                'skill-download-suggestion',
                 'publishing-to-skill-store',
                 'new-language-support',
                 'database-access'
