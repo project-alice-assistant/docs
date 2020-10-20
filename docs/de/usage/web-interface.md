@@ -47,5 +47,5 @@ Jetzt kannst du alle Einstellungen rund um Alice tätigen - vergiss nicht ganz u
 # Devmode
 Hier kannst du mit Hilfe von Alice einen neuen Skill erstellen. Trage alle Informationen ein und Alice erstellt für dich die notwendigen Verzeichnisse und Dateien - ein direkter Upload auf Github ist auch möglich!
 
-<link rel="stylesheet" href="/css/speechbubbles.css">
+<link rel="stylesheet" href="/css/disclaimer.css">
 <div class="amazonDisclaimer">* Mit einem Kauf über die angegebenen Amazon Links unterstützt du Project Alice. Die Empfehlung zu diesen Geräten ist jedoch komplett unabhängig davon. Alle Einnahmen werden transparent gehalten und dienen zunächst dazu aufgelaufene Serverkosten zu decken.</div>
