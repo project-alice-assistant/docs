@@ -40,5 +40,7 @@ Alice ist noch jung, auch wenn sie eine Weile in Entwicklung ist. Werde Teil von
  Viele Dinge! Aber sie kann noch nicht kochen... Wirf einen Blick auf unsere stetig wachsenden, Community kreierte Skill Sammlung: [https://store.projectalice.io](https://store.projectalice.io)
  
  
- _* Mit einem Kauf über die angegebenen Amazon Links unterstützt du Project Alice. Die Empfehlung zu diesen Geräten ist jedoch komplett unabhängig davon. Alle Einnahmen werden transparent gehalten und dienen zunächst dazu aufgelaufene Serverkosten zu decken._
+<link rel="stylesheet" href="/css/disclaimer.css">
+<div class="amazonDisclaimer">* Mit einem Kauf über die angegebenen Amazon Links unterstützt du Project Alice. Die Empfehlung zu diesen Geräten ist jedoch komplett unabhängig davon. Alle Einnahmen werden transparent gehalten und dienen zunächst dazu aufgelaufene Serverkosten zu decken.</div>
+
  
