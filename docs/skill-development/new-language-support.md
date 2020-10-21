@@ -37,7 +37,7 @@ The sections [talk files](../skill-development/talk-file.md) and [dialog templat
 ## Adding a new system language support
 If you feel like adding a new system language support, we strongly encourage you to first get in touch with us. It's easy to add a new language support, but requires some Alice knowledge to better grasp the context in which the language strings are used. Again, it's not about translating, it's about adding a new language. Make it feel real, lively, familiar! There are quite a few files to translate, let's list them!
 
-### Basic :skill:skills:
+### Basic skills
 
 - AliceCore
 - ContextSensitive
@@ -45,12 +45,17 @@ If you feel like adding a new system language support, we strongly encourage you
 - RedQueen
 - Telemetry
 
+Don't forget to:
+
+- Add yourself in the maintainers in the install file
+- Add your language code as supported in the language file
+
 ### System
 
 - ProjectAlice/system/manager/LanguageManager/strings.json
 - ProjectAlice/system/manager/TalkManager/talks
 
-### :interface:Interface:
+### Interface
 
 - ProjectAlice/core/interface/languages
 
