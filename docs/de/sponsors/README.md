@@ -21,11 +21,22 @@ Project Alice schickt ein riesiges Dankeschön an die folgenden Personen und Fir
 </p>
 
 ## Jetbrains
-<p>
-  <a href="https://www.jetbrains.com">
-    <img style="width: 120px; height: 138px;" alt="Jetbrains Logo" src="/images/jetbrains-variant-3.svg">
+<p style="text-align: justify">
+  <a href="https://www.jetbrains.com" style="float: left; margin-right: 15px; margin-bottom: 5px;">
+    <img style="width: 120px;" alt="Jetbrains Logo" src="/images/jetbrains-variant-3.svg">
   </a>
   Bist du auf der Suche nach den perfekten Werzeugen für welche Sprache auch immer du programmierst? Deine Suche ist vorbei, Jetbrains bietet dir die perfekte Suite für Entwicklungen in Python, PHP, HTML, Java, Rust, C# und vielen weiteren! Mit dedizierten Apps für jede Sprache, einer mächtigen Codevervollständigung und Analyse gibt es keine Ausrede mehr für Tippfehler! Refactoring wird auf ein komplett neues Level gehoben, Debugging versüßt, Remote Auto Deployment, Themes, Plugins und so vieles mehr machen es die perfekte Plattform für alle deine Bedürfnisse!
 
   Vielen Dank für kostenfreie Lizensen, vollgepackt mit allen Programmen, zur Open Source Entwicklung!
+</p>
+
+
+## Gitlab
+<p style="text-align: justify">
+  <a href="https://www.gitlab.com" style="float: left; margin-right: 15px; margin-bottom: 5px;">
+    <img style="width: 120px;" alt="Jetbrains Logo" src="/images/gitlab.svg">
+  </a>
+  Looking to host your code? For a complete and very powerful Continuous Integration system? Managing your issues? Maybe you are already using another repository, but you still want to benefit from the CI? Give Gitlab a try! And even more than a try! The hosted solution is perfect for starters but if your needs increase, Gitlab can be easily downloaded and installed. Best part of it? Fear no data leakage, it's open source!
+
+  Thank you gitlab for providing us with a Gold license!
 </p>
