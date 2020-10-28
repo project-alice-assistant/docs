@@ -1,5 +1,5 @@
 ---
-title: 'Update Satellite to A2'
+title: 'Update Satellite to B1'
 sidebarDepth: 3
 ---
 
@@ -7,13 +7,13 @@ sidebarDepth: 3
 The alpha and beta releases are subject to major changes. The target audience is people with some knowledge of their devices, coding, installing python modules and basic stuff!
 :::
 
-# Updating to A2 branch or above from A1
+# Updating to B1 branch or above from A1
 - [See Satellite setup](https://docs.projectalice.io/satsetup/) if you don't already have A1 installed
 
-Migrating from A1 image to A2 or above.
+First double check your satellite is operational on B1
 
-- First double check your satellite is operational on A1
-- Then in the command line do the following
+Then in the command line do the following
+
 - ```sudo systemctl stop ProjectAlice```
 - ```git stash```
 - ```git checkout 1.0.0-b1```
@@ -23,8 +23,14 @@ Migrating from A1 image to A2 or above.
 - ```./venv/bin/pip install wheel```
 - ```./venv/bin/pip install pyaudio```
 - ```sudo systemctl start ProjectAlice```
-- To check there are no errors ...
+
+To check there are no errors ...
+
 - ```tail -f /var/log/syslog```
+
+If no errors
+
+- ```git stash clear```
 
 
 If everything goes fine, and you have a satellite displayed in My Home. The satellite icon should now be green showing it's connected.
