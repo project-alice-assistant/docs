@@ -28,6 +28,10 @@ To check there are no errors ...
 
 - ```tail -f /var/log/syslog```
 
+If no errors
+
+- ```git stash clear```
+
 
 If everything goes fine, and you have a satellite displayed in My Home. The satellite icon should now be green showing it's connected.
 
