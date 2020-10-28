@@ -171,6 +171,7 @@ module.exports = {
                 '',
                 'preinstalled',
                 'manual-install',
+                'updateToA2',
                 'troubleshooting'
               ]
             }
@@ -350,6 +351,7 @@ module.exports = {
                 '',
                 'preinstalled',
                 'manual-install',
+                'updateToA2',
                 'troubleshooting'
               ]
             }
