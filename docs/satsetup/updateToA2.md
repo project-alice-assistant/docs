@@ -16,7 +16,7 @@ Migrating from A1 image to A2 or above.
 - Then in the command line do the following
 - ```sudo systemctl stop ProjectAlice```
 - ```git stash```
-- ```git checkout 1.0.0-a1```
+- ```git checkout 1.0.0-a2```
 - ```sudo apt-get install portaudio19-dev```
 - ```./venv/bin/pip install importlib_metadata```
 - ```./venv/bin/pip install webrtcva```
