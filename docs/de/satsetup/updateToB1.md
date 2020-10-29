@@ -10,7 +10,7 @@ The alpha and beta releases are subject to major changes. The target audience is
 # Updating to B1 branch or above from A1
 - [See Satellite setup](https://docs.projectalice.io/satsetup/) if you don't already have A1 installed
 
-First double check your satellite is operational on B1
+First double check your satellite is operational on A1
 
 Then in the command line do the following
 
