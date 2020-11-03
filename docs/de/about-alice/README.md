@@ -31,8 +31,8 @@ Alice ist noch jung, auch wenn sie eine Weile in Entwicklung ist. Werde Teil von
 
 
  ## Was wird benötigt?
- - Ein [Raspberry Pi 3](https://amzn.to/37gKqu8) oder höher ([Raspi 4*](https://amzn.to/36OWxOG)) so wie eine [SD Karte*](https://amzn.to/2FDHk86)
- - Ein Mikrofon und ein paar Lautsprecher. Ich empfehle zum Einstieg den [Respeaker 2*](https://amzn.to/36OWxOG).
+ - Ein [Raspberry Pi 3](https://amzn.to/34RLanS) oder höher ([Raspi 4*](https://amzn.to/34TfnmA)) so wie eine [SD Karte*](https://amzn.to/2GsvX3m)
+ - Ein Mikrofon und ein paar Lautsprecher. Ich empfehle zum Einstieg den [Respeaker 2*](https://amzn.to/386VVVq).
  - Ein Weg unser [vorgefertigtes image](https://docs.projectalice.io/setup/) oder Raspberry Os auf die SD Karte zu flashen
  
  
