@@ -17,7 +17,7 @@ Diese Seite kannst du dir selbst mit :Widget:Widgets: gestalten. Wie überall im
 
 Im Bearbeitungsmodus kannst du Widgets verschieben, skalieren und sortieren.
 Die Tools die dir zur Verfügung stehen sind:
-- Ein Wechsel in den Theatermodus: Toolbar und Menüleiste verschwinden - die komplette Fläche steht für deine gewünschten Infromationen zur Verfügung, perfekt auch für kleine Bildschirme wie zum Beispiel den [offiziellen Raspberry Pi 7" Touchscreen*](https://amzn.to/34cClEP). Zum Verlassen des Theatermodus muss die Seite neu geladen werden!
+- Ein Wechsel in den Theatermodus: Toolbar und Menüleiste verschwinden - die komplette Fläche steht für deine gewünschten Infromationen zur Verfügung, perfekt auch für kleine Bildschirme wie zum Beispiel den [offiziellen Raspberry Pi 7" Touchscreen*](https://amzn.to/384eNo5). Zum Verlassen des Theatermodus muss die Seite neu geladen werden!
 - Das Zahnrad zum Starten des Konfigurationsmodus: Anschließend kannst du Detaileinstellungen und auch die Anzeige(Farbe, Transparenz, Schriftgröße..) eines Widgets ändern.
 - Das Plus Zeichen zum Hinzufügen eines Widegts: Wird dir nur ein leeres Popup angezeigt, hast du aktuell keine Skills installiert, die auch ein Widget mit sich bringen! Versuche es doch mal mit ISS, Wetter, dem TextinputWidget oder DateTimeYear!
 - Das Minus Zeichen zum entfernen eines Widget

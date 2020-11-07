@@ -74,7 +74,7 @@ git pull
 cd ~/ProjectAlice
 python3 main.py
 ```
-- This will start her, do some reboots and stuff. Once she loads, she'll start her own service, and you won't see any output on the console anymore. If you want to follow what going on after she rebooted, type `tail -f /var/log/syslog`, and you will see what she's doing.
+- This will start her, do some reboots and stuff. Once she loads, she'll start her own service, and you won't see any output on the console anymore. If you want to follow what's going on after she rebooted, type `tail -f /var/log/syslog`, and you will see what she's doing.
 - Once you hear a ding, she's up!
 - No ding? => Have a look at our [Troubleshooting guide](troubleshooting)!
 
