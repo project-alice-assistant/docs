@@ -42,7 +42,7 @@ As of october 2020, manually installing is the prefered way, new versions coming
   - `sudo apt-get update`
   - `sudo apt-get dist-upgrade -y`
 - Open the configuration tool
-  - `sudo raspiconfig`
+  - `sudo raspi-config`
 - Set the network name to `ProjectAlice`
 - Set your locales
 - **Change the default user password**
@@ -68,7 +68,7 @@ git pull
 ## Start Alice
 - Copy the basic configuration on their place for first boot: `sudo cp  ~/ProjectAlice/ProjectAlice.yaml /boot/ProjectAlice.yaml`
 - We need to configure a few things for her to start nicely: `sudo nano /boot/ProjectAlice.yaml`
-- Set that file parameters to your licking and setup.
+- Set that file parameters to your liking and setup.
 - You know what? We're done! Let's start her up!
 ```
 cd ~/ProjectAlice
