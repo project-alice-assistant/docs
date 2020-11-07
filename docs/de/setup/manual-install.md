@@ -41,7 +41,7 @@ Stand Oktober 2020 ist die manuelle Installation der bevorzugte Weg. Da aktuell 
   - `sudo apt-get update`
   - `sudo apt-get dist-upgrade -y`
 - Öffne das Konfigurationstool
-  - `sudo raspiconfig`
+  - `sudo raspi-config`
 - Setze den Netzwerknamen auf `ProjectAlice`
 - Stelle deine Sprache, Tastatur und Zeitzone ein
 - **Ändere das standard Benutzerpasswort!**
