@@ -58,13 +58,6 @@ cd
 git clone https://github.com/project-alice-assistant/ProjectAlice.git
 ```
 
-- Update to latest dev branch:
-```
-cd ~/ProjectAlice
-git checkout 1.0.0-b4
-git pull
-```
-
 ## Start Alice
 - Copy the basic configuration on their place for first boot: `sudo cp  ~/ProjectAlice/ProjectAlice.yaml /boot/ProjectAlice.yaml`
 - We need to configure a few things for her to start nicely: `sudo nano /boot/ProjectAlice.yaml`
