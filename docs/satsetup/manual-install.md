@@ -47,6 +47,7 @@ This guide is intended for users that wish to manually install Alice Satellite w
   ```
 - Install git: `sudo apt-get install git`
 - Clone Alice Satellite: `git clone https://github.com/project-alice-assistant/ProjectAliceSatellite ~/ProjectAlice`
+- Install python venv: `sudo apt-get install python3-venv`
 - Create a virtual environment: `cd ~/ProjectAlice && python3.7 -m venv venv`
 - Upgrade pip:
   ```
