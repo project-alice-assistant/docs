@@ -43,10 +43,16 @@ As of october 2020, manually installing is the prefered way, new versions coming
   - `sudo apt-get dist-upgrade -y`
 - Open the configuration tool
   - `sudo raspi-config`
-- Set the network name to `ProjectAlice`
-- Set your locales
-- **Change the default user password**
-- Reboot
+- In `System Options`
+  - Change your password
+  - Set the hostname to `ProjectAlice`
+  - Set the Boot / Auto Login to `Console Autologin`
+- In `Interface Options`
+  - Enable SPI
+  - Enable I2C
+- In `Advanced options`
+  - Expand Filesystem
+- **Reboot**
 
 ## Install Git and clone Alice
 
