@@ -19,7 +19,7 @@ Then in the command line do the following
 - ```git checkout 1.0.0-b1```
 - ```sudo apt-get install portaudio19-dev```
 - ```./venv/bin/pip install importlib_metadata```
-- ```./venv/bin/pip install webrtcva```
+- ```./venv/bin/pip install webrtcvad```
 - ```./venv/bin/pip install wheel```
 - ```./venv/bin/pip install pyaudio```
 - ```sudo systemctl start ProjectAlice```
