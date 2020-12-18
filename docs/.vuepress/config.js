@@ -123,7 +123,7 @@ module.exports = {
               },
               {
                 text: 'API',
-                link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
+                link: 'https://api.projectalice.io/'
               },
             ]
           },
@@ -303,7 +303,7 @@ module.exports = {
               },
               {
                 text: 'API',
-                link: 'https://documenter.getpostman.com/view/7504420/SW7W59r7'
+                link: 'https://api.projectalice.io/'
               },
             ]
           },

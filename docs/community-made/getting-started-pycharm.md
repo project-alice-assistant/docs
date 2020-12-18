@@ -31,7 +31,7 @@ Yes I understand there are a quite a few steps in this process but for the most 
  
 ## Download and install Pycharm
 
-First of all lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/Pycharm/download>
+First of all lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/pycharm/>
 
 ## A bit about GitHub.
 Great, so now Pycharm is downloaded and installed lets setup a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.

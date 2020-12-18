@@ -57,13 +57,6 @@ cd
 git clone https://github.com/project-alice-assistant/ProjectAlice.git
 ```
 
-- Hole dir die allerneuste Entwicklungsversion:
-```
-cd ~/ProjectAlice
-git checkout 1.0.0-b4
-git pull
-```
-
 ## Starte Alice
 - Kopiere die Basiskonfiguration an den richtigen Ort für die Ersteinrichtung: `sudo cp  ~/ProjectAlice/ProjectAlice.yaml /boot/ProjectAlice.yaml`
 - Bearbeite die Installationseinstellungen: `sudo nano /boot/ProjectAlice.yaml`
