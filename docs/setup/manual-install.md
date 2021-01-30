@@ -61,7 +61,7 @@ As of october 2020, manually installing is the prefered way, new versions coming
 - Clone Alice:
 ```
 cd
-git clone https://github.com/project-alice-assistant/ProjectAlice.git
+git clone --recurse-submodules https://github.com/project-alice-assistant/ProjectAlice.git
 ```
 
 ## Start Alice
