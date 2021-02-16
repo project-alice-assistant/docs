@@ -6,6 +6,7 @@ sidebarDepth: 2
 # Intro
 
 We have some slots ready for you to use. You don't need to worry if they exist or not, they do, as they are coming from required skills! Beside former snips skills that are supported, the Alice/XXX skills are also available. Let's list them here! This listing is about the english version. Other languages might differ in numbers.
+If you want to create a skill that needs additional values for these slots, you can extend them! Just declare the slot like every other slot, but use the exact same name as the official Alice/* slot. Alice will take care of the rest!
 
 
 ## Alice slots
