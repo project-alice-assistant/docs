@@ -19,13 +19,13 @@ to create meaningful and engaging voice interactions.
 
 ### Python programming language
 
-Skills for Alice are written using the [Python programming language](https://www.python.org/). A simple Skill can be a great way for new developers to try Python out in a real project, whilst experienced programmers will quickly see the powerful possibilities available in a well crafted :skill:Skill:.
-
-If you aren't familiar with the basics of Python, check one of the many great tutorials online to get you started. If you've programmed in other object-oriented languages, like Java or C\#, then you'll be able to pick it up, but if you're totally new to programming, you might want to look at an [introductory programming course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11).
-
 ::: warning
 It is **required** that you read **and understand** our [Code guidelines](../contribute/code-guidelines.md)
 :::
+
+Skills for Alice are written using the [Python programming language](https://www.python.org/). A simple Skill can be a great way for new developers to try Python out in a real project, whilst experienced programmers will quickly see the powerful possibilities available in a well crafted :skill:Skill:.
+
+If you aren't familiar with the basics of Python, check one of the many great tutorials online to get you started. If you've programmed in other object-oriented languages, like Java or C\#, then you'll be able to pick it up, but if you're totally new to programming, you might want to look at an [introductory programming course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11).
 
 For a quick jump into setting your IDE for Alice, read the following community made documentation: [Getting started with Pycharm](./community-made/getting-started-pycharm.md).
 

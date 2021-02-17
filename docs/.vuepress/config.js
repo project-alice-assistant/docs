@@ -202,20 +202,7 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
-                'your-first-skill',
-                'missing-slot-info',
-                'talk-file',
-                'dialog-template',
-                'builtin-slots',
-                'builtin-intents',
-                'logging',
-                'events',
-                'widgets',
-                'skill-configuration-file',
-                'skill-download-suggestion',
-                'publishing-to-skill-store',
-                'new-language-support',
-                'database-access'
+                'your-first-skill'
               ]
             }
           ],
