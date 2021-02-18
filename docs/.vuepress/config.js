@@ -58,7 +58,7 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     smoothScroll: true,
-    sidebarDepth: 2,
+    sidebarDepth: 6,
     locales: {
       '/': {
         selectText: ' Languages',
@@ -204,8 +204,11 @@ module.exports = {
                 '',
                 'your-first-skill',
                 'files-in-depth',
-                'publishing-to-skill-store',
-                'down-the-rabbit-hole'
+                'work-made-for-you',
+                'down-the-rabbit-hole',
+                'going-further',
+                'new-language-support',
+                'publishing-to-skill-store'
               ]
             }
           ],

@@ -1,5 +1,5 @@
 ---
-title: 'Adding a new language support'
+title: Adding a new language support
 sidebarDepth: 4
 tags:
 - language support
@@ -12,6 +12,7 @@ We currently natively support the following languages:
 - French
 - German
 - Italian
+- Polish
 
 This means those languages are available as a configuration, and the **entire** system can run with them.
 
@@ -45,19 +46,21 @@ If you feel like adding a new system language support, we strongly encourage you
 - RedQueen
 - Telemetry
 
+Skills can have language files in the following directories:
+- talks
+- dialogTemplate
+- widgets
+- devices
+
 Don't forget to:
 
 - Add yourself in the maintainers in the install file
-- Add your language code as supported in the language file
+- Add your language code as supported in the install file
 
 ### System
 
 - ProjectAlice/system/manager/LanguageManager/strings.json
 - ProjectAlice/system/manager/TalkManager/talks
-
-### Interface
-
-- ProjectAlice/core/interface/languages
-
+- ProjectAlice/system/manager/WebUIManager/*.json
 
 Once these files are made, please contact us so that we can add the language as supported on the core side!
