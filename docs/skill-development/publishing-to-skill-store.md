@@ -1,6 +1,10 @@
 ---
-title: 'Publishing your skill'
+title: Publishing your skill
 sidebarDepth: 3
+tags:
+- publishing
+- skill
+- store
 ---
 
 # Intro

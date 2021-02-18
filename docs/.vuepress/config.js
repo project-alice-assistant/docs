@@ -202,7 +202,10 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
-                'your-first-skill'
+                'your-first-skill',
+                'files-in-depth',
+                'publishing-to-skill-store',
+                'down-the-rabbit-hole'
               ]
             }
           ],

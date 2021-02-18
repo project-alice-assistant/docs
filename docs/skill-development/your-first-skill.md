@@ -1,6 +1,11 @@
 ---
-Title: 'Your first skill'
+Title: Your first skill
 sidebarDepth: 3
+tags:
+- first skill
+- skill
+- introduction
+- development
 ---
 
 # Your first skill
@@ -63,7 +68,7 @@ Let's create our first :skill:skill:! Type `projectalice-sk create` and hit ente
 - Choose the languages your :skill:skill: will support. English is mandatory. Use the up and down arrows and space to select or deselect a language. Hit Enter once your selection is made. For the sake of this example, we are going to select only `en`.
 - Answer `No` to all the following questions. We will come back to them later.
 
-## Structure of a :skill:skill:
+## Structure of a skill
 
 Let's take a look at what files were created.
 
