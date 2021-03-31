@@ -14,3 +14,8 @@ http://192.168.1.101:5000/
 
 
 # TODO - cover the interface usage, what page does what etc etc
+
+
+# FAQ
+## My google credentials are not showing in the admin tab!
+These credentials are marked as sensitive data and are ment to be hidden! You can always past your new credentials, and they will overwrite the old ones.
