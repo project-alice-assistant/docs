@@ -281,3 +281,53 @@ The README file contains human-readable information about your :skill:skill:.
 ## What have we learned
 
 You have now successfully created a new :skill:skill: and have an understanding of the basic components that make up an Alice :skill:skill:. Next we will dive into each component in more detail.
+
+
+### Additional information that needs to be included:
+#### Devices
+If you want to include custom devices into your skill, the folders structure is enhanced by a devices folder:
+```text
+.
+├─ devices
+│  ├─ img
+|  |  ├─ customImage.png
+│  |  └─ yourDevice.png
+|  ├─ __init__.py
+|  ├─ yourDevice.config.template
+│  └─ yourDevice.py
+```
+The default image is always named like your device and has a png-extension. You can provide different images by overwriting the method getDeviceIcon.
+For now only .png is possible
+
+yourDevice.py must extend Device and include at least a redefinition for:
+```python
+	@classmethod
+	def getDeviceTypeDefinition(cls) -> dict:
+		return { 'deviceTypeName'        : 'yourDevice',			# Must match your class name
+		         'perLocationLimit'      : 0,					# How many devices are allowed per location, with 0 being unlimited
+		         'totalDeviceLimit'      : 0,					# How many devices are allowed in total, again 0 being unlimited
+		         'allowLocationLinks'    : True,				# Are links from the device to a location allowed
+		         'allowHeartbeatOverride': True,				# Is it possible to set a custom Heartbeat per device?
+		         'heartbeatRate'         : 2700,				# The default heart rate for the device type
+		         'abilities'             : [DeviceAbility.NONE]			# The list of abilities the device type has
+		}
+```
+yourDevice.config.template contains the per device set-able configuration:
+```json
+{
+	"deviceConfigs": {
+		"someValue": {
+			"defaultValue": true,
+			"dataType"    : "boolean",
+			"isSensitive" : false,
+			"description" : "Some description to show as help for the user"
+		},
+		"someFreeTextInput": {
+			"defaultValue": "They can be prefilled!",
+			"dataType"    : "string",
+			"isSensitive" : false,
+			"description" : "Even more types are possible, try sensitive for passwords!"
+		}
+	}
+}
+```
