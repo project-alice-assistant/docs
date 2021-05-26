@@ -114,6 +114,10 @@ module.exports = {
                 link: '/community-made/getting-started-pycharm'
               },
               {
+                text: 'Frequent questions and answers',
+                link: '/community-made/frequent-quesetions-and-answer'
+              },
+              {
                 text: 'Skill development',
                 link: '/skill-development/'
               },
