@@ -161,15 +161,15 @@ Let's take a little look at this!
 
 
 ### Widgets calls to Alice Core
-Beside the API we also have the possibility for your widgets to call functions on the core directly! You want to know the best? It's very simple! Simply code your python function in your widget python file and make it return a string. In the example below, the function is `getLocks`, in your skill directory
+Beside the API we also have the possibility for your widgets to call functions on the core directly! You want to know the best? It's very simple! Simply code your python function in your widget python file and make it return a dict (that will become a JS json object). In the example below, the function is `getLocks`, in your widget script
 
 ```python
 class Lock(Widget):
 
 	DEFAULT_SIZE = WidgetSizes.w_wide
 
-	def getLocks(self) -> str:
-		return json.dumps({device.uid: device.toDict() for device in self.skillInstance.myDevices.values()})
+	def getLocks(self) -> dict:
+		return {device.uid: device.toDict() for device in self.skillInstance.myDevices.values()}
 ```
 
 
