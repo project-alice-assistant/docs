@@ -189,6 +189,24 @@ You can also pass arguments directly:
 	def toggleLock(self, uid: str):
 		self.skillInstance.toggleLock(uid=uid)
 ```
+### Widget JS methods invoked by Alice
+During display of a widget there a few methods Alice will call to keep everything clean and updated. The following chapter will handle these methods
+
+#### refresh()
+
+Called when the widgets settings are changed after the settings window is closed.
+Use this to direcly react to new settings. Reload new informations, adjust the display - you know best what changes are required for your new settings!
+
+#### onResize(target, width, height, delta, direction)
+
+Called while the widget is resized by the user.
+Use this to reorganize the widget, add more information to use the new space, or simplyfy it, when there is not that much space left.
+
+#### stop()
+
+Called when the page is switched in the UI and all widgets have to stop their execution.
+Usually you want to stop all periodic jobs and refreshes when stop() is called.
+
 
 ### Built-in css rules
 
