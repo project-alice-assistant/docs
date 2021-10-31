@@ -158,6 +158,7 @@ module.exports = {
               children: [
                 '',
                 'requirements',
+                'alice-cli',
                 'manual-install',
                 'image-install',
                 'preinstalled',
