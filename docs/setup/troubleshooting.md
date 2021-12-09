@@ -38,11 +38,11 @@ If you see errors, if she shuts down or reboots by herself in a loop, time for s
 
 ## Auto bug report
 
-```tip Github
+::: tip Github
 You need an account on Github to use this feature as weell as a Github API token
 - [https://github.com](https://github.com)
 - [API Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-```
+:::
 
 ### Alice is started
 Open you web console and go into admin then settings and make sure the Github username as well as the API token are inserted. Stop Alice with `sudo systemctl stop ProjectAlice`
