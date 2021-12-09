@@ -59,3 +59,5 @@ This is a one command operation that can also be made through AliceCLI. The reas
 Around line 5, you should see the BugReporterManagere saying: `[BugReportManager]                  Flag file detected, recording errors for this run`
 
 The whole logs will be automatically sent to our [Github issues](https://github.com/project-alice-assistant/ProjectAlice/issues) when Alice **goes down**. Which means, if she's running, you need to stop her with `CTRL+C` so the report is seent to us.
+
+Towards the end of the logs, you'll see something like `[BugReportManager]                  Created new issue: https://github.com/project-alice-assistant/ProjectAlice/issues/599` which means the report was made and you can find the issue at the given link
