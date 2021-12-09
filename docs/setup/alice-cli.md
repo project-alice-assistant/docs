@@ -51,6 +51,8 @@ Once installed, you'll have access to a new command in your terminal: `alice`. O
    Upgrade system
    Reboot device
    Uninstall your sound device
+   Enable bug report for next session
+   Check Alice logs
    Check system logs
    Exit
 ```
