@@ -56,6 +56,6 @@ This is a one command operation that can also be made through AliceCLI. The reas
 - SSH to your device and type: `touch ~/ProjectAlice/alice.bugreport`
 - Start Alice with `cd ~/ProjectAlice && ./venv/bin/python main.py`
 
-Around line 42, you should see the BugReporterManagere saying: `[BugReportManager]                  Flag file detected, recording errors for this run`
+Around line 5, you should see the BugReporterManagere saying: `[BugReportManager]                  Flag file detected, recording errors for this run`
 
 The whole logs will be automatically sent to our [Github issues](https://github.com/project-alice-assistant/ProjectAlice/issues) when Alice **goes down**. Which means, if she's running, you need to stop her with `CTRL+C` so the report is seent to us.
