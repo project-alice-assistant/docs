@@ -26,22 +26,36 @@ cd /home/pi/ProjectAlice
 ./venv/bin/python main.py
 ```
 
-This will manually start ProjectAlice printing out every details and stopping if any unrecoverable error arises. Check for these errors and report them if any on [Github](https://github.com/project-alice-assistant/ProjectAlice/issues/new). Read the logs carefully, they always give hint if something's missing, a setting not set, something wrong.
+This will manually start ProjectAlice printing out every details and stopping if any unrecoverable error arises. Read the logs carefully, they always give hint if something's missing, a setting not set, something wrong.
 
 If there're no errors and Alice seems to start fine, the last log line, on first boot, should be something like
 
-`Starting Alice Core`
+`[Project Alice]                     Started in 7.23 seconds`
 
-And you should hear her welcoming you.
+And you should hear a little chime.
 
-#### The logs say she is asking for a new user, but I don't hear anthing
-Common audio problem? Stop Alice with CTRL+c and let's see if your audio device is installed by using
+If you see errors, if she shuts down or reboots by herself in a loop, time for some reporting 🦖
 
-```shell script
-aplay -l
-arecord -l
+## Auto bug report
+
+```tip Github
+You need an account on Github to use this feature as weell as a Github API token
+- [https://github.com](https://github.com)
+- [API Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 ```
 
-Those commands should return first the device used to play audio and second to record audio. If your device is not listed, there's a problem!
+### Alice is started
+Open you web console and go into admin then settings and make sure the Github username as well as the API token are inserted. Stop Alice with `sudo systemctl stop ProjectAlice`
 
-WIP
+### Alice doesn't start
+SSH to your device and edit Alice's config file: `nano ~/ProjectAlice/config.json`. Search for `githubToken` and insert your Github API token and seearch for `githubUsername` and insert your github username
+
+### Tell Alice to report the bugs
+This is a one command operation that can also be made through AliceCLI. The reason for no configuration or simplier way to do it, is that everything can fail, and reporting can also fail. But not a command entered willingly by a user...
+
+- SSH to your device and type: `touch ~/ProjectAlice/alice.bugreport`
+- Start Alice with `cd ~/ProjectAlice && ./venv/bin/python main.py`
+
+Around line 42, you should see the BugReporterManagere saying: `[BugReportManager]                  Flag file detected, recording errors for this run`
+
+The whole logs will be automatically sent to our [Github issues](https://github.com/project-alice-assistant/ProjectAlice/issues) when Alice **goes down**. Which means, if she's running, you need to stop her with `CTRL+C` so the report is seent to us.
