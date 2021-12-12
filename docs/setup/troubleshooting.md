@@ -53,11 +53,16 @@ SSH to your device and edit Alice's config file: `nano ~/ProjectAlice/config.jso
 ### Tell Alice to report the bugs
 This is a one command operation that can also be made through AliceCLI. The reason for no configuration or simplier way to do it, is that everything can fail, and reporting can also fail. But not a command entered willingly by a user...
 
-- SSH to your device and type: `touch ~/ProjectAlice/alice.bugreport`
+- If you don't start Alice manually, SSH to your device and stop her with `sudo systemctl stop ProjectAlice`
+- Create the bug report flag by typing: `touch ~/ProjectAlice/alice.bugreport`
 - Start Alice with `cd ~/ProjectAlice && ./venv/bin/python main.py`
 
 Around line 5, you should see the BugReporterManagere saying: `[BugReportManager]                  Flag file detected, recording errors for this run`
 
-The whole logs will be automatically sent to our [Github issues](https://github.com/project-alice-assistant/ProjectAlice/issues) when Alice **goes down**. Which means, if she's running, you need to stop her with `CTRL+C` so the report is seent to us.
+The whole logs will be automatically sent to our [Github issues](https://github.com/project-alice-assistant/ProjectAlice/issues) when Alice **goes down**. Which means, if she's running, you need to stop her with `CTRL+C` so the report is sent to us.
 
 Towards the end of the logs, you'll see something like `[BugReportManager]                  Created new issue: https://github.com/project-alice-assistant/ProjectAlice/issues/599` which means the report was made and you can find the issue at the given link
+
+- If you want to have Alice run automatically again, tpye `sudo systemctl start ProjectAlice`
+
+*The report flag file is automatically deleted everytime Alice goes down*
