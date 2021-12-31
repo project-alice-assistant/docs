@@ -11,7 +11,7 @@ As of october 2020, manually installing is the prefered way, new versions coming
 
 
 ## Install Rasppberry Pi OS
-- Download Rasppberry Pi OS, Lite version is **recommended**
+- Download Rasppberry Pi OS, for now only [Buster 32bit](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy) is supported. Lite version is **recommended**
 - Insert your 8 gig SD card into your computer and burn the Raspberry Pi OS image onto it
    - What means *burn the image*? Get rid of those matches, and have a look [here](https://www.raspberrypi.org/documentation/installation/installing-images/)
 - When your SD is flashed, unplug it and replug it, your computer should detect, among others, a new partition called `boot`
