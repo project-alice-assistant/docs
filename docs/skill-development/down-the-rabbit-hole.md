@@ -119,12 +119,12 @@ The nightmare for perfectionists... What's more annoying than a log line saying 
 self.logInfo(f'Loaded {myDeviceCount} device in {roomCount} room.', plural=['device', 'room'])
 ```
 
-Note that you should use the non plural form, Alice will add the required `s`'s if needed. The pluralization only works with digits and not with written number.
+Note that you should use the non-plural form, Alice will add the required `s`'s if needed. The pluralization only works with digits and not with written number.
 
 
 ### Styling your logs
 
-Logs support a similar to markdown syntax. You can output bold text, underlined, dimmed and even colored text! These formatted logs will only show on stdout and on the interface. Here's how you can style your logs:
+Logs support a similar to Markdown syntax. You can output bold text, underlined, dimmed and even colored text! These formatted logs will only show on stdout and on the interface. Here's how you can style your logs:
 
 #### Bold:
 `**My bold text**`
@@ -144,7 +144,7 @@ Available colors are: red, green, yellow, blue, grey
 
 ### Using the logger outside the skill class
 
-As the logger is provided by the skill class, it is only available within that scope. If you need to log messages from outside of this class, you can import the logger manually.
+As the logger is provided by the skill class, it is only available within that scope. If you need to log messages from outside this class, you can import the logger manually.
 
 ```python
 from core.util.model.Logger import Logger
@@ -178,7 +178,7 @@ class HelloWorldskill(AliceSkill):
 ```
 
 ::: warning
-When you want to print stack traces when logging outside of the skill's class it might be required to provide
+When you want to print stack traces when logging outside the skill's class it might be required to provide
 a different depth for the stack trace to the Logger class, since the default depth of the stack trace is 4.
 ```python
 Logger(depth=6).logError('log message with stack trace')
@@ -248,7 +248,7 @@ self.DatabaseManager.delete(
 ## Events
 Project Alice is driven by :event:events:. What are events you might ask, or what do we mean with it? Ever heard of "action -> reaction"? That's exactly it! When something happens, something occurs! Events are by convention prefixed with "on", like "onStormyWeather" or "onDoorOpened".
 
-We provide a load of pre-made system events you can override in your skills. Lemme try to list them all, more are added on regular bases though!
+We provide a load of pre-made system events you can override in your skills. Let me try to list them all, more are added on regular bases though!
 
 ### Core events
 
@@ -296,7 +296,7 @@ Triggered when the user cancels a dialog. This ends the session and doesn't trig
 Triggered when a session times out
 
 ####  def onIntentNotRecognized(self, session)
-Triggered when the NLU couldn't understand the intent or your saying. Typically occurs after onCaptured
+Triggered when the NLU couldn't understand the intent. Typically, occurs after onCaptured
 
 ####  def onSessionError(self, session)
 Triggered if the session ends with an error
@@ -401,7 +401,7 @@ Triggered when a user tells Alice he's cooking
 Triggered when a user tells Alice he's putting makeup
 
 ####  def onContextSensitiveDelete(self, sessionId: str)
-Triggered when the user asks, in a context sensitive scenario, to delete or forget something. Example:
+Triggered when the user asks, in a context-sensitive scenario, to delete or forget something. Example:
 <div class="userSpeech female">What's my favorite color?</div>
 <div class="aliceSpeech">blue</div>
 <div class="userSpeech female">Forget this!</div>
@@ -409,7 +409,7 @@ Triggered when the user asks, in a context sensitive scenario, to delete or forg
 
 
 ####  def onContextSensitiveEdit(self, sessionId: str)
-Triggered when the user asks, in a context sensitive scenario, to change something. Example:
+Triggered when the user asks, in a context-sensitive scenario, to change something. Example:
 <div class="userSpeech male">What's my favorite color?</div>
 <div class="aliceSpeech">blue</div>
 <div class="userSpeech male">Change this please</div>
@@ -420,8 +420,8 @@ Triggered when the user asks, in a context sensitive scenario, to change somethi
 
 ### Timed events
 ::: tip Description
-When Alice starts, the following events are scheduled. Alice does calculate for them to start at the correct time so it reflects real life clock.
-Thus onFullHour doesn't mean Alice was running an hour on the first round, as if Alice start at 9:47, onFullMinute would trigger at 9:48:00,
+When Alice starts, the following events are scheduled. Alice does calculate for them to start at the correct time, so it reflects real life clock.
+Thus, onFullHour doesn't mean Alice was running an hour on the first round, as if Alice start at 9:47, onFullMinute would trigger at 9:48:00,
 onFiveMinutes at 9:50:00, onFullHour and all the others at precisely 10:00:00
 :::
 
@@ -579,6 +579,6 @@ def bookFlight(self, session: DialogSession):
 
 What we did here is link our 4 `intents` to the same method `bookFlight` and we check if all our slots are filled. If not, we ask the user for the information and limit the NLU on the intent that interests us using `intentFilter`. In the first if condition I even mentioned the `slot` the NLU should focus on extracting!
 
-As the answer will come back to the same method, the checks will naturally continue until all three are False and we can proceed to the booking!
+As the answer will come back to the same method, the checks will naturally continue until all three are False, and we can proceed to the booking!
 
-Make sure to read [builtin intents](../skill-development/builtin-intents.md) to understand dialogue state or you will end up having collisions with other skills!
+Make sure to read [builtin intents](../skill-development/builtin-intents.md) to understand dialogue state, or you will end up having collisions with other skills!

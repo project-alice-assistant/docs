@@ -32,7 +32,7 @@ We have different ways of defining those text strings.
 ### Structure
 
 ::: tip Pro tip
-If you are using an IDE able to handle json schema, it is highly recommended to use our [Talk file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/talk-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended using our [Talk file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/talk-schema.json)
 :::
 
 #### Example 1 - A list of strings
@@ -126,7 +126,7 @@ This is better as we define what goes where, as sometimes languages don't use th
 By reading this you notice that our `curly braces` now contain a number. They are the same variable as before but are indexed. If you take the first example, it could translate to `Sorry, no satellite in room kitchen` and the second would translate to `I can't, room kitchen doesn't have any satellite`. You surely have noticed that the room, and the device type variable are reversed in both examples.
 
 ::: tip Pro tip
-Use punctuation for your strings! Even at the end of answers, just because it's correct, but also because most TTS do respect them and will speak more naturally if punctuated correctly. Talk files also support  [SSML markup](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language). The `<speak>` and `breath` effects are auto injected, you shouldn't add them! If the TTS engine the user is using doesn't support SSML, Alice will automatically remove the tags.
+Use punctuation for your strings! Even at the end of answers, just because it's correct, but also because most TTS do respect them and will speak more naturally if punctuated correctly. Talk files also support  [SSML markup](https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language). The `<speak>` and `breath` effects are auto-injected, you shouldn't add them! If the TTS engine the user is using doesn't support SSML, Alice will automatically remove the tags.
 :::
 
 ## Dialog templates
@@ -534,5 +534,5 @@ There aren't many rules about this file but keep these in mind:
 - Think about it as `What do I definitely want my skill to react to?`
 
 ::: tip Pro tip
-Remember `speakableName` from the install file? Well, this is why it exists! Alice will use that `speakableName` to propose your skill to download.
+Remember `speakableName` from the installation file? Well, this is why it exists! Alice will use that `speakableName` to propose your skill to download.
 :::

@@ -103,7 +103,7 @@ Let's imagine you are building a skill that gives the user the ability to add re
 <div class="userSpeech male"><strong class="slotWord">Yes</strong> thank you</div>
 <div class="aliceSpeech female">Ok, deleted</div>
 
-To this point, nothing big or hard. What if I told you that the `AnswerYesOrNo` intent is already used by many skills? So if you have a little chance, your skill might by the first one to catch the intent but what if the `Yes` the user is answering is not meant for your skill? See where I'm going? You need to make sure the `AnswerYesOrNo` is actually meant for your skill at this moment. It is important to understand that Alice doesn't lock a skill while in dialogue. You could hypothetically answer `What time is it` instead of `Yes` and she'd answer you, forgetting about the reminder question.
+To this point, nothing big or hard. What if I told you that the `AnswerYesOrNo` intent is already used by many skills? So if you have a little chance, your skill might be the first one to catch the intent but what if the `Yes` the user is answering is not meant for your skill? See where I'm going? You need to make sure the `AnswerYesOrNo` is actually meant for your skill at this moment. It is important to understand that Alice doesn't lock a skill while in dialogue. You could hypothetically answer `What time is it` instead of `Yes` and she'd answer you, forgetting about the reminder question.
 
 ### The solutions
 To solve these collision issues, we have implemented what we call `dialogStates`. You can either do the mapping in the `__init__` method, or you can use the `IntentHandler` decorator for easier cases.

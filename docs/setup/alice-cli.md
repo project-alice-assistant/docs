@@ -31,7 +31,7 @@ On your main computer, install [AliceCli](https://pypi.org/project/projectalice-
 
 ## Use the command line tool.
 
-Once installed, you'll have access to a new command in your terminal: `alice`. Open your favourite terminal and type `alice`and you should be presented a menu with quite a few options!
+Once installed, you'll have access to a new command in your terminal: `alice`. Open your favourite terminal and type `alice` and you should be presented a menu with quite a few options!
 
 ```
 Project Alice CLI version x.x.x
@@ -86,7 +86,7 @@ By defaults, your device is named `ProjectAlice`. This lets you change this to w
 One critical and very error-prone part is the sound device installation. We recommend you run Alice with a Respeaker, so the CLI only supports them for now, but the Alice installation process proposes more devices that she **try** to install for you.  
 
 ### Sound test
-Let's you test your sound device with a typical `left-right` audio
+Lets you test your sound device with a typical `left-right` audio
 
 ### Install Alice
 This will install Alice with your guidance. You'll need to answer a few questions for the first settings and the CLI will deploy Alice on the connected device.
@@ -101,7 +101,7 @@ Restarts Alice with `systemctl`
 Stops Alice with `systemctl`
 
 ### Enable Alice service
-After installation, Alice's systemcl service is enabled by default, and she boots when your device boots. In case you disabled it, you can enable it here
+After installation, Alice's systemctl service is enabled by default, and she boots when your device boots. In case you disabled it, you can enable it here
 
 ### Disable Alice service
 This disables Alice's service, so she doesn't automatically start on system boot.

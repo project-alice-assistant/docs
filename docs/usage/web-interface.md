@@ -18,7 +18,7 @@ The Alice web :interface: is exposed over port 5000 (configurable in your settin
 # Pages and there uses
 
 ## First timers
-If it's the first time you open the web interface page, you will be presented with a connection page. Enter Alice's main unit ip address as well as the port. The port should be `5001` if you haven't changed it manually. By default those settings are remembered, privacy first, but the slider will allow the browser to retain the information.
+If it's the first time you open the web interface page, you will be presented with a connection page. Enter Alice's main unit ip address as well as the port. The port should be `5001` if you haven't changed it manually. By default, those settings are remembered, privacy first, but the slider will allow the browser to retain the information.
 
 <img style="width: 500px;" alt="Interface welcome" src="/images/webinterface/001.png">
 
@@ -30,10 +30,10 @@ Head to "Login" and enter your username and pin code. Remember the pin code you'
 
 <img style="width: 500px;" alt="Interface logged in" src="/images/webinterface/003.png">
 
-Now we are talking! Once connected you gain access to many many other pages and tools! Let's round them up and quickly present each of them
+Now we are talking! Once connected you gain access to many other pages and tools! Let's round them up and quickly present each of them
 
 ## Widgets
-This page contains by default one sub page with a "Bio hazard" icon. Widgets are provided by skills you install, if the developer made some. Widgets are tiles that can visually present you relevant information.
+This page contains by default one sub-page with a "Bio hazard" icon. Widgets are provided by skills you install, if the developer made some. Widgets are tiles that can visually present you relevant information.
 
 Using the `+` icon, you can add a new page. Because your interface is a web page, you can open it on different devices, so maybe you want a "Kitchen" page for your fridge screen, where you can display timer widgets and some shopping list widgets. And in the living room, you'd like to have a TV program widget? This is what those pages are for!
 

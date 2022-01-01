@@ -47,7 +47,7 @@ Now when you edit/modify the :skill: and `ctrl + s` to save it, it will save the
 
 <img src="/images/Push_Pull.png" alt="push and pull arrow">
 
-Commiting the changes in simple terms, is geek talk for saving. :)
+Committing the changes in simple terms, is geek talk for saving. :)
 It tells GitHub you've modified code, and you want to store it on GitHub. Once commited, you then click the blue "update project" arrow (or `ctrl + shift + k` also called push which does similar). Pycharm will then "push" your commit (modified files) to your GitHub repo. By pushing to origin, you will now have a backup of your files on GitHub which at a later stage you can share with who ever or create a "pull request" (PR) to the ProjectAlice team, so the :skill: can be reviewed for merging/adding in the Alice store so everyone can enjoy using it.
 
 ## Setup Pycharm directories

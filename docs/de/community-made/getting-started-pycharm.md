@@ -31,7 +31,7 @@ Yes I understand there are a quite a few steps in this process but for the most 
 
 ## Download and install Pycharm
 
-First of all lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/Pycharm/download>
+First lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/Pycharm/download>
 
 ## A bit about GitHub.
 Great, so now Pycharm is downloaded and installed lets setup a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.
@@ -47,8 +47,8 @@ Now when you edit/modify the :skill: and `ctrl + s` to save it, it will save the
 
 <img src="/images/Push_Pull.png" alt="push and pull arrow">
 
-Commiting the changes in simple terms, is geek talk for saving. :)
-It tells GitHub you've modified code, and you want to store it on GitHub. Once commited, you then click the blue "update project" arrow (or `ctrl + shift + k` also called push which does similar). Pycharm will then "push" your commit (modified files) to your GitHub repo. By pushing to origin, you will now have a backup of your files on GitHub which at a later stage you can share with who ever or create a "pull request" (PR) to the ProjectAlice team, so the :skill: can be reviewed for merging/adding in the Alice store so everyone can enjoy using it.
+Committing the changes in simple terms, is geek talk for saving. :)
+It tells GitHub you've modified code, and you want to store it on GitHub. Once committed, you then click the blue "update project" arrow (or `ctrl + shift + k` also called push which does similar). Pycharm will then "push" your commit (modified files) to your GitHub repo. By pushing to origin, you will now have a backup of your files on GitHub which at a later stage you can share with who ever or create a "pull request" (PR) to the ProjectAlice team, so the :skill: can be reviewed for merging/adding in the Alice store so everyone can enjoy using it.
 
 ## Setup Pycharm directories
 ### Option 1
@@ -85,7 +85,7 @@ Now you should have Pycharm displaying ProjectAlice and all her files and your :
 
 ### Option 2
 
-**Auto login to your pi and setup a sshfs connection to trick Pycharm**
+**Auto login to your pi and set up a sshfs connection to trick Pycharm**
 
 This below optional method will allow you to load your PI's ProjectAlice files directly into Pycharm. Therefore, allowing you to modify the files on your PI directly. However, this raises the chances of you breaking Alice so only recommended once you feel a little more comfortable with how things work.
 
@@ -155,7 +155,7 @@ As an added bonus let's also add the sk schema files to Pycharm so that you get 
 - Let's pick on the install-schema.json file. click it to open that code then click the "Raw" button to the right.
 - Copy the URL
 - Come back to Pycharm and go to your :skill:.
-- Double click the install file for your :skill: to open it in the editor
+- Double-click the installation file for your :skill: to open it in the editor
 - Now at the very bottom right of your Pycharm do you see a "no schema" button ? click that to open the schema
 configuration screen.
 
@@ -175,7 +175,7 @@ like *talks/en.json should capture all talk json files of en language
 
 **Secondly set up SonarCloud**
 
-SonarLint (SonarCloud, sonarQube) is a great tool for making sure your code complies with Alice. It will warn you in Pycharm when you call a variable `Thisis_myVariable` instead of the Alice way which is `thisIsMyVariable` and of course many many other checks. It's a must have plugin so let's go add that now.
+SonarLint (SonarCloud, sonarQube) is a great tool for making sure your code complies with Alice. It will warn you in Pycharm when you call a variable `Thisis_myVariable` instead of the Alice way which is `thisIsMyVariable` and of course many other checks. It's a must-have plugin so let's go add that now.
 
 Pycharm has a Sonarcloud plugin that can check your code to make sure it is following our guidelines!
 
@@ -228,7 +228,7 @@ Knowing that, let's add that url to your Pycharm, so we can receive updates.
 - Choose "b3 branch"
 - Click pull
 
-it will now "pull" all the latest changes that the Alice team have pushed recently into your local files on your computer. Pycharm is now  up to date. However, your "origin" (your repo) isn't  up to date with your Pycharms local files now. So now do a ctl+shift+k to "push" updated files to your origin repo. This process of pull and push will become second nature to you eventually. :)
+it will now "pull" all the latest changes that the Alice team have pushed recently into your local files on your computer. Pycharm is now  up-to-date. However, your "origin" (your repo) isn't up-to-date with your Pycharms local files now. So now do a ctl+shift+k to "push" updated files to your origin repo. This process of pull and push will become second nature to you eventually. :)
 
 ## Handy Alice commands when testing a :skill:
 

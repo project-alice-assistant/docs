@@ -17,7 +17,7 @@ running, then we will step through the basic anatomy of an Alice :skill:skill:.
 If you haven't already, check out our [Introduction to Skill Development](./). This walk through assumes you:
 
 * Know some basic knowledge of [Python programming](https://www.python.org/)
-* Have an account on [Github.com](https://github.com)
+* Have an account on [GitHub](https://github.com)
 * Have a working version of ProjectAlice
 
 ## Understand the flow of your :skill:skill:
@@ -60,7 +60,7 @@ Once installed, you can start it for different modes:
 
 Let's create our first :skill:skill:! Type `projectalice-sk create` and hit enter.
 
-- Enter your Github username
+- Enter your GitHub username
 - Enter a :skill:skill: name, for this example it's going to be `HelloWorld`
 - Enter a speakable name. This is the same as the :skill:skill: name, but in a human-readable and speakable way: `Hello world`
 - Enter a description for our test :skill:skill:: `My first skill for Alice!`
@@ -96,7 +96,7 @@ Let's take a look at what files were created.
 
 ### `You don't care` directories and files explained
 
-- .github: Contains a template for pull requests that other users could open on your :skill:skill: as well as a Github workflow that validates your :skill:skill: everytime your push modifications
+- .github: Contains a template for pull requests that other users could open on your :skill:skill: as well as a GitHub workflow that validates your :skill:skill: everytime your push modifications
 - .editorconfig: It's a file that tells your editor, if compliant to that norm, some of our code guidelines
 - .gitignore: A file that tells Git what files should be ignored and not pushed online when you commit your changes
 - .gitlab-ci.yml: Once published, your :skill:skill: is automatically mirrored on Gitlab. This file contains a workflow that validates and tests your :skill:skill:
@@ -216,7 +216,7 @@ Defines the name of the :skill:skill:. Everything should carry the same name and
 The name of the :skill:skill: in a human-readable and speakable form.
 
 #### `version`
-Defines the current version of your :skill:skill:, in a 3 positions versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release, and the third one is commonly used for hotfixes.
+Defines the current version of your :skill:skill:, in a "3 positions" versioning system, like X.X.X. The first position is used for major releases, the second is used for improved or added functions to current release, and the third one is commonly used for hotfixes.
 
 #### `icon`
 This is the icon that will be displayed for your :skill:skill: on the :skill:skill: store. It supports [any free Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
@@ -241,7 +241,7 @@ Defines a category your :skill:skill: belongs to. This helps categorize your :sk
 
 
 #### `author`
-This is you! Make sure to use the same github username!
+This is you! Make sure to use the same GitHub username!
 
 #### `maintainers`
 We believe in sharing, and people helping you should also be rewarded for their input. If you improve a :skill:skill: that isn't yours, add yourself into the maintainers list!

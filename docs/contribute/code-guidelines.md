@@ -14,12 +14,12 @@ sidebarDepth: 4
     - `LIGHT_SPEED = 299792458`
 - We use PascalCase for class names
 - We use 2 empty lines around met is ods
-- We strong type method variables
-- We strong type method returns:
+- We do strong type method variables
+- We do strong type method returns:
     - Return '-> None' is not mandatory
 - We speak English
 - We use properties getters and setters, not getters and setters
-- We really care for anti patterns: [https://docs.quantifiedcode.com/python-anti-patterns/](https://docs.quantifiedcode.com/python-anti-patterns/)
+- We really care for anti-patterns: [https://docs.quantifiedcode.com/python-anti-patterns/](https://docs.quantifiedcode.com/python-anti-patterns/)
 - We use fstrings and dropped the usage of .format() when possible:
     - `print(f'Hi! my name is {name}')`instead of `print('My name is {}'.format(name)`
 - Python 2 is dead
@@ -31,12 +31,12 @@ sidebarDepth: 4
 ## Pycharm settings
 To make things easier, I have shared my pycharm settings under a [Github repository](https://github.com/project-alice-assistant/JetbrainsSettings). Simply open pycharm, click **File** in the top left corner and choose **Settings repository** and choose **Overwrite local**
 
-**NOTE:** You may have to also CTRL+ALT+s to open the settings' editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous github account stored in here then it may get overwritten with ours. If so click that name then remove it by clicking the " - " then click the " + " and re add your Github account.
+**NOTE:** You may have to also CTRL+ALT+s to open the settings' editor manually. Then go to the menu **Version control >> GitHub** and if you had a previous GitHub account stored in here then it may get overwritten with ours. If so click that name then remove it by clicking the " - " then click the " + " and re add your GitHub account.
 
 
 ## Reformat your code
 
-Pycharm comes with a powerful inbuilt code formatter which you can use to adapt your code to our guidelines once you have linked your pycharm to our settings repository. Right click on your project and choose **Reformat code**. You'll be presented with a popup to choose some options:
+Pycharm comes with a powerful inbuilt code formatter which you can use to adapt your code to our guidelines once you have linked your pycharm to our settings repository. Right-click on your project and choose **Reformat code**. You'll be presented with a popup to choose some options:
 
 <img src="/images/reformat_code.png" alt="reformat code">
 
@@ -71,4 +71,4 @@ Pycharm has a Sonarcloud plugin that can check your code to make sure it is foll
 
 <img src="/images/sonarlintserver.png" alt="SonarLint">
 
-- Enter your SonarCloud token and you are good to go!
+- Enter your SonarCloud token, and you are good to go!
