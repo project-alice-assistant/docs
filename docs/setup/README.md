@@ -4,17 +4,15 @@ sidebarDepth: 3
 ---
 
 ::: warning
-This is a beta release! It is subject to changes, and the target audience is people with some knowledge of their devices, installing python modules and basic stuff!
+This is a beta release! It is subject to change, and the target audience is people with some knowledge of their devices, installing python modules and basic stuff!
 :::
 
 ## Which way?
+Alice can be installed in many ways, but we recommend you use the Alice-CLI way to do it
 
-We have three ways of installing Alice for now, well, four, if you count Docker. As of november 2021 the prefered install method is AliceCli setup, as fabricating an image to burn on your SD everytime we push a new version is time-consuming and error prone and manually installing requires a lot of steps from users. We will resume image creation when version 1 is released.
+- [AliceCli](alice-cli)
 
-- [AliceCli (preferred)](alice-cli)
-- [Manual setup](manual-install)
-- [Prefabricated Raspberry Pi OS image (OUTDATED!)](image-install)
-- [Docker](docker)
+Other ways are described in [Developer installation](developer-install.md) but beware that you should know what you are doing!
 
 #### Having issues with Alice? She doesn't hear you? Doesn't seem to start?
 Have a look at our [Troubleshooting guide](troubleshooting)!
