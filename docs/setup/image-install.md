@@ -9,7 +9,7 @@ tags:
 ---
 
 ::: warning
-The last image we created for now is Beta 2! Did you check the [manual-install](manual-install) for an updated Alice? We will resume image creation when version 1 is released.
+The last image we created for now is Beta 2! Did you check the [alice CLI install](alice-cli) for an updated Alice? We will resume image creation when version 1 is released.
 :::
 
 - Download our prefabricated Raspbian image:

@@ -31,13 +31,13 @@ Alice is young, although in development since quite a while now. You can also be
 
 
  ## What is needed
- - A [Raspberry Pi 3*](https://amzn.to/346WHPJ) or newer([Raspberry 4, 4GB*](https://amzn.to/3kne6cZ)) and a [SD card*](https://amzn.to/3o1D5V8)
- - A microphone and some speaker. I recommend a [Respeaker 2*](https://amzn.to/3dJXN7u) (original, but more bit more expensive by [Seeed Studio*](https://amzn.to/3m0tnRo)) to start with.
+ - A [Raspberry Pi 3*](https://amzn.to/346WHPJ) or newer([Raspberry 4, 4GB*](https://amzn.to/3kne6cZ)) and an [SD card*](https://amzn.to/3o1D5V8)
+ - A microphone and some speaker. I recommend a [Respeaker 2*](https://amzn.to/3dJXN7u) (original, but a bit more expensive by [Seeed Studio*](https://amzn.to/3m0tnRo)) to start with.
  - A way to flash your SD card with our [prefabricated image!](https://docs.projectalice.io/setup/)
  
  
  ## What can Alice do?
- Many things! But she cannot cook yet... Have a look at our ever growing community made skill collection: [https://store.projectalice.io](https://store.projectalice.io)
+ Many things! But she cannot cook yet... Have a look at our ever-growing community made skill collection: [https://store.projectalice.io](https://store.projectalice.io)
  
  <link rel="stylesheet" href="/css/disclaimer.css">
 <div class="amazonDisclaimer">*Project Alice is a participant in the Amazon Associates Program, we earn commissions for qualified purchases over the supplied links to Amazon. By buying over these links you support Project Alice - all recommendations are real and not influenced by this! Any earnings will be used to keep running costs for Alice covered and push her to new heights!</div>

@@ -71,12 +71,21 @@ module.exports = {
             text: 'Setup',
             items: [
               {
-                text: 'Main unit setup',
-                link: '/setup/'
+                text: 'Main unit',
+                link: '/setup/alice-cli'
               },
               {
-                text: 'Satellite setup',
+                text: 'Satellite',
                 link: '/satsetup/'
+              }
+            ]
+          },
+          {
+            text: 'Troubleshooting',
+            items: [
+              {
+                text: 'Main unit',
+                link: '/troubleshooting/main-unit'
               }
             ]
           },
@@ -110,7 +119,7 @@ module.exports = {
               },
               {
                 text: 'Frequent questions and answers',
-                link: '/community-made/frequent-quesetions-and-answer'
+                link: '/community-made/frequent-questions-and-answer'
               },
               {
                 text: 'Skill development',
@@ -119,6 +128,10 @@ module.exports = {
               {
                 text: 'Core development',
                 link: '/core-development/'
+              },
+              {
+                text: 'Hotword and wakeword',
+                link: '/setup/wakeword'
               },
               {
                 text: 'API',
@@ -154,12 +167,19 @@ module.exports = {
                 '',
                 'requirements',
                 'alice-cli',
+                'developer-install'
+              ]
+            }
+          ],
+          '/setup/developer-install/': [
+            {
+              title: 'Developer install',
+              collapsable: false,
+              children: [
+                '',
                 'manual-install',
                 'image-install',
-                'preinstalled',
-                'docker',
-                'troubleshooting',
-                'wakeword'
+                'docker'
               ]
             }
           ],
@@ -171,8 +191,17 @@ module.exports = {
                 '',
                 'preinstalled',
                 'manual-install',
-                'updateToB1',
                 'troubleshooting'
+              ]
+            }
+          ],
+          '/troubleshooting/': [
+            {
+              title: 'Troubleshooting',
+              collapsable: false,
+              children: [
+                '',
+                'main-unit'
               ]
             }
           ],
