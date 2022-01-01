@@ -18,15 +18,16 @@ You need to run Python 3.8 at least!
 
 ## Install the command line tool.
 
-**On your main computer, not on the device where Alice will be installed**, install [AliceCli](https://pypi.org/project/projectalice-cli/) from Pypi:
-
-`pip3.8 install projectalice-cli`
-
 ::: tip
-AliceCli is intended to run on a separate device **not on Alice's device!!**, like per example, your main computer.
+AliceCli is meant to run on a separate device **not on Alice's device!!**, like per example, your main computer.
 
 On Windows, it is recommended to run it on [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 :::
+
+On your main computer, install [AliceCli](https://pypi.org/project/projectalice-cli/) from Pypi:
+
+`pip3.8 install projectalice-cli`
+
 
 ## Use the command line tool.
 
