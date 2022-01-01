@@ -22,11 +22,6 @@ module.exports = {
       lang: 'en-US',
       title: 'ProjectAlice',
       description: 'A smart voice assistant that guarantees your privacy',
-    },
-    '/de/': {
-      lang: 'de-DE',
-      title: 'ProjectAlice',
-      description: 'Ein intelligenter Sprachassistent der dein Privatsphäre garantiert',
     }
   },
   head: [
