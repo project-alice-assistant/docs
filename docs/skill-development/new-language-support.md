@@ -69,9 +69,55 @@ Once these files are made, please contact us so that we can add the language as 
 As of version 1.0.0 we introduce the developers mode in the web interface. While you can create skills from scratch with its help, it makes translating existing skills even easier!
 
 To get started, make sure you have the dev mode enabled in your admin settings. Only then the "devmode" in your menu:
-<img src="https://user-images.githubusercontent.com/41761223/149407452-d94e4e79-27c4-4d84-9ee0-f4e7604f5c81.png" alt="badges demo">
+<img src="/images/devmode_enable.png" alt="enable devmode">
 
 Once you enter the devmodes page, you will see all your installed skills. Currently you can't translate a skill you havn't installed and you can't install a skill that isn't in your language. (This will change! For now - please change your active language to english as all skills require an english version.)
 
-Select the skill you want to translate by clicking on the coq in
-... WIP testing image upload II
+Select the skill you want to translate by clicking on the coq in the corresponding tile.
+This will open up the content of your *.install file for editing directly in the web browser.
+<img src="/images/devmode_skillInstall.png" alt="*.install settings via webUi">
+Scroll down, and enable the language you want to translate this skill to. Once you hit save - the floppy disc in the upper right corner - the skill will be available in that language as well, allthough, it won't have any text yet!
+
+Now you can jump to the first tab where you will start your translation.
+Start with the training data, select your target language in the drop down at the top.
+You will see, all intents that need translation are already waiting for you!
+<img src="/images/devmode_training.png" alt="starting the training of a new language">
+Add them tou your language by clicking on the red plus and start entering the translations on the right hand side.
+While you should NEVER just translate the english wordings, feel free to jump between the different translations to get an idea how the user will interact with the different intents. You don't have to save, while having a quick look at another language. Only when you are done, don't forget to save the save icon in the top right corner!
+<img src="/images/devmode_training2.png" alt="editing an intent">
+Don't forget to add and translate all the required slot types as well, but take care, some slot types have "technical values" - these don't have to be translated.
+<img src="/images/devmode_training3.png" alt="editing a slot type">
+
+Once you have created the slot type and added it to an intent, you can classify the slots in your intents. Either press ALT+1, ALT+2 etc. directly while typing the slot(it will always select the last word you wrote) or mark the word and press the corresponding button above.
+<img src="/images/devmode_training4.png" alt="classify intents">
+
+When you are done with the intents, don't forget to save and switch over to the next tab. Here you will translate all the things alice will be able to say.
+Keep an eye out for placeholders while translating! When the original text contains two brackets {}, your translation has to contain the same number of brackets!
+<img src="/images/devmode_talk.png" alt="talk file translation">
+Once you are done all red talk categories should be gone and replaced by white ones.
+
+The next tab can be skipped - currently the custom settings don't have some language specific files! Move on to the tab after it, the instruction files.
+Take care, this tab is the only one where you can't jump between the languages without saving first, but don't worry, Alice will remind you before you lose anything!
+<img src="/images/devmode_instructions.png" alt="instructions">
+Enter your translation and take care to include all the requirements for that skill. When the user needs to create an account, don't leave out that information!
+
+The next two tabs are work in progress, they will be the home for settings and translations of devices in MyHome and widgets. Skip them for now!
+
+The final step:
+Upload your skill to github and create a pullrequest for us to review and publish for everybody!
+When you start, this page should look something like this:
+<img src="/images/devmode_git.png" alt="github initial">
+Click on "Fork" to create your own version of that skill on github, a second line will appear containing a link to your own github repository!
+<img src="/images/devmode_git2.png" alt="github forked">
+
+For now only the "Upload" button is relevant for you, as all your work is just locally available! Press it and wait for the upload to finish.
+<img src="/images/devmode_git3.png" alt="github uploaded">
+As you can see, the "Uncommited changes" changed to 0 - all changes are pushed to github!
+
+The final step: Create PR
+Enter a meaning full short description e.g. "skill translation for pt"
+A new window will open where you can add more informations on github - finalize your work by clicking on "Create pull request"!
+<img src="/images/devmode_github.png" alt="github pull request">
+
+
+
