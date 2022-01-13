@@ -64,3 +64,10 @@ Don't forget to:
 - ProjectAlice/system/manager/WebUIManager/*.json
 
 Once these files are made, please contact us so that we can add the language as supported on the core side!
+
+## Translating a skill via the Alice Web Interface
+As of version 1.0.0 we introduce the developers mode in the web interface. While you can create skills from scratch with its help, it makes translating existing skills even easier!
+
+To get started, make sure you have the dev mode enabled in your admin settings. Only then the "devmode" in your menu:
+![image](https://user-images.githubusercontent.com/41761223/149407452-d94e4e79-27c4-4d84-9ee0-f4e7604f5c81.png)
+... to be continued - testing image upload!
