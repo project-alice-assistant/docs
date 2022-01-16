@@ -15,10 +15,10 @@ The Alice web :interface: is exposed over port 5000 (configurable in your settin
 
 `http://192.168.1.101:5000/`
 
-# Pages and there uses
+# Pages and their uses
 
 ## First timers
-If it's the first time you open the web interface page, you will be presented with a connection page. Enter Alice's main unit ip address as well as the port. The port should be `5001` if you haven't changed it manually. By default, those settings are remembered, privacy first, but the slider will allow the browser to retain the information.
+If it's the first time you open the web interface page, you will be presented with a connection page. Enter Alice's main unit ip address as well as the port. The port should be `5000` if you haven't changed it manually. By default, those settings are remembered, privacy first, but the slider will allow the browser to retain the information.
 
 <img style="width: 500px;" alt="Interface welcome" src="/images/webinterface/001.png">
 
