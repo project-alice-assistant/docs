@@ -34,34 +34,44 @@ On your main computer, install [AliceCli](https://pypi.org/project/projectalice-
 Once installed, you'll have access to a new command in your terminal: `alice`. Open your favourite terminal and type `alice` and you should be presented a menu with quite a few options!
 
 ```
-Project Alice CLI version x.x.x
+Project Alice CLI version 1.2.1
 
-? Please select an option  (Use arrow keys)
- ❯ Discover devices on network
-   Connect to a device
-   ---------------
-   Prepare your SD card
-   Change device's password
-   Set device's name
-   Install your sound device
-   Sound test
-   Install Alice
-   ---------------
-   Start Alice
-   Restart Alice
-   Stop Alice
-   Enable Alice service
-   Disable Alice service
-   ---------------
-   Update Alice
-   Update system
-   Upgrade system
-   Reboot device
-   Uninstall your sound device
-   Enable bug report for next session
-   Check Alice logs
-   Check system logs
-   Exit
+?
+
+------- Network -------
+❯ Discover devices on network
+  Connect to a device
+
+------- Setup -------
+  Prepare your SD card
+  Change device's password
+  Set device's name
+  Install your sound device
+  Sound test
+  Install Alice
+
+------- Service -------
+  Start Alice
+  Restart Alice
+  Stop Alice
+  Enable Alice service
+  Disable Alice service
+
+------- Updates -------
+  Update Alice
+  Update system
+  Upgrade system
+
+------- Logs -------
+  Enable bug report for next session
+  Check Alice logs
+  Check system logs
+
+------- Tools -------
+  Reboot device
+  Uninstall your sound device
+  Turn off Respeaker bright white leds
+  Exit
 ```
 
 ### Project Alice CLI version x.x.x
@@ -86,7 +96,7 @@ By defaults, your device is named `ProjectAlice`. This lets you change this to w
 One critical and very error-prone part is the sound device installation. We recommend you run Alice with a Respeaker, so the CLI only supports them for now, but the Alice installation process proposes more devices that she **try** to install for you.  
 
 ### Sound test
-Lets you test your sound device with a typical `left-right` audio
+Lets you test your sound device, both mic and speaker
 
 ### Install Alice
 This will install Alice with your guidance. You'll need to answer a few questions for the first settings and the CLI will deploy Alice on the connected device.
@@ -120,6 +130,9 @@ Reboots the device
 
 ### Uninstall your sound device
 Uninstalls your Respeaker sound device, which you always should first if trying to reinstall it.
+
+### Turn off Respeaker bright white leds
+Respeakers have the nasty habit to have their leds turned on, white full brightness, by default avec driver install. Kill them!
 
 ### Enable bug report for next session
 Turns on auto bug reporting for the next time Alice starts
