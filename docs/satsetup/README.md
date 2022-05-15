@@ -14,7 +14,7 @@ This is an alpha release! It is subject to major changes and the target audience
    - If you wonder what's check the [Preinstalled Packages Section](preinstalled)
 
 ::: tip
-You need the AliceSatellite installed and running on your main unit!
+You need the AliceSatellite Skill installed and running on your main unit!
 :::
 
 - Flash the image to your SD card
