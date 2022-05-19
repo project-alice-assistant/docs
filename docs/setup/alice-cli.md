@@ -52,6 +52,7 @@ Project Alice CLI version 1.2.1
   Install your sound device
   Sound test
   Install Alice
+  Install Alice Satellite
 
 ------- Service -------
   Start Alice
