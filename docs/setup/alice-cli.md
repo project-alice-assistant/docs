@@ -28,6 +28,9 @@ On your main computer, install [AliceCli](https://pypi.org/project/projectalice-
 
 `pip3.8 install projectalice-cli`
 
+::: tip
+Watch the output of your installation! There might be a warning if your PATH variable is not set up correctly and if you have to include it manually!
+:::
 
 ## Use the command line tool.
 
