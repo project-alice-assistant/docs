@@ -27,9 +27,9 @@ There are :intent:intents: that are already available for you to use due to the 
   - Type: *Alice/AnswerYesNo*
   - SlotName: *Answer*
   - Note: Did you know you can use `self.Commons.isYes(session)`?
-- `AnswerRoom` User answers with a room name.
-  - Type: *Alice/Rooms*
-  - SlotName: *Room*
+- `AnswerLocation` User answers with a location name.
+  - Type: *Alice/Location*
+  - SlotName: *Location*
 - `AnswerName` User answers with a name.
   - Type: *Alice/Name*
   - SlotName: *Name*
