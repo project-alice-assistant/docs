@@ -105,6 +105,9 @@ Lets you test your sound device, both mic and speaker
 ### Install Alice
 This will install Alice with your guidance. You'll need to answer a few questions for the first settings and the CLI will deploy Alice on the connected device.
 
+### Install Alice Satellite
+This will install Alice Satellite with your guidance. You'll need to answer a few questions for the first settings and the CLI will deploy Alice on the connected device.
+
 ### Start Alice
 Once installed, Alice is automatically started with `systemctl`. If you need to start her, you can with this
 
