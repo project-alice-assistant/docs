@@ -162,7 +162,7 @@ Your Raspberry should have booted, and we are ready to communicate with it. No n
   - Choose `Install your sound device` and follow the CLI's instructions
   - Choose `Sound test` to make sure it installed correctly
     - If not, report on our discord server
-- Choose `Install Alice`
+- Choose `Install Alice` for your main unit or `Install Alice Satellite` for satellites.
   - If Alice is already installed the CLI will ask you if you want to reinstall
   - Otherwise, follow the instructions given by the CLI.
 - Once done, open `Check Alice logs` and check her logs. She does **a lot** on her first start, like downloading missing parts, updating, training, installing skills etc. It takes time. She will, on herself, encounter a few errors and restart maybe 2/3 times to fix those. If the logs, after a while, continuously state `restarting alice`, we have a problem, and you should report to our Discord server
