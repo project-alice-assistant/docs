@@ -31,10 +31,10 @@ Yes I understand there are a quite a few steps in this process but for the most 
  
 ## Download and install Pycharm
 
-First of all lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/pycharm/>
+First lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/pycharm/>
 
 ## A bit about GitHub.
-Great, so now Pycharm is downloaded and installed lets setup a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.
+Great, so now Pycharm is downloaded and installed lets set up a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.
 
 The below steps aren't vital to code in Pycharm, but it certainly worth doing to have the version control ability and in the future push and pull to your repository.
 
@@ -85,7 +85,7 @@ Now you should have Pycharm displaying ProjectAlice and all her files and your :
 
 ### Option 2
 
-**Auto login to your pi and setup a sshfs connection to trick Pycharm**
+**Auto login to your pi and set up a sshfs connection to trick Pycharm**
 
 This below optional method will allow you to load your PI's ProjectAlice files directly into Pycharm. Therefore, allowing you to modify the files on your PI directly. However, this raises the chances of you breaking Alice so only recommended once you feel a little more comfortable with how things work.
  
@@ -124,7 +124,7 @@ That should be enough for the moment to get Pycharm setup as far as main directo
 
 ## Quality control settings
 
-**First let's now setup the ProjectAlice-Sk package**
+**First let's now set up the ProjectAlice-Sk package**
 
 - Fork the sk repo from [SkillKit](https://GitHub.com/project-alice-assistant/ProjectAliceSkillKit)
 - In Pycharm click into "VCS" menu then "GitHub" (just like earlier) 
@@ -146,7 +146,7 @@ That should be enough for the moment to get Pycharm setup as far as main directo
 
 Now when in Pycharm and you click the run icon (top right of screen) with the Alice Validation script selected, Pycharm will loop through every :skill: you have listed in the :skill:skills: folder and do a validation on it. It will print the results out in the console of Pycharm.
 
-As an added bonus let's also add the sk schema files to Pycharm so that you get instant feedback on quality of your install file and json files etc. Note that this does NOT check everything that the Sk package does, so you still need to do the above. This will just tell you if you've got a syntax wrong as you modify the file.
+As an added bonus let's also add the sk schema files to Pycharm so that you get instant feedback on quality of your `.install` file and json files etc. Note that this does NOT check everything that the Sk package does, so you still need to do the above. This will just tell you if you've got a syntax wrong as you modify the file.
 
  
 - Go to this page [Schema Files](https://GitHub.com/project-alice-assistant/ProjectAliceSkillKit/tree/master/ProjectAliceSK/validate/src/schemas)
@@ -155,7 +155,7 @@ As an added bonus let's also add the sk schema files to Pycharm so that you get 
 - Let's pick on the install-schema.json file. click it to open that code then click the "Raw" button to the right.
 - Copy the URL
 - Come back to Pycharm and go to your :skill:.
-- Double click the install file for your :skill: to open it in the editor
+- Double-click the `.install` file for your :skill: to open it in the editor
 - Now at the very bottom right of your Pycharm do you see a "no schema" button ? click that to open the schema 
 configuration screen.
 
@@ -168,14 +168,14 @@ Note this image shows JSON ProjectAlice talks.... you'll likely have JSON No sch
 - For URL field paste the URL of the Raw file you just copied
 - On the right-hand side of that screen click the + to add new mapping
 - Type *.install
-that should now apply that schema to any of the blah.install files in the future.
+that should now apply that schema to any of the `blah.install` files in the future.
 - Click Apply
 - Do the same with the other schema's but obviously change the mappings to something that will capture that file type
 like *talks/en.json should capture all talk json files of en language
 
 **Secondly set up SonarCloud**
 
-SonarLint (SonarCloud, sonarQube) is a great tool for making sure your code complies with Alice. It will warn you in Pycharm when you call a variable `Thisis_myVariable` instead of the Alice way which is `thisIsMyVariable` and of course many many other checks. It's a must have plugin so let's go add that now.
+SonarLint (SonarCloud, sonarQube) is a great tool for making sure your code complies with Alice. It will warn you in Pycharm when you call a variable `Thisis_myVariable` instead of the Alice way which is `thisIsMyVariable` and of course many other checks. It's a must-have plugin so let's go add that now.
 
 Pycharm has a Sonarcloud plugin that can check your code to make sure it is following our guidelines!
 
@@ -228,7 +228,7 @@ Knowing that, let's add that url to your Pycharm, so we can receive updates.
 - Choose "b3 branch"
 - Click pull
 
-it will now "pull" all the latest changes that the Alice team have pushed recently into your local files on your computer. Pycharm is now  up to date. However, your "origin" (your repo) isn't  up to date with your Pycharms local files now. So now do a ctl+shift+k to "push" updated files to your origin repo. This process of pull and push will become second nature to you eventually. :)
+it will now "pull" all the latest changes that the Alice team have pushed recently into your local files on your computer. Pycharm is now  up-to-date. However, your "origin" (your repo) isn't  up-to-date with your Pycharm local files now. So now do a ctl+shift+k to "push" updated files to your origin repo. This process of pull and push will become second nature to you eventually. :)
 
 ## Handy Alice commands when testing a :skill:
 

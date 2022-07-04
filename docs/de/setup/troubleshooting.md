@@ -14,9 +14,9 @@ Als erstes, lass uns einen Blick auf den Project Alice service werfen:
 
 `sudo systemctl status ProjectAlice`
 
-Du solltest einige Informationen zum Service erhalten. Wenn du es eine Weile beobachtetst, solltest du feststellen, dass es entweder durchgängig läuft, dann musst du einfach weiter warten bis Alice fertig gestartet ist. Oder du siehst, dass der Service regelmäßig abstürzt und neu startet. Vielleicht wird dir der Service aber auch als Tot angezeigt.
+Du solltest einige Informationen zum Service erhalten. Wenn du es eine Weile beobachtetest, solltest du feststellen, dass es entweder durchgängig läuft, dann musst du einfach weiter warten bis Alice fertig gestartet ist. Oder du siehst, dass der Service regelmäßig abstürzt und neu startet. Vielleicht wird dir der Service aber auch als Tot angezeigt.
 
-Sollte der Service Tot sein oder dauernd neustarten, müssen wir tiefer graben. Stoppe Project Alice. Drücke dazu als erstes STRG+C um wieder Eingabebereit zu sein. Dann geb ein:
+Sollte der Service tot sein oder dauernd neu starten, müssen wir tiefer graben. Stoppe Project Alice. Drücke dazu als erstes STRG+C um wieder Eingabe bereit zu sein. Dann geb ein:
 
 `sudo systemctl stop ProjectAlice`
 
@@ -36,7 +36,7 @@ Wenn es keinen Fehler gibt und es scheint so, als würde Alice ohne Probleme sta
 Gleichzeitig solltest du dann auch ihre Willkommensnachricht hören!
 
 #### Das Log sagt, sie fragt nach einem neuen Nutzer, aber ich höre nichts
-Linux Audio Probleme, die sind ja leider bekannt? Stoppe Alice mit STRG+C und wirf einen Blick in deine installierten Audio Geräte:
+Linux Audio Probleme, die sind ja leider bekannt? Stoppe Alice mit STRG+C und wirf einen Blick in deine installierten Audiogeräte:
 
 ```shell script
 aplay -l

@@ -15,7 +15,7 @@ As of october 2020, manually installing is the prefered way, new versions coming
 - Insert your 8 gig SD card into your computer and burn the Raspberry Pi OS image onto it
    - What means *burn the image*? Get rid of those matches, and have a look [here](https://www.raspberrypi.org/documentation/installation/installing-images/)
 - When your SD is flashed, unplug it and replug it, your computer should detect, among others, a new partition called `boot`
-- With your favorite text editor, create a new file on that partition. It is important, on Windows, that you do not right click and create a new text file! Open your text editor (hmmm [*notepad++*](https://notepad-plus-plus.org/) and do save it. Name the file `ssh`, **without any extension**. For Windows users, select `all types` instead of the default selected `Normal text file (.txt)`
+- With your favorite text editor, create a new file on that partition. It is important, on Windows, that you do not right-click and create a new text file! Open your text editor (hint: [*notepad++*](https://notepad-plus-plus.org/)) and do save it. Name the file `ssh`, **without any extension**. For Windows users, select `all types` instead of the default selected `Normal text file (.txt)`
 - Once saved, keep your ssh file open, and paste the following content into it
   ```
   country=CH
@@ -36,7 +36,7 @@ As of october 2020, manually installing is the prefered way, new versions coming
 
 ## Configure your PI
 
-- Connect to your pi through ssh. For windows users I recommand [kitty](http://www.9bis.net/kitty/#!index.md)
+- Connect to your pi through ssh from your terminal
 - By default, the user is `pi`, and the password is `raspberry`
 - Update your system
   - `sudo apt-get update`

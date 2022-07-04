@@ -1,5 +1,5 @@
 ---
-title: Install with our premade image
+title: Install with our pre-made image
 sidebarDepth: 3
 tags:
 - image

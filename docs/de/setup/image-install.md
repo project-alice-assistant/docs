@@ -28,7 +28,7 @@ Verwende [7zip](https://www.7-zip.org/), es ist Open Source, schnell, hat eine d
 - **Platziere KEINE wpa_supplicant.conf oder ssh Datei in /boot**
 - **Starte deinen Raspberry NICHT bevor du die folgenden Schritte ausgeführt hast!!**
 - **Bearbeite die Datei /boot/ProjectAlice.yaml**. Wenn es keine ProjectAlice.yaml Datei in der /boot Partition gibt, hol dir die letzte Version hier: [ProjectAlice.yaml](https://github.com/project-alice-assistant/ProjectAlice/blob/master/ProjectAlice.yaml)
-- Stelle in der Datei alles so ein, wie du es benötigst. Alle Einstellungen haben eine kurze Erjkärung, aber das meiste sollte selbsterklärend sein.
+- Stelle in der Datei alles so ein, wie du es benötigst. Alle Einstellungen haben eine kurze Erklärung, aber das meiste sollte selbsterklärend sein.
 - Stelle sicher dass du ein Leerzeichen nach dem Doppelpunkt hast:
    - Falsch: `forceRewrite:yes`
    - Richtig: `forceRewrite: yes`

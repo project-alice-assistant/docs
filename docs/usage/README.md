@@ -6,7 +6,7 @@ sidebarDepth: 3
 <link rel="stylesheet" href="/css/speechbubbles.css">
 
 # Voice
-Alice is a **voice assistant** so technically we've tried to make the most of the functions voice supported. Some functions are still under work, others might get voice support at a later point, but usually you interact with Alice with your voice!
+Alice is a **voice assistant,** so technically we've tried to make the most of the functions voice supported. Some functions are still under work, others might get voice support at a later point, but usually you interact with Alice with your voice!
 
 One thing people usually tend to do is being shy or not knowing what to say to a voice assistant, they don't have a physical person in front of them and speaking to a machine doesn't always come natural. With Alice, you don't need to be afraid, just talk to her and ask whatever you want. If she doesn't understand, she'll let you know! The best part of it is that for many of the cases you can add a :skill: to make her understand you!
 

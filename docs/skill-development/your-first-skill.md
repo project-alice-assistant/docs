@@ -183,7 +183,7 @@ The functions receive two _parameters_:
 This file defines what is required to get the :skill:skill: up and running. It includes parameters like the `version number`, a `description`, `supported languages` and `conditions` for your :skill:skill: to be started.
 
 ::: tip Pro tip
-If you are using an IDE able to handle json schema, it is highly recommended using our [Install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
+If you are using an IDE able to handle json schema, it is highly recommended using our [.install file Schema](https://raw.githubusercontent.com/project-alice-assistant/ProjectAliceSkillKit/master/ProjectAliceSK/validate/src/schemas/install-schema.json)
 :::
 
 Let's take a look at a basic install file:
@@ -264,14 +264,14 @@ By specifying a shell script name here, the script will be run after installatio
 #### `conditions`
 This is where you define conditions for your :skill:skill: to run. Let's say your :skill:skill: is only english, german users won't be able to use it. There's quite a few conditions you can use:
 
-|        Key          | Description                                                                                                                                                  |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| lang                | Define the languages that are supported. User running languages not listed here won't be able to use your :skill:skill:                                              |
-| online              | If set to true, your :skill:skill: will only be usable for users not enforcing offline only for Alice                                                                |
+| Key                 | Description                                                                                                                                                                          |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| lang                | Define the languages that are supported. User running languages not listed here won't be able to use your :skill:skill:                                                              |
+| online              | If set to true, your :skill:skill: will only be usable for users not enforcing offline only for Alice                                                                                |
 | skill               | This lists other :skill:skills: needed for your to run. The :skill:skill: must be installed and activated! In case the :skill:skill: is missing, it will be automatically downloaded |
 | notSkill            | Add any :skill:skills: here that are known to conflict with yours. If any of the listed :skill:skills: are detected, your :skill:skill: won't install                                |
-| asrArbitraryCapture | If set to true, the user must use an :ASR: that is able to capture any text spoken to it and not only :intent: trained text                                      |
-| activeManager       | List managers here that need to be active for your :skill:skill: to run. This only concerns managers that can be deactivated, such as `InterfaceManager`             |
+| asrArbitraryCapture | If set to true, the user must use an :ASR: that is able to capture any text spoken to it and not only :intent: trained text                                                          |
+| activeManager       | List managers here that need to be active for your :skill:skill: to run. This only concerns managers that can be deactivated, such as `InterfaceManager`                             |
 
 
 ### README.md

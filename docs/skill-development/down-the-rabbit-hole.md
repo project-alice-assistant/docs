@@ -113,7 +113,7 @@ self.logFatal
 Log messages from a skill are displayed in the ProjectAlice Web Interface so that a User can see in real-time what is happening in the skill. They are also written to the `logs` file located at: `~/ProjectAlice/var/logs`
 
 ### Plurals
-The nightmare for perfectionists... What's more annoying than a log line saying `Loaded 1 devices`? That's why we implemented a pluralizer... With every type of log messages, you can pass a second argument, `plural` with a list of words, in your log line, that need to be automatically added with an `s`
+The nightmare for perfectionists... What's more annoying than a log line saying `Loaded 1 devices`? That's why we implemented a `pluralizer`... With every type of log messages, you can pass a second argument, `plural` with a list of words, in your log line, that need to be automatically added with an `s`
 
 ```python
 self.logInfo(f'Loaded {myDeviceCount} device in {roomCount} room.', plural=['device', 'room'])
@@ -335,7 +335,7 @@ Triggered when internet connection is lost.
 Triggered when Alice starts broadcasting her IP for new devices to discover
 
 ####  def onBroadcastingForNewDeviceStop(self)
-Triggered when Alice stops broadcasting her IP for new devices to discover. Typically happens when a new device was added
+Triggered when Alice stops broadcasting her IP for new devices to discover. Happens when a new device was added or addition timeouts
 
 ####  def onAuthenticated(self, session)
 Triggered when a user successfully authenticated through his pin code

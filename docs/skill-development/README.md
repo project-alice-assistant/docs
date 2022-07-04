@@ -29,9 +29,9 @@ If you aren't familiar with the basics of Python, check one of the many great tu
 
 For a quick jump into setting your IDE for Alice, read the following community made documentation: [Getting started with Pycharm](./community-made/getting-started-pycharm.md).
 
-### Github account
+### GitHub account
 
-Skills are hosted on [Github](https://github.com), so you will need to create an account there if you don't already have one. It is good to have a basic understanding of the [Git basics](https://git-scm.com/video/get-going) and [GitHub basics](https://guides.github.com/activities/hello-world/).
+Skills are hosted on [GitHub](https://github.com), so you will need to create an account there if you don't already have one. It is good to have a basic understanding of the [Git basics](https://git-scm.com/video/get-going) and [GitHub basics](https://guides.github.com/activities/hello-world/).
 
 ### Running Alice
 
@@ -43,7 +43,7 @@ To test your Skill out, you will need to [set up an Alice device](../setup). Cur
 
 Good Skills meet one or more of the user's needs. Popular Skills are popular because people use them frequently - for instance, to set alarms, reminders, or to identify the time in other time zones. On the other hand, a Skill that, say, recites π to 100 digits might be pretty cool, but when was the last time you needed to know π to 100 digits? Contrast that with the last time you set a reminder on your phone.
 
-### Having an easy to use voice interface
+### Having an easy-to-use voice interface
 
 Just like a web page with a thoughtfully-designed interface is much more pleasant to use, a Skill with a well-designed voice interface is a delight, not a chore, to use. You should anticipate the task the user is trying to accomplish, and how to make that as straightforward as possible.
 
@@ -80,7 +80,7 @@ Or:
 
 Alice should close the windows in the bedroom **only**, as explicitly specified
 
-This set of rules is relatively simple, and must be followed by every skills!
+This set of rules is relatively simple, and must be followed by every skill!
 
 ## Skill terminology
 

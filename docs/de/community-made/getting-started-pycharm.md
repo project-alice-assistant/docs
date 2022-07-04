@@ -34,7 +34,7 @@ Yes I understand there are a quite a few steps in this process but for the most 
 First lets download Pycharm, The community version is free and a great starting point. Get that from here: <https://www.jetbrains.com/Pycharm/download>
 
 ## A bit about GitHub.
-Great, so now Pycharm is downloaded and installed lets setup a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.
+Great, so now Pycharm is downloaded and installed lets set up a few things to make it easier in the long run. If you haven't already get yourself a GitHub account. You can read about it here <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration> or jump straight to the signup page here: <https://GitHub.com/>.
 
 The below steps aren't vital to code in Pycharm, but it certainly worth doing to have the version control ability and in the future push and pull to your repository.
 
@@ -124,7 +124,7 @@ That should be enough for the moment to get Pycharm setup as far as main directo
 
 ## Quality control settings
 
-**First let's now setup the ProjectAlice-Sk package**
+**First let's now set up the ProjectAlice-Sk package**
 
 - Fork the sk repo from [SkillKit](https://GitHub.com/project-alice-assistant/ProjectAliceSkillKit)
 - In Pycharm click into "VCS" menu then "GitHub" (just like earlier)
@@ -146,7 +146,7 @@ That should be enough for the moment to get Pycharm setup as far as main directo
 
 Now when in Pycharm and you click the run icon (top right of screen) with the Alice Validation script selected, Pycharm will loop through every :skill: you have listed in the :skill:skills: folder and do a validation on it. It will print the results out in the console of Pycharm.
 
-As an added bonus let's also add the sk schema files to Pycharm so that you get instant feedback on quality of your install file and json files etc. Note that this does NOT check everything that the Sk package does, so you still need to do the above. This will just tell you if you've got a syntax wrong as you modify the file.
+As an added bonus let's also add the sk schema files to Pycharm so that you get instant feedback on quality of your `.install` file and json files etc. Note that this does NOT check everything that the Sk package does, so you still need to do the above. This will just tell you if you've got a syntax wrong as you modify the file.
 
 
 - Go to this page [Schema Files](https://GitHub.com/project-alice-assistant/ProjectAliceSkillKit/tree/master/ProjectAliceSK/validate/src/schemas)
@@ -168,7 +168,7 @@ Note this image shows JSON ProjectAlice talks.... you'll likely have JSON No sch
 - For URL field paste the URL of the Raw file you just copied
 - On the right-hand side of that screen click the + to add new mapping
 - Type *.install
-that should now apply that schema to any of the blah.install files in the future.
+that should now apply that schema to any of the `blah.install` files in the future.
 - Click Apply
 - Do the same with the other schema's but obviously change the mappings to something that will capture that file type
 like *talks/en.json should capture all talk json files of en language

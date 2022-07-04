@@ -5,7 +5,7 @@ sidebarDepth: 3
 
 # Thank you
 
-First of all, thank you for being interested in contributing to **ProjectAlice**. 🙏 
+First, thank you for being interested in contributing to **ProjectAlice**. 🙏 
 
 A lot of things could be improved and enriched with your collaboration no matter if you are an experienced developer or not. Below you will find just some guidelines for inspiration.
 
@@ -53,7 +53,7 @@ To validate your skill you can use the Alice Skill Kit as described in the secti
 Help to promote the project with you friends, colleagues and the social media.
 
 ### Become a stargazer
-Maybe you don't have the habit to star projects on Github, we kindly ask you [to do so](https://github.com/project-alice-assistant/ProjectAlice/stargazers). :)
+Maybe you don't have the habit to star projects on GitHub, we kindly ask you [to do so](https://github.com/project-alice-assistant/ProjectAlice/stargazers). :)
 
 ### Stay in touch
 

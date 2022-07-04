@@ -26,7 +26,7 @@ cd /home/pi/ProjectAlice
 ./venv/bin/python main.py
 ```
 
-This will manually start ProjectAlice printing out every detail and stopping if any unrecoverable error arises. Check for these errors and report them if any on [Github](https://github.com/project-alice-assistant/ProjectAliceSatellite/issues/new). Read the logs carefully, they always give hint if something's missing, a setting not set, something wrong.
+This will manually start ProjectAlice printing out every detail and stopping if any unrecoverable error arises. Check for these errors and report them if any on [GitHub](https://github.com/project-alice-assistant/ProjectAliceSatellite/issues/new). Read the logs carefully, they always give hint if something's missing, a setting not set, something wrong.
 
 If there are no error and Alice seems to start fine, the last log line, on first boot, should be something like
 

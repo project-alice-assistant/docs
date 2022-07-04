@@ -24,7 +24,7 @@ Shall we? Don't be scared, I'm just going to show you the content of some files 
 If you want your assistant to feel natural, be natural. Write her answers how you speak, be friendly, use slang, provide multiple ways of answering
 :::
 
-These files are used by Alice to respond to your requests and should by all mean contain at least 2 different ways of answering, optimal would be 5 at least, so she doesn't always answer the same.
+These files are used by Alice to respond to your requests and should by all means contain at least 2 different ways of answering, optimal would be 5 at least, so she doesn't always answer the same.
 
 We have different ways of defining those text strings.
 
@@ -438,7 +438,7 @@ There are three more options you can add to any configuration!
 
 
 ### The generated config file
-When Alice loads her configuration she also loads all her active skills configurations. If there's a config template file available but no config file (config.json), she'll auto generate that said file! That file is git ignored so it cannot be pushed on your repository, keeping your personal data safe. This is how the template example would look like:
+When Alice loads her configuration she also loads all her active skills configurations. If there's a config template file available but no config file (config.json), she'll auto generate that said file! That file is git ignored, so it cannot be pushed on your repository, keeping your personal data safe. This is how the template example would look like:
 
 ```json
 {
@@ -496,7 +496,7 @@ SuperManager.getInstance().configManager.updateSkillConfigurationFile('skillName
 ```
 
 
-## En.sample
+## en.sample
 
 Ever got frustrated because something you ask your assistant isn't understood? What if I told you that Alice can **try** to find a :skill: on our skills store that could fulfill your request?
 

@@ -195,12 +195,12 @@ During display of a widget there a few methods Alice will call to keep everythin
 #### refresh()
 
 Called when the widgets settings are changed after the settings window is closed.
-Use this to direcly react to new settings. Reload new informations, adjust the display - you know best what changes are required for your new settings!
+Use this to directly react to new settings. Reload new information, adjust the display - you know best what changes are required for your new settings!
 
 #### onResize(target, width, height, delta, direction)
 
 Called while the widget is resized by the user.
-Use this to reorganize the widget, add more information to use the new space, or simplyfy it, when there is not that much space left.
+Use this to reorganize the widget, add more information to use the new space, or simplify it, when there is not that much space left.
 
 #### stop()
 
@@ -248,12 +248,12 @@ Some reusable classes
 ##### .button : If you use buttons, use this class
 
 
-## Nodered
+## Node-red
 WIP
 
 ## Devices
 WIP
-If you want to include custom devices into your skill, the folders structure is enhanced by a devices folder:
+If you want to include custom devices into your skill, the folders structure is enhanced by a `devices` folder:
 ```text
 .
 ├─ devices

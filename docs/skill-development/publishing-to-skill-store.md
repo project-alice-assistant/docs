@@ -34,12 +34,12 @@ This will output a few things while checking your talk files, your dialog templa
 ## Publishing
 As of now, I'm still thinking on how people are going to publish their skills to our store. I want to keep an eye on the proposed skills and make sure it's not malicious code and that it is of quality. I'm a real pain, I can tell you, but that's only for the good of the many. Knowing this, you understand that the publishing is made exclusively by the Project Alice team, after some checking and deployments on our side, in fact, we have several things to do to make your skill available.
 
-What you want to do though, is [propose your skill for the store](https://github.com/project-alice-assistant/ProjectAliceSkills/issues/new?assignees=Psychokiller1888&labels=Skill+publish+request&template=skill-publishing.md&title=%5BNew+skill%5D)
+What you want to do though, is [proposing your skill for the store](https://github.com/project-alice-assistant/ProjectAliceSkills/issues/new?assignees=Psychokiller1888&labels=Skill+publish+request&template=skill-publishing.md&title=%5BNew+skill%5D)
 
 ## After publishing
 Once we get your request, we'll fork your repository into Project Alice organisation, review your skill and make sure everything's ok. If there's something not ok, we'll let you know. Once we have forked your skill, you'll need to open Pull Requests onto it to keep it updated!
 
-Once we have forked it and added it to our quality and store control Continuous integration, you can check it's status by going to:
+Once we have forked it and added it to our quality and store control Continuous integration, you can check its status by going to:
 
 `https://projectalice.io/skill_YOUR_SKILL_NAME`
 
@@ -47,18 +47,18 @@ On top of the readme, you will find two badges:
 
 <img src="/images/badges_demo.png" alt="badges demo">
 
-The pipeline badge should say "passed" and be green. In case not, something went wrong publishing the skill. Simply click on the badge to be redirected to gitlab where you will be able to understand what failed. We have 5 jobs that run before a skill is available and you can influence the 3 first ones because they test your code and react to your changes in files:
+The pipeline badge should say "passed" and be green. In case not, something went wrong publishing the skill. Simply click on the badge to be redirected to gitlab where you will be able to understand what failed. We have 5 jobs that run before a skill is available, and you can influence the 3 first ones because they test your code and react to your changes in files:
 
 <img src="/images/pipeline_example.png" alt="pipeline example">
 
-The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployment will beginning and should take about 2 minutes.
+The third one, the sonarcube check won't stop a deployment but reflects the quality of your code. It is allowed to fail. The first 2 jobs though cannot fail or your skill won't get published. If either one of them or both failed, click on their icons to navigate to the test and a report of what failed. You'll need to correct those and submit pull requests to fix the issues. Once the first 2 tests succeeded and the third ran, the deployment will begin and should take about 2 minutes.
 
-The second badge on the readme is the "Quality gate" status, run by Sonarcube. This test evaluates your code quality and should be green too. If not, you can click on it to be redirected to Sonarcloud where you will find the issues related to your skill code.
+The second badge on the readme is the "Quality gate" status, run by SonarQube. This test evaluates your code quality and should be green too. If not, you can click on it to be redirected to Sonarcloud where you will find the issues related to your skill code.
 
 ::: warning Subscribe
-**Please subscribe to the fork of your skill so you get alerted when someone reports a bug on your skill.**
+**Please subscribe to the fork of your skill, so you get alerted when someone reports a bug on your skill.**
 
-Please subscribe to the repository on Gitlab so you get email alerted if a job fails for your skill.
+Please subscribe to the repository on Gitlab, so you get email alerted if a job fails for your skill.
 :::
 
 
