@@ -189,8 +189,6 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
-                'preinstalled',
-                'manual-install',
                 'troubleshooting'
               ]
             }
