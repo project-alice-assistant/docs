@@ -42,7 +42,7 @@ Skills müssen deine Sprache unterstützen, damit du sie verwenden kannst. Wie d
 ### Skills pull request Guidelines
 Referenziere deinen PR zu einem verwandten Issue (sofern vorhanden) und liefere eine Beschreibung deiner vorgeschlagenen Änderung.
 Stelle sicher, dass du den Coding Guidelines folgst. Du findest sie hier in der Sektion [Code Guidelines](code-guidelines.md).
-Um deinen Skill zu validieren, kannst du das Alice Skill Kit verwenden. Wie das geht findest du in der Sektion [Alice Skill Kit]().
+Um deinen Skill zu validieren, kannst du das Alice Skill Kit verwenden. Wie das geht, findest du in der Sektion [Alice Skill Kit]().
 
 
 

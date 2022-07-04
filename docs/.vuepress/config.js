@@ -188,8 +188,7 @@ module.exports = {
               title: 'Satellite setup',
               collapsable: false,
               children: [
-                '',
-                'troubleshooting'
+                ''
               ]
             }
           ],
