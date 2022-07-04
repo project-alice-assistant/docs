@@ -199,7 +199,8 @@ module.exports = {
               collapsable: false,
               children: [
                 '',
-                'main-unit'
+                'main-unit',
+                'satellite'
               ]
             }
           ],

@@ -20,4 +20,4 @@ If the main unit times out finding the satellite, unplug it, ask Alice to add a 
 If everything goes fine, Alice will confirm the addition of the satellite and automatically configure it to connect to the correct Mqtt server. She will also automatically upload the hotword and wakeword resources to the new device.
 
 #### Having issues with Alice? She doesn't hear you? Doesn't seem to start?
-Have a look at our [Troubleshooting guide](troubleshooting)!
+Have a look at our [Troubleshooting guide](../troubleshooting/satellite.md)!
