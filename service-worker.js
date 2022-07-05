@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "152c3ec3e5d4599355d6fc2e6f83c047"
+    "revision": "e0f53dcd04618898b7b0810d039d2b52"
   },
   {
     "url": "about-alice/GLOSSARY.html",
-    "revision": "af1bc63efc962ec6ae0f79f527f99682"
+    "revision": "dd55bd1e2e86a3492d6b98a9feb58e43"
   },
   {
     "url": "about-alice/index.html",
-    "revision": "8958c7086c29287c3da5da7a8aa471a7"
+    "revision": "b296323d48b8d463c64e40889c4658c1"
   },
   {
     "url": "assets/css/0.styles.da4825c5.css",
@@ -382,40 +382,40 @@ self.__precacheManifest = [
     "revision": "5506d4e93bc71f24ac6e1e7859dceb29"
   },
   {
-    "url": "assets/js/87.a00d41dd.js",
-    "revision": "e5d741462383f1ff990ce3cd6223a92d"
+    "url": "assets/js/87.71992b6e.js",
+    "revision": "b1006f5d3e429b5de1bdb597bbc950b1"
   },
   {
     "url": "assets/js/9.31a4a25f.js",
     "revision": "5a1acec84b02736f15718e042201ccda"
   },
   {
-    "url": "assets/js/app.c52846e6.js",
-    "revision": "817a7fd1393c6f49198607b7e5188546"
+    "url": "assets/js/app.35a6266c.js",
+    "revision": "6221c66e621a4297c3f6acdb71b5df1e"
   },
   {
     "url": "community-made/frequent-questions-and-answer.html",
-    "revision": "30ea2ef87abda64f3b601a8d52ecff6d"
+    "revision": "e8ae39fd9d46d59a538036c72da3b584"
   },
   {
     "url": "community-made/getting-started-pycharm.html",
-    "revision": "a114a5574373899ac6e593cbd35b023d"
+    "revision": "50f825e0197698c8235b861c8238e903"
   },
   {
     "url": "community-made/index.html",
-    "revision": "5f556259b98a0fcc1b29a34d347be707"
+    "revision": "b4be58a5b09fff8efaa7d2d2ad691073"
   },
   {
     "url": "contribute/code-guidelines.html",
-    "revision": "32dc11426e39f37b3033c407c4ab1d11"
+    "revision": "f8efc6784639ba65ac703db11fbc902c"
   },
   {
     "url": "contribute/index.html",
-    "revision": "14d16be264c6d38c8df046a2ec39e027"
+    "revision": "7861e3638bea58a8a36d35099bd3e3d7"
   },
   {
     "url": "core-development/index.html",
-    "revision": "f5eafdaf41c37afec5fd9861f97365f5"
+    "revision": "9996aa3f86504b898dab64c85c1f69f8"
   },
   {
     "url": "css/disclaimer.css",
@@ -431,175 +431,175 @@ self.__precacheManifest = [
   },
   {
     "url": "de/about-alice/GLOSSARY.html",
-    "revision": "e6da20807dd60889d384c084be3ca532"
+    "revision": "79e2e95dda63340365703c8b655604d8"
   },
   {
     "url": "de/about-alice/index.html",
-    "revision": "f6d6c3f1d6b9ae24f69b12d68b468a81"
+    "revision": "37dc31e842c9e19a336398e05a49f2dc"
   },
   {
     "url": "de/community-made/getting-started-pycharm.html",
-    "revision": "b53f28c627cce2cf0c99309ae89bf149"
+    "revision": "7397342964e06b1864aef128cf3d73fa"
   },
   {
     "url": "de/community-made/index.html",
-    "revision": "92bf83391c206f4e41b0b599f1fe39e1"
+    "revision": "bef1d81b8b4d345b437e371a0bd4f143"
   },
   {
     "url": "de/contribute/code-guidelines.html",
-    "revision": "ab32517f114f417aff1015812160f6a8"
+    "revision": "751b5c9a9f59802d2300901c78f7a4a8"
   },
   {
     "url": "de/contribute/index.html",
-    "revision": "b8fa4e31085c5d77aa92ce83c69ca019"
+    "revision": "b581cb89651a6aa674200448bc44097d"
   },
   {
     "url": "de/core-development/index.html",
-    "revision": "e8383da06bc525cae947bdcea924cca0"
+    "revision": "5532ec741ae1092dbaf79e93d4e7bae6"
   },
   {
     "url": "de/index.html",
-    "revision": "3272a6adc424e2d95b07f166c045e9a6"
+    "revision": "20166a922a6fd71a0261ac537c15c57e"
   },
   {
     "url": "de/links/index.html",
-    "revision": "7af270b36f15b3f7d340d79504114472"
+    "revision": "64afc923b767f921a93c3753c95d6093"
   },
   {
     "url": "de/satsetup/index.html",
-    "revision": "bb28b127255b46525465a3cb12627a75"
+    "revision": "32f1bfd108cb5ba30bbfea0a36b3eddc"
   },
   {
     "url": "de/satsetup/manual-install.html",
-    "revision": "e8856f1e8f946c4fb3fd221829e07ca6"
+    "revision": "f7cd93e45c3ffb991bf7ffbde043a948"
   },
   {
     "url": "de/satsetup/preinstalled.html",
-    "revision": "b16cfcc39b96d10c53f54d38889bc6e6"
+    "revision": "4ab5dc867688a06123837fc4503a1536"
   },
   {
     "url": "de/satsetup/troubleshooting.html",
-    "revision": "b7e7673fc54145d4f082cacc51681696"
+    "revision": "68efc9c9ca6b9022a6e5ba41b09daf19"
   },
   {
     "url": "de/satsetup/updateToB1.html",
-    "revision": "8d1423d49d1ca9d7d83a0857050f37af"
+    "revision": "664556bacef457d080b7cc7f559d0bb0"
   },
   {
     "url": "de/setup/docker.html",
-    "revision": "17fb495d1e85f20b7e63a9be0673b8ad"
+    "revision": "a6915ee0178f7ef58514a8eae192c846"
   },
   {
     "url": "de/setup/image-install.html",
-    "revision": "b4222748a01e9a2283b8e0e9e0b97f19"
+    "revision": "6a6443dc35253e539db088b7656f8b50"
   },
   {
     "url": "de/setup/index.html",
-    "revision": "fc2e83d525712d4ada26eb2493f1d234"
+    "revision": "da93e17190513984377e83455427e31f"
   },
   {
     "url": "de/setup/manual-install.html",
-    "revision": "8c403fa6732446a19ea957775b376962"
+    "revision": "33b51761d84e7dd6aaae61324f38ab92"
   },
   {
     "url": "de/setup/preinstalled.html",
-    "revision": "00caafc89b5c6a99d6cf1bd1b096de12"
+    "revision": "f380e64717436e29808e3847c3c4facd"
   },
   {
     "url": "de/setup/requirements.html",
-    "revision": "9c110fd1c43889f1f903f846e3d7fc6c"
+    "revision": "5194498daec704c7b817d5f3e71760a1"
   },
   {
     "url": "de/setup/room-configuration.html",
-    "revision": "cfa3b302e2e2b91d2d224ed33962164a"
+    "revision": "93df584f930553c80ec2f3bc4d86132e"
   },
   {
     "url": "de/setup/troubleshooting.html",
-    "revision": "e5018092f6a286d8da82845da1ca3b4f"
+    "revision": "c3f925b3a8ff95697550cd9c8387462e"
   },
   {
     "url": "de/setup/wakeword.html",
-    "revision": "5ce36716a6c1d57b7f867ee09bffb8e0"
+    "revision": "33b02256ca57bb98d9154be0ef2dd6db"
   },
   {
     "url": "de/skill-development/builtin-intents.html",
-    "revision": "6c325f6c08fa5f776421906783a001d5"
+    "revision": "b20db951c26de3f8c80af5e03ad2961b"
   },
   {
     "url": "de/skill-development/builtin-slots.html",
-    "revision": "444795b13988ee9ce0516cf588f0723c"
+    "revision": "dee6a80792225ceb5c98d5bab44956a2"
   },
   {
     "url": "de/skill-development/database-access.html",
-    "revision": "39b5314601bb6b85f39b2ba9b229d99c"
+    "revision": "b474bf7e0ed3d7259f33b95c88596002"
   },
   {
     "url": "de/skill-development/dialog-template.html",
-    "revision": "64afb292c906d67eebfd95ab3bdee994"
+    "revision": "2b8dd09c5d495cb2e3555feb495e09cf"
   },
   {
     "url": "de/skill-development/events.html",
-    "revision": "3975e0f7e73fe6d384a98d39ce942f39"
+    "revision": "73b3a30d48fc7de3c0c4e7be2b28d66a"
   },
   {
     "url": "de/skill-development/index.html",
-    "revision": "372465d58aa144012a04aaef98b1d4d8"
+    "revision": "c5164e259fcbdd26b8840f7036c9f98c"
   },
   {
     "url": "de/skill-development/logging.html",
-    "revision": "b206eee5405d6d5a44c32c5b3cf6569d"
+    "revision": "52cc1e784d28e5851b65441498056922"
   },
   {
     "url": "de/skill-development/missing-slot-info.html",
-    "revision": "9106d5e04fc9397cb2bd5c36f66fe25f"
+    "revision": "0c98f69f84364287d42f6c33b6f381cc"
   },
   {
     "url": "de/skill-development/new-language-support.html",
-    "revision": "3a94dcb1d9eac02971f21c2f1b255bb4"
+    "revision": "1311afc22a61ffa4d0a44c7cbfba850b"
   },
   {
     "url": "de/skill-development/publishing-to-skill-store.html",
-    "revision": "22bfe7b15c38f7ea1a3ee54626276655"
+    "revision": "8d331540dd1a8008ceda54849bfed7c0"
   },
   {
     "url": "de/skill-development/room-configuration.html",
-    "revision": "4d49304d0dcffb334e1d95892b48b7b6"
+    "revision": "903cda0c336c94d55e3a56498ab70d6c"
   },
   {
     "url": "de/skill-development/skill-configuration-file.html",
-    "revision": "8bed7833d7a9443fc8b330290ae6385f"
+    "revision": "07ee01e30b92e9e791cdf3a5785019f5"
   },
   {
     "url": "de/skill-development/skill-download-suggestion.html",
-    "revision": "d4002c3582376b827ed0c547e6b7e3f4"
+    "revision": "f0d530788bdca0b84fefb6ec5c38da04"
   },
   {
     "url": "de/skill-development/talk-file.html",
-    "revision": "986b83de3c2a9137dbfd709ca4b8e104"
+    "revision": "137502e4dc5edf610b261afe78a20d7d"
   },
   {
     "url": "de/skill-development/widgets.html",
-    "revision": "8c10110586fcc44f582d89e191fcc884"
+    "revision": "44eecc97403d7732875ce9502240f6b5"
   },
   {
     "url": "de/skill-development/your-first-skill.html",
-    "revision": "2a43ba8f130321fb04fb39a90c610c34"
+    "revision": "6eaab8edb73253f9393c7f23b551954b"
   },
   {
     "url": "de/sponsors/index.html",
-    "revision": "448a4e7388b90dd418827b6e60f8ddd2"
+    "revision": "30c96fc5fcca03e4ce819f89bf7f2957"
   },
   {
     "url": "de/usage/index.html",
-    "revision": "19e1fa776825482169a83db58a9561e4"
+    "revision": "fcd7a8c8e9b45f52be670fe73ff887c2"
   },
   {
     "url": "de/usage/web-interface.html",
-    "revision": "b1f75ee60d34952e5ad177ab9300b500"
+    "revision": "8977c7085dfa9f3f713b53d21cf28675"
   },
   {
     "url": "GLOSSARY.html",
-    "revision": "ebb0f5bee12f2fc22d2e4c399828df76"
+    "revision": "8a4670fd1e0e4752b7dc0399ee1ba671"
   },
   {
     "url": "icons/favicon-120x120.png",
@@ -807,115 +807,115 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5842f8cc131594555e714ab4d0deff91"
+    "revision": "fc4bfd9b56264806c1e629d51c109d5c"
   },
   {
     "url": "links/index.html",
-    "revision": "9a4d7cf8ae07c1d30356c153cdac7af2"
+    "revision": "d6180b50e47aaf20eb025f4dc4c4888f"
   },
   {
     "url": "satsetup/index.html",
-    "revision": "15ac4b2aa9aee7e7ba94001115c1d78d"
+    "revision": "d71b088e323b1fafa29dd9d43b8da3c2"
   },
   {
     "url": "setup/alice-cli.html",
-    "revision": "a6050b9a5c48a07735f8ce0814fcfbbf"
+    "revision": "564b46698f3a73ce670425aae40e0175"
   },
   {
     "url": "setup/developer-install.html",
-    "revision": "d1059f0f4f24b5a5fde2238592868869"
+    "revision": "27b392f03c4460f46b658cd03bc80050"
   },
   {
     "url": "setup/docker.html",
-    "revision": "baa77cc0955504ceaf40e2ad92e491bb"
+    "revision": "c3051d425473e055aaa562f452496fba"
   },
   {
     "url": "setup/image-install.html",
-    "revision": "d37ec7e1e5772eef93ce30607be417eb"
+    "revision": "4969faeba72a53bc33bdcab7636210ce"
   },
   {
     "url": "setup/index.html",
-    "revision": "ec4b36ffe7c1e56e5a4134d631fba7eb"
+    "revision": "1e667c9083830921b6553f836d476329"
   },
   {
     "url": "setup/manual-install.html",
-    "revision": "69dbc4fef37cfca816e847383050b4a6"
+    "revision": "9693df20797d6d118c674859a4f14660"
   },
   {
     "url": "setup/preinstalled.html",
-    "revision": "4fa82c3135c18562fd67484be9053677"
+    "revision": "10025187035e667913623d2a2f7203fe"
   },
   {
     "url": "setup/requirements.html",
-    "revision": "aba1d31df9bca246e50754ba4288a184"
+    "revision": "2b1740584f52f5d86b0b3c0ff13400a2"
   },
   {
     "url": "setup/room-configuration.html",
-    "revision": "768e38698e9d9e81a6d8f0a0615334a7"
+    "revision": "a08d1f4fc05fefb5cfca53154ffd9b6b"
   },
   {
     "url": "setup/troubleshooting.html",
-    "revision": "ecb6a8da72c6454ef94ca0b7d5e8193c"
+    "revision": "6f8819fa4b2bbbd032199cd372456f14"
   },
   {
     "url": "setup/wakeword.html",
-    "revision": "7c24643e45263b5a1040354282763650"
+    "revision": "216d5187aab1f315c9f8e7a42829991d"
   },
   {
     "url": "skill-development/down-the-rabbit-hole.html",
-    "revision": "8326cc14c48090a81f2d29c48ac9f6ce"
+    "revision": "37cfb6ae144e61c6f6e3c2df3f9e7be2"
   },
   {
     "url": "skill-development/files-in-depth.html",
-    "revision": "2cf7127fb2d980752989e4773e66c5fb"
+    "revision": "e17dad56bd0dca124ba410873399d1f5"
   },
   {
     "url": "skill-development/going-further.html",
-    "revision": "a639966f4a4f32fe700e7a76fca7fd49"
+    "revision": "f92bc0dd1bb81a1cd41d171491ed0323"
   },
   {
     "url": "skill-development/index.html",
-    "revision": "7f64e0c05cd08615972e7f9c4e3b42b2"
+    "revision": "e20360bc67a914ca2f99f8fc2c811750"
   },
   {
     "url": "skill-development/new-language-support.html",
-    "revision": "896a2e6906e2473fa4375a8ceb379320"
+    "revision": "69c3a5b4aab782b3d17dbbff448bd2cd"
   },
   {
     "url": "skill-development/publishing-to-skill-store.html",
-    "revision": "7094054cad9dc370344e94ab07b575f8"
+    "revision": "d6f69510ebaa43f5da11b52200b59a3f"
   },
   {
     "url": "skill-development/work-made-for-you.html",
-    "revision": "904ee676ec3b7b34f049d48aec72580d"
+    "revision": "ef2f1f2903042848b4a7bc6c230c7864"
   },
   {
     "url": "skill-development/your-first-skill.html",
-    "revision": "f3355648affbf83ef78f3ed871e4b674"
+    "revision": "5cde460d49b33a43edbb4b9c96274d6f"
   },
   {
     "url": "sponsors/index.html",
-    "revision": "af213ec8778754fc3d7da1134570523a"
+    "revision": "60a66875590107b8e4933e25e4816be4"
   },
   {
     "url": "troubleshooting/index.html",
-    "revision": "3f11b1d3d336a10f684b8610c83d32bf"
+    "revision": "e65c292f751cc5ff267f14298c963716"
   },
   {
     "url": "troubleshooting/main-unit.html",
-    "revision": "7c97839b38fc1254156441b1e436ae57"
+    "revision": "be978a9ee90064416e9a627f93adbe95"
   },
   {
     "url": "troubleshooting/satellite.html",
-    "revision": "3f36bbc95787508b101e536c98aabcad"
+    "revision": "ef33107dfd45777aabf6261e2238aaf0"
   },
   {
     "url": "usage/index.html",
-    "revision": "ad3b9e6daea0b1d4d6df2ac3202dfe0d"
+    "revision": "4c47c559592b5f908bf863304977f89d"
   },
   {
     "url": "usage/web-interface.html",
-    "revision": "db03c6dc485c939a633073c49b9f4a2b"
+    "revision": "692d1514932317119616beb00b4c7ea7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
