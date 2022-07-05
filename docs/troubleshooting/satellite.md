@@ -1,5 +1,5 @@
 ---
-title: 'Troubleshooting'
+title: 'Satellite'
 sidebarDepth: 3
 ---
 

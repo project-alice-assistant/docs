@@ -86,6 +86,10 @@ module.exports = {
               {
                 text: 'Main unit',
                 link: '/troubleshooting/main-unit'
+              },
+              {
+                text: 'Satellite',
+                link: '/troubleshooting/main-unit'
               }
             ]
           },
