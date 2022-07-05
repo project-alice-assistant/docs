@@ -101,6 +101,10 @@ module.exports = {
                 link: ''
               },
               {
+                text: 'Using the web interface',
+                link: '/usage/web-interface'
+              },
+              {
                 text: 'Skill store',
                 link: 'https://store.projectalice.io'
               },
