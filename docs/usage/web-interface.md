@@ -20,6 +20,7 @@ The Alice web :interface: is exposed over port 5000 (configurable in your settin
 ## First timers
 If it's the first time you open the web interface page, you will be presented with a connection page. Enter Alice's main unit ip address as well as the port. The port should be `5000` if you haven't changed it manually. By default, those settings are not remembered, privacy first, but the slider will allow the browser to retain the information.
 
+<!--suppress ALL -->
 <img style="width: 500px;" alt="Interface welcome" src="/images/webinterface/001.png">
 
 Once the connection is established, you will be presented with a very scarce page where you can only view information but not really interact as you are not yet logged in. The top left corner indicates the page you are currently on, in this case, you should be on the "Widgets" page, with no widgets installed yet.
@@ -61,4 +62,4 @@ WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP 
 
 # FAQ
 ### My Google credentials are not showing in the admin tab!
-- These credentials are marked as sensitive data and are meant to be hidden! You can always past your new credentials, and they will overwrite the old ones.
+- These credentials are marked as sensitive data and are meant to be hidden! You can always paste your new credentials, and they will overwrite the old ones.
