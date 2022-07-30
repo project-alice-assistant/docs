@@ -26,7 +26,7 @@ On Windows, it is recommended to run it on [Windows Terminal](https://www.micros
 
 On your main computer, install [AliceCli](https://pypi.org/project/projectalice-cli/) from Pypi:
 
-`pip3.8 install projectalice-cli`
+`pip install projectalice-cli`
 
 ::: tip
 Watch the output of your installation! There might be a warning if your PATH variable is not set up correctly and if you have to include it manually!
