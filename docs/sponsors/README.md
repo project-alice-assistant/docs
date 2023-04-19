@@ -45,8 +45,8 @@ Project Alice says a huge thanks to the following persons and companies for supp
 
 ## Zenhub
 <p style="text-align: justify">
-  <a href="https://www.gitlab.com" style="float: left; margin-right: 15px; margin-bottom: 5px;">
-    <img style="width: 100px;" alt="Gitlab Logo" src="/images/zhdark.svg">
+  <a href="https://www.zenhub.com" style="float: left; margin-right: 15px; margin-bottom: 5px;">
+    <img style="width: 100px;" alt="Zenhub Logo" src="/images/zhdark.svg">
   </a>
 From self-driving vehicles and planetary rovers to artificial intelligence that powers the early detection and treatment of cancer, Zenhub enables the most forward-thinking organizations to engineer a brighter future. As software projects become more and more complex, the way we manage these projects doesn’t have to be. Zenhub’s mission is to make managing software projects more transparent, accurate, and simple.
 
