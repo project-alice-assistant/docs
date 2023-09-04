@@ -54,10 +54,21 @@ As of october 2020, manually installing is the prefered way, new versions coming
   - Expand Filesystem
 - **Reboot**
 
+## Install Dependencies
+To avoid installation errors, please ensure `libssl-dev` is installed on your system before commencing the build process.
+
+To do this, run the following command:
+* `sudo apt-get install libssl-dev -y`
+
+You may also require the rust compiler to build certain packages that depend on rust during the installation process (such as cryptography).
+
+As a precaution, this can be installed with the following command:
+* `curl https://sh.rustup.rs -sSf | sh`
+
 ## Install Git and clone Alice
 
 - We need a few things to get Alice up now
-- Install `git`: `sudo apt-get install git -y`
+- Install `git` using the command `sudo apt-get install git -y`
 - Clone Alice:
 ```
 cd
